@@ -1,0 +1,46 @@
+# This file contains author names (in TeX format), plus (optionally) a link
+# to that author's other (non-PAG) publications.
+# There is no harm including extra people here; they won't be included on
+# the list if they have no publications.
+
+# First Years
+Colin Scott
+Sangjin Han
+Kay Ousterhout
+Scott Marshall
+Aurojit Panda
+
+# Second Years
+Justine Sherry
+Kristin Stephens
+
+# Nth Years
+Matei Zaharia
+
+# Postdocs / Visiting Scientists
+Minlan Yu
+Luca Nicollini
+Ali Ghodsi
+
+# ICSI
+Andreas Wundsam
+Barath Raghavan
+Vjekoslav Brajkovic
+Amin Tootoonchian
+Kyriakos Zarifis
+Murphy Mccauley
+
+# Undergrads
+Seshadri Mahalingam
+Daniel Kim
+Case Walker
+Steve Wang
+Amy Tang
+Ruchika Gupta
+Sam Whitlock
+Mihir Joshi
+
+# Faculty
+Scott Shenker
+Sylvia Ratnasamy
+

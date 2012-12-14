@@ -1,0 +1,154 @@
+
+<html><!-- blue 1b1f44 --><!-- orange f9b610 --><!-- nice light blue color
+    --><!-- head --><head><meta http-equiv="Content-Type" content="text/html;
+        charset=UTF-8"><title>Berkeley Networked Systems Lab</title>
+
+    <meta name="description" content="Networked Systems Lab at UC Berkeley --
+		   Scott Shenker and Sylvia Ratnasamy group.">
+    <meta name="keywords" content="software-defined networking, Internet
+    Architecture, Routebricks, networks, NetSys, middleboxes, Berkeley, Scott Shenker,
+    Sylvia Ratnasamy">
+    <link href="https://netsys.cs.berkeley.edu/netsys.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="data:text/css,"></head>
+
+  <!-- body -->
+  <!-- <body text=#000000 vLink=#000099 aLink=#0000ff link=#000099 bgColor=#ffffff
+       leftMargin=0 topMargin=0 marginwidth="0" marginheight="0">-->
+  <body leftmargin="0" topmargin="0" marginwidth="0">
+
+
+    <!-- ####################################################### -->
+    <!-- ####################################################### -->
+    <!-- ##                                                   ## -->
+    <!-- ##           TOP TABLE WIDTH 100 %                   ## -->
+    <!-- ##                                                   ## -->
+    <!-- ####################################################### -->
+    <!-- ####################################################### -->
+    <table height="48" cellspacing="0" cellpadding="0" width="100%" border="0">
+
+      <!-- ============= TOP ROW: LOGO WITH BLUE BACKGROUND ============ -->
+      <tbody><tr bgcolor="#1b1f44">
+        <td>
+
+          <!-- nested table for fixed width -->
+          <table width="800" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+              <td align="left" valign="top">
+		<a href="https://netsys.cs.berkeley.edu/index.html">
+              <img src="./NetSysLogo4.jpg" border="0" width="400"></a>
+              </td>
+
+              <td align="right" valign="center">
+                <img width="120" src="./ucb.jpg">
+                &nbsp;&nbsp;
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+
+      <!-- WHITE DIVIDER -->
+      <tr bgcolor="#ffffff"><td colspan="2">
+          <img src="./spacer.gif"></td></tr>
+
+      <!-- =============== LINKS =================== -->
+      <!-- <tr bgColor=#6699ff> -->
+      <tr bgcolor="#f9b610">
+        <td>
+          <!-- nested table for fixed width -->
+          <table width="800" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr><td align="right">
+                &nbsp; &nbsp;		
+                <a class="qlink" href="https://netsys.cs.berkeley.edu/index.html">Home</a>
+                &nbsp; &nbsp;
+                <a class="qlink" href="https://netsys.cs.berkeley.edu/people.html">People</a>
+                &nbsp; &nbsp;
+                <a class="qlink" href="https://netsys.cs.berkeley.edu/pubs/index.html">Papers</a>
+                &nbsp; &nbsp;
+            </td></tr>
+          </tbody></table>
+        </td>
+      </tr>
+
+      <!-- WHITE DIVIDER -->
+      <tr bgcolor="#ffffff"><td colspan="2">
+          <img src="./spacer.gif"></td></tr>
+
+      <!-- DARK BLUE DIVIDER -->
+      <tr bgcolor="#1b1f44"><td colspan="2">
+          <img src="./spacer.gif"></td></tr>
+
+    </tbody></table>
+
+<!-- ####################################################### -->
+<!-- ####################################################### -->
+<!-- ##                                                   ## -->
+<!-- ##                       TEXT                        ## -->
+<!-- ##                                                   ## -->
+<!-- ####################################################### -->
+<!-- ####################################################### -->
+<table cellspacing="0" cellpadding="15" border="0" width="800" align="center">
+  <tbody><tr valign="top">
+    <td valign="top">
+
+
+
+<!--#include virtual="header.html" -->
+
+<!-- About -->
+<br>
+<h1 class="box">About</h1>
+
+<p> Welcome to the Berkeley Network Systems Lab!</p>
+
+
+<!--#include virtual="footer.html" -->
+
+
+
+</td>
+</tr>
+</tbody></table>
+
+
+
+
+
+<!-- ####################################################### -->
+<!-- ####################################################### -->
+<!-- ##                                                   ## -->
+<!-- ##                       CLOSING                     ## -->
+<!-- ##                                                   ## -->
+<!-- ####################################################### -->
+<!-- ####################################################### -->
+
+
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+
+  <tbody><tr><td><br><br></td></tr>
+
+  <tr bgcolor="#1b1f44"><td><img src="./spacer.gif"></td></tr>
+  <tr bgcolor="#ffffff"><td><img src="./spacer.gif"></td></tr>
+  <tr bgcolor="#f9b610"><td align="left">
+
+
+      <!-- nested table for fixed width -->
+      <table width="800" align="center" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr><td align="right">
+            &nbsp; &nbsp;			    
+	    <a class="qlink" href="https://netsys.cs.berkeley.edu/index.html">Home</a>
+	    &nbsp; &nbsp;
+	    <a class="qlink" href="https://netsys.cs.berkeley.edu/people.html">People</a>
+	    &nbsp; &nbsp;
+	    <a class="qlink" href="https://netsys.cs.berkeley.edu/papers.html">Papers</a>
+	    &nbsp; &nbsp;
+	</td></tr>
+      </tbody></table>
+      
+      <!-- <font color=#1b1f44>||</font> -->
+  </td></tr>
+  <tr bgcolor="#ffffff"><td><img src="./spacer.gif"></td></tr>
+  <tr bgcolor="#1b1f44"><td><img src="./spacer.gif"></td></tr>
+</tbody></table>
+
+</body></html>

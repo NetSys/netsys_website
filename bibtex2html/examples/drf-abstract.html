@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Dominant Resource Fairness: Fair Allocation of Multiple Resource Types</title>
+  <link rel="stylesheet" type="text/css" href="./main.css" /> 
+</head>
+<body bgcolor="#EEEEFF" link="#3333FF" alink="#FF3333" vlink="#3333FF">
+
+<h1>Dominant Resource Fairness: Fair Allocation of Multiple Resource Types</h1>
+
+<p>
+<b>Download:</b>
+<a href="http://www.mesosproject.org/papers/nsdi_drf.pdf">PDF</a>.
+</p>
+
+<p>
+&#8220;Dominant Resource Fairness: Fair Allocation of Multiple Resource
+Types&#8221;
+by A. Ghodsi, M. Zaharia, B. Hindman, A. Konwinski, I. Stoica, and S. Shenker.
+In <em>NSDI</em>, 2011.
+</p>
+
+<h2>Abstract</h2>
+
+<p>
+We consider the problem of fair resource allocation in a system containing
+different resource types, where each user may have different demands for
+each resource. To address this problem, we propose Dominant Resource
+Fairness (DRF), a generalization of max-min fairness to multiple resource
+types. We show that DRF, unlike other possible policies, satisfies several
+highly desirable properties. First, DRF incentivizes users to share
+resources, by ensuring that no user is better off if resources are equally
+partitioned among them. Second, DRF is strategy-proof, as a user cannot
+increase her allocation by lying about her requirements. Third, DRF is
+envyfree, as no user would want to trade her allocation with that of
+another user. Finally, DRF allocations are Pareto efficient, as it is not
+possible to improve the allocation of a user without decreasing the
+allocation of another user. We have implemented DRF in the Mesos cluster
+resource manager, and show that it leads to better throughput and fairness
+than the slot-based fair sharing schemes in current cluster schedulers.
+
+</p>
+<p>
+<b>Download:</b>
+<a href="http://www.mesosproject.org/papers/nsdi_drf.pdf">PDF</a>.
+</p>
+
+<p>
+<b>BibTeX entry:</b>
+</p>
+<pre>
+@inproceedings{drf,
+   author = {A. Ghodsi and M. Zaharia and B. Hindman and A. Konwinski and
+	I. Stoica and S. Shenker},
+   title = {{Dominant Resource Fairness: Fair Allocation of Multiple
+	Resource Types}},
+   booktitle = {NSDI},
+   year = {2011}
+}
+</pre>
+
+
+
+<hr />
+
+<p>
+(This webpage was created with
+<a href="http://www.cs.washington.edu/homes/mernst/software/#bibtex2web">bibtex2web</a>.)
+</p>
+
+<p>
+Back to <a href="./">NetSys Publications</a>.
+</p>
+
+</body>
+</html>
