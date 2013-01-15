@@ -2,7 +2,12 @@
 
 # Customization: you must update the BIBFILES variable.
 BIBDIR = /Users/rcs/NetSys/bibs
-BIBFILES = ${BIBDIR}/minlan.bib ${BIBDIR}/barath.bib ${BIBDIR}/ali.bib ${BIBDIR}/kyriakos.bib ${BIBDIR}/scott.bib ${BIBDIR}/sylvia.bib
+BIBFILES = ${BIBDIR}/minlan.bib \
+	   ${BIBDIR}/barath.bib \
+	   ${BIBDIR}/ali.bib \
+	   ${BIBDIR}/kyriakos.bib \
+	   ${BIBDIR}/scott.bib \
+	   ${BIBDIR}/sylvia.bib
 #BIBFILES = ${BIBDIR}/*bib
 
 ###########################################################################

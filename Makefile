@@ -1,5 +1,8 @@
+USERNAME = `whoami`
+REMOTE = $(USERNAME)@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/
+
 pull:
-	scp rcs@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/* .
+	rsync -r -v --exclude-from=.rsyncignore $(REMOTE) .
 
 push:
-	scp * rcs@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/
+	rsync -r -v --exclude-from=.rsyncignore --delete . $(REMOTE)
