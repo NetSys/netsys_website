@@ -1,13 +1,14 @@
 ###########################################################################
 
 # Customization: you must update the BIBFILES variable.
-BIBDIR = /Users/rcs/NetSys/bibs
+BIBDIR = ../../bibs
 BIBFILES = ${BIBDIR}/minlan.bib \
 	   ${BIBDIR}/barath.bib \
 	   ${BIBDIR}/ali.bib \
 	   ${BIBDIR}/kyriakos.bib \
 	   ${BIBDIR}/scott.bib \
 	   ${BIBDIR}/sylvia.bib
+
 #BIBFILES = ${BIBDIR}/*bib
 
 ###########################################################################
@@ -17,7 +18,7 @@ BWBIN = ../bin
 
 html: HTML
 
-HTML: abstracts index.html byauthor.html scp
+HTML: abstracts index.html byauthor.html
 
 index.html:
 	${BWBIN}/bwconv.pl -format=bibtex,htmlpubs -outopts=withyears -headfoot index-headfoot.html -to $@ -filter '! (defined($$rec{"omitfromcv"}) || (lc($$rec{"TYPE"}) eq "lecture") || (defined($$rec{"crossrefonly"}) && ! defined($$rec{"inlined-crossref"})))' ${BIBFILES}
@@ -34,10 +35,5 @@ abstracts:
 
 byauthor.html:
 	${BWBIN}/make-author-pages.pl authors author-urls byauthor-headfoot.html ${BIBFILES} > $@
-
-scp:
-	scp ../../bibs/* rcs@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/pubs/bibs/
-	scp *html rcs@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/pubs/
-
 
 .PHONY: abstracts index.html bytopic.html byauthor.html
