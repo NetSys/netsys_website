@@ -7,7 +7,10 @@ BIBFILES = ${BIBDIR}/minlan.bib \
 	   ${BIBDIR}/ali.bib \
 	   ${BIBDIR}/kyriakos.bib \
 	   ${BIBDIR}/scott.bib \
-	   ${BIBDIR}/sylvia.bib
+	   ${BIBDIR}/sylvia.bib \
+	   ${BIBDIR}/justine.bib \
+	   ${BIBDIR}/aurojit.bib
+
 
 #BIBFILES = ${BIBDIR}/*bib
 
