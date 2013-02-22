@@ -1,5 +1,5 @@
-USERNAME = `whoami`
-REMOTE = $(USERNAME)@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/
+USERNAME=rcs
+REMOTE=$(USERNAME)@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/
 
 pull:
 	rsync -r -v --exclude-from=.rsyncignore $(REMOTE) .
