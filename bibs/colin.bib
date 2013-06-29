@@ -4,7 +4,7 @@
   author={Sam Whitlock and Colin Scott and Scott Shenker},
   booktitle={Proceedings of the 2012 ACM Symposium on Principles of Distributed Computing},
   url = {http://www.eecs.berkeley.edu/~rcs/research/podc13.pdf},
-  year={2013}
+  year={2013},
   abstract = {
     The distributed systems research community has developed many
     provably correct algorithms and abstractions that are in wide use.
@@ -17,27 +17,23 @@
   }
 }
 
-@inproceedings{Heller:2013:Vision,
- author = {B. Heller and C. Scott and N. Mckeown and S. Shenker and A. Wundsam
-         and H. Zeng and S. Whitlock and V. Jeyakumar and N. Handigol and M.
-             McCauley and K. Zarifis and P. Kazemian},
- title = {Leveraging SDN Layering to Systematically
-         Troubleshoot Networks},
+@inproceedings{Heller2013Vision,
+ author = {B. Heller and C. Scott and N. Mckeown and S. Shenker and A. Wundsam and H. Zeng and S. Whitlock and V. Jeyakumar and N. Handigol and M.  McCauley and K. Zarifis and P. Kazemian},
+ title = {Leveraging SDN Layering to Systematically Troubleshoot Networks},
  url = {http://www.eecs.berkeley.edu/~rcs/research/vision-paper.pdf},
- series = {HotSDN '13},
+ booktitle = {HotSDN},
  year = {2013},
  abstract = {
-Today's networks are maintained by ``masters of complexity'': network admins who have accumulated the wisdom to troubleshoot complex problems, despite a limiting toolset.  This position paper advocates a more structured troubleshooting approach that leverages architectural layering in Software-Defined Networks (SDNs).  In all networks, high-level intent (policy) must correctly map to low-level forwarding behavior (hardware configuration).  In SDNs, intent is explicitly expressed, forwarding semantics are explicitly defined, and each architectural layer fully specifies the behavior of the network.  Building on these observations, we show how recently-developed troubleshooting tools fit into a coherent workflow that detects mistranslations between layers to precisely localize sources of errant control logic.   Our goals are  to explain the overall picture, show how the pieces fit together to enable a systematic workflow, and highlight the questions that remain. Once this workflow is realized, network admins can formally verify that their network is operating correctly, automatically troubleshoot bugs, and systematically track down their root cause -- freeing admins to fix problems, rather than diagnose their symptoms. 
+Today's networks are maintained by "masters of complexity": network admins who have accumulated the wisdom to troubleshoot complex problems, despite a limiting toolset.  This position paper advocates a more structured troubleshooting approach that leverages architectural layering in Software-Defined Networks (SDNs).  In all networks, high-level intent (policy) must correctly map to low-level forwarding behavior (hardware configuration).  In SDNs, intent is explicitly expressed, forwarding semantics are explicitly defined, and each architectural layer fully specifies the behavior of the network.  Building on these observations, we show how recently-developed troubleshooting tools fit into a coherent workflow that detects mistranslations between layers to precisely localize sources of errant control logic.   Our goals are  to explain the overall picture, show how the pieces fit together to enable a systematic workflow, and highlight the questions that remain. Once this workflow is realized, network admins can formally verify that their network is operating correctly, automatically troubleshoot bugs, and systematically track down their root cause -- freeing admins to fix problems, rather than diagnose their symptoms. 
  }
 }
 
-@inproceedings{Panda:2013:CAP,
- author = {Panda, Aurojit and Scott, Colin and Ghodsi, Ali and Koponen,
-     Teemu and Shenker, Scott},
- title = {CAP for Networks},
- series = {HotSDN '13},
- url = {http://www.eecs.berkeley.edu/~rcs/research/cap-paper.pdf},
- year = {2013},
+@inproceedings{pandacap,
+  title={CAP for Networks},
+  author={Panda, Aurojit and Scott, Colin and Ghodsi, Ali and Koponen, Teemu and Shenker, Scott},
+  booktitle={HotSDN},
+  year = {2013},
+  url = {http://www.eecs.berkeley.edu/~rcs/research/cap-paper.pdf},
  abstract = {The CAP theorem showed that it is impossible for datastore
 systems to achieve all three of linearizability, availability and partition tolerance. In this paper we investigate
 how these trade-offs apply to software-defined networks.
@@ -46,3 +42,5 @@ isolation and middlebox traversal, and prove that it is impossible for naive imp
 sacrificing availability. We conclude by distilling practical
 design lessons from our observations.}
 }
+
+
