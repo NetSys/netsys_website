@@ -1,5 +1,5 @@
-#USERNAME = `whoami`
-USERNAME = sangjin
+USERNAME = `whoami`
+#USERNAME = sangjin
 REMOTE = $(USERNAME)@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/
 OPTIONS = -r -v --exclude-from=.rsyncignore --perms --chmod=ug+w
 
@@ -12,3 +12,6 @@ build:
 push:
 	rsync $(OPTIONS) --delete . $(REMOTE)
 	rsync $(OPTIONS) --delete bibtex2html/examples/*.html $(REMOTE)/pubs/
+
+push_scp:
+	scp bibtex2html/examples/*.html ${REMOTE}/pubs/
