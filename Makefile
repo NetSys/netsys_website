@@ -14,6 +14,6 @@ push:
 	rsync $(OPTIONS) --delete bibtex2html/examples/*.html $(REMOTE)/pubs/
 
 push_scp:
-	scp *.html ${REMOTE}
+	scp *.html *.css ${REMOTE}
 	scp -r pics assets ${REMOTE}
 	scp bibtex2html/examples/*.html ${REMOTE}/pubs/
