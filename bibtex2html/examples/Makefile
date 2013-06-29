@@ -9,8 +9,9 @@ BIBFILES = ${BIBDIR}/minlan.bib \
 	   ${BIBDIR}/scott.bib \
 	   ${BIBDIR}/sylvia.bib \
 	   ${BIBDIR}/justine.bib \
-	   ${BIBDIR}/aurojit.bib
-
+	   ${BIBDIR}/aurojit.bib \
+	   ${BIBDIR}/colin.bib \
+	   ${BIBDIR}/scott_marshall.bib
 
 #BIBFILES = ${BIBDIR}/*bib
 
