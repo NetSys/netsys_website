@@ -11,6 +11,7 @@ BIBFILES = ${BIBDIR}/minlan.bib \
 	   ${BIBDIR}/justine.bib \
 	   ${BIBDIR}/aurojit.bib \
 	   ${BIBDIR}/colin.bib \
+	   ${BIBDIR}/radhika.bib \
 	   ${BIBDIR}/scott_marshall.bib
 
 #BIBFILES = ${BIBDIR}/*bib
