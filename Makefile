@@ -1,5 +1,5 @@
-USERNAME = `whoami`
-#USERNAME = sangjin
+#USERNAME = `whoami`
+USERNAME = rcs
 REMOTE = $(USERNAME)@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/
 OPTIONS = -r -v --exclude-from=.rsyncignore --perms --chmod=ug+w
 
