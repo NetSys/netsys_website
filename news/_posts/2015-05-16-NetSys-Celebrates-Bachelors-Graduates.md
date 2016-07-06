@@ -1,11 +1,10 @@
 ---
 layout: post
 ---
-NetSys celebrated a bumper crop of spectacular undergraduates today, all of whom are headed to top PhD programs.
+NetSys celebrated the graduation of a bumper crop of spectacular undergraduates today.
 
 * Shoumik Palkar to MIT
 * Soumya Basu to Cornell
-* Akshay Narayan also to MIT
-* Christopher Canel to Carnegie Mellon
+* Akshay Narayan and Christopher Canel will stay with us as research staff
 
 Congratulations Shoumik, Soumya, Akshay, and Christopher!
