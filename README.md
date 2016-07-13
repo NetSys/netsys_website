@@ -3,9 +3,9 @@
 This repo houses the code for our website.
 
 To build it you will need the following:
--ruby >= 1.9.0
--ruby gems
--make
+- ruby >= 1.9.0
+- ruby gems
+- make
 
 Once you have them, run `gem install bundler` followed by `bundle install`.
 That should install all of the appropriate ruby gems to build the site.
@@ -17,6 +17,8 @@ and most of it lives in the `src` directory, which is layed out as follows:
 - `src/_bibliography` contains the bibtex file for the publications page
 - `src/_data` contains yaml files that hold the data for the projects and people
   pages
+- `src/static` contains the site's static assests (images, css, javascript,
+  etc...) 
 - `src/*` in most cases, everything else does what its name suggests
 
 The jekyll configuration lives in `_config.yaml` 
