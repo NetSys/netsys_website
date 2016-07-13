@@ -1,0 +1,894 @@
+---
+---
+References
+==========
+@inproceedings{drf,
+ Author = {A. Ghodsi and M. Zaharia and B. Hindman and A. Konwinski
+and I. Stoica and S. Shenker},
+ Booktitle = {NSDI},
+ Title = {Dominant Resource Fairness: Fair Allocation of Multiple
+Resource Types},
+ Year = {2011},
+ Abstract = {We consider the problem of fair resource allocation in a
+system containing different resource types, where each user may have
+different demands for each resource. To address this problem, we
+propose Dominant Resource Fairness (DRF), a generalization of max-min
+fairness to multiple resource types. We show that DRF, unlike other
+possible policies, satisfies several highly desirable properties.
+First, DRF incentivizes users to share resources, by ensuring that no
+user is better off if resources are equally partitioned among them.
+Second, DRF is strategy-proof, as a user cannot increase her
+allocation by lying about her requirements. Third, DRF is envyfree, as
+no user would want to trade her allocation with that of another user.
+Finally, DRF allocations are Pareto efficient, as it is not possible
+to improve the allocation of a user without decreasing the allocation
+of another user. We have implemented DRF in the Mesos cluster resource
+manager, and show that it leads to better throughput and fairness than
+the slot-based fair sharing schemes in current cluster schedulers.},
+  basefilename = "drf",
+  downloadsnonlocal = {http://www.mesosproject.org/papers/nsdi_drf.pdf PDF},
+}
+
+@inproceedings{ousterhout2013case,
+  title={The Case for Tiny Tasks in Compute Clusters},
+  author={Ousterhout, Kay and Panda, Aurojit and Rosen, Joshua and Venkataraman, Shivaram and Xin, Reynold and Ratnasamy, Sylvia and Shenker, Scott and Stoica, Ion},
+  booktitle={HotOS},
+  year={2013},
+  organization={USENIX Association}
+}
+
+@inproceedings{liu13ddc,
+  author    = {Junda Liu and Aurojit Panda and Ankit Singla and P. Brighten Godfrey and Michael Schapira and Scott Shenker},
+  title     = {Ensuring Connectivity via Data Plane Mechanisms},
+  booktitle = {10th USENIX Symposium on Networked Systems Design and Implementation (NSDI)},
+  month     = {April},
+  year      = {2013},
+}
+@inproceedings{gupta2012new,
+  title={A new approach to interdomain routing based on secure multi-party computation},
+  author={Gupta, Debayan and Segal, Aaron and Panda, Aurojit and Segev, Gil and Schapira, Michael and Feigenbaum, Joan and Rexford, Jenifer and Shenker, Scott},
+  booktitle={Proceedings of the 11th ACM Workshop on Hot Topics in Networks},
+  pages={37--42},
+  year={2012},
+  organization={ACM}
+}
+@inproceedings{feigenbaum2012brief,
+  title={Brief announcement: on the resilience of routing tables},
+  author={Feigenbaum, Joan and Godfrey, Brighten and Panda, Aurojit and Schapira, Michael and Shenker, Scott and Singla, Ankit},
+  booktitle={Proceedings of the 2012 ACM symposium on Principles of distributed computing},
+  pages={237--238},
+  year={2012},
+  organization={ACM}
+}
+
+@inproceedings{wuPRAN,
+ author = {Wu, Wenfei and Li, Li Erran and Panda, Aurojit and Shenker, Scott},
+ title = {PRAN: Programmable Radio Access Networks},
+ booktitle = {Proceedings of the 13th ACM Workshop on Hot Topics in Networks},
+ series = {HotNets-XIII},
+ year = {2014},
+}
+
+@article{panda2015new,
+    title={New Directions for Network Verification},
+    author={Panda, Aurojit and Argyraki, Katerina and Sagiv, Mooly and Schapira, Michael and Shenker, Scott},
+    booktitle={1st Summit on Advances in Programming Languages (SNAPL)},
+    year={2015},
+}
+
+@inproceedings{castroroute,
+    title={Route Bazaar: Automatic Interdomain Contract Negotiation},
+    author={Castro, Ignacio and Panda, Aurojit and Raghavan, Barath and Shenker, Scott and Gorinsky, Sergey},
+    booktitle={HotOS XV},
+    year={2015}
+}
+
+@article{panda2016open,
+    title={Open Network Interfaces for Carrier Networks},
+    author={Panda, Aurojit and McCauley, James Murphy and Tootoonchian, Amin and Sherry, Justine and Koponen, Teemu and Ratnasamy, Syliva and Shenker, Scott},
+    booktitle={ACM SIGCOMM Computer Communication Review},
+    publisher={ACM},
+    year={2016}
+}
+
+@inproceedings{velner2016some,
+    title={Some Complexity Results for Stateful Network Verification},
+    author={ Yaron Velner and Kalev Alpernas and Aurojit Panda and Alexander Rabinovich and Mooly Sagiv and Scott Shenker and Sharon Shoham},
+    booktitle={TACAS},
+    year={2016}
+}
+
+@inproceedings{padon2016ivy,
+    title={Ivy: Interactive Verification of Parametrized Systems via Effectively Propositional Reasoning},
+    author={Oded Padon and Kenneth McMillan and Aurojit Panda and Mooly Sagiv and Sharon Shoham},
+    booktitle={PLDI},
+    year={2016}
+}
+
+@inproceedings{emergy11,
+title = {The Energy and Emergy of the Internet},
+author = {Barath Raghavan and Justin Ma},
+booktitle = {{ACM SIGCOMM Workshop on Hot Topics in Networks}},
+month = nov,
+year = 2011,
+downloadsnonlocal = {http://www.cs.berkeley.edu/~jtma/papers/emergy-hotnets2011.pdf PDF},
+}
+
+@inproceedings{icn11,
+title = {Information-Centric Networking: Seeing the Forest for the Trees},
+author = {Ali Ghodsi and Teemu Koponen and Barath Raghavan and Scott Shenker and Ankit Singla and James Wilcox},
+booktitle = {{ACM SIGCOMM Workshop on Hot Topics in Networks}},
+month = nov,
+year = 2011,
+downloadsnonlocal ={http://www.icsi.berkeley.edu/~barath/papers/icn-hotnets11.pdf PDF}
+}
+
+@inproceedings{opae11,
+title = {Intelligent Design Enables Architectural Evolution},
+author = {Ali Ghodsi and Teemu Koponen and Barath Raghavan and Scott Shenker and Ankit Singla and James Wilcox},
+booktitle = {{ACM SIGCOMM Workshop on Hot Topics in Networks}},
+month = nov,
+year = 2011,
+downloadsnonlocal = {http://www.icsi.berkeley.edu/~barath/papers/evolution-hotnets11.pdf PDF}
+}
+
+@inproceedings{netlong11,
+title = {Networking in the Long Emergency},
+author = {Barath Raghavan and Justin Ma},
+booktitle = {{ACM SIGCOMM Workshop on Green Networking}},
+note = {Best Paper},
+month = aug,
+year = 2011,
+downloadsnonlocal = {http://www.cs.berkeley.edu/~jtma/papers/longemergency-greenet2011.pdf PDF}
+}
+
+@inproceedings{icnprivacy11,
+title = {On Preserving Privacy in Content-Oriented Networks},
+author = {Somaya Arianfar and Teemu Koponen and Barath Raghavan and Scott Shenker},
+booktitle = {{ACM SIGCOMM Workshop on Information-Centric Networking}},
+month = aug,
+year = 2011,
+downloadsnonlocal = {http://conferences.sigcomm.org/sigcomm/2011/papers/icn/p19.pdf PDF}
+}
+
+@inproceedings{fii11,
+title = {Architecting for Innovation},
+author = {Teemu Koponen and Scott Shenker and Hari Balakrishnan and Nick Feamster and Igor Ganichev and Ali Ghodsi and Brighten Godfrey and Nick McKeown and Guru Parulkar and Barath Raghavan and Jennifer Rexford and Somaya Arianfar and Dmitriy Kuptsov},
+booktitle = {{ACM SIGCOMM CCR}},
+month = jul,
+year = 2011,
+downloadsnonlocal = {http://www.cs.illinois.edu/~pbg/papers/architecting_for_innovation-ccr.pdf PDF}
+}
+
+@inproceedings{ha2015explicit,
+  title={Explicit Path Control in Commodity Data Centers: Design and Applications},
+  author={Shuihai Hu and Kai Chen and Haitao Wu and Wei Bai and Chang Lan and Hao Wang and Hongze Zhao and Chuanxiong Guo},
+  booktitle={NSDI},
+  year={2015}
+}
+
+@inproceedings{embark,
+    author = {Chang Lan and Justine Sherry and Raluca Ada Popa and Sylvia
+        Ratnasamy and Zhi Liu},
+    title = {{Embark: Securely Outsourcing Middleboxes to the Cloud}},
+    booktitle = {NSDI 16},
+    year = {2016},
+    publisher = {USENIX Association},
+}
+
+@inproceedings{Scott:2014:STS,
+ author = {C. Scott and A. Wundsam and B. Raghavan and Z. Liu and S. Whitlock
+     and A. El-Hassany and A. Or and J. Lai and E. Huang and H. B. Acharya and
+         K. Zarifis and S. Shenker},
+ title = {Troubleshooting SDN Control Software with Minimal Causal Sequences},
+ url = {http://www.eecs.berkeley.edu/~rcs/research/sts.pdf},
+ series = {SIGCOMM '14},
+ booktitle={Proceedings of the ACM SIGCOMM 2014 conference on
+Applications, technologies, architectures, and protocols for computer
+communication},
+ year = {2014},
+ abstract = {
+    Software bugs are inevitable in software-defined networking control software,
+    and troubleshooting
+    is a tedious, time-consuming task. In this paper we discuss how to improve
+    control software troubleshooting by presenting a technique
+    for automatically identifying
+    a minimal sequence of inputs responsible for triggering a given bug, without
+    making assumptions about the language or instrumentation of the software under
+    test. We apply our technique to five open source SDN control
+    platforms---Floodlight, NOX, POX, Pyretic, ONOS---and
+    illustrate how the minimal causal sequences our system found aided the
+    troubleshooting process.
+  }
+}
+
+@inproceedings{whitlock2013brief,
+  title={Brief Announcement: Techniques for Programmatically Troubleshooting
+         Distributed Systems},
+  author={Sam Whitlock and Colin Scott and Scott Shenker},
+  booktitle={Proceedings of the 2012 ACM Symposium on Principles of Distributed Computing},
+  url = {http://www.eecs.berkeley.edu/~rcs/research/podc13.pdf},
+  year={2013},
+  abstract = {
+    The distributed systems research community has developed many
+    provably correct algorithms and abstractions that are in wide use.
+    However, practical implementations of distributed systems often
+    contain many bugs, and practitioners spend much of their time
+    troubleshooting these bugs. In this paper we present an algorithm,
+    retrospective causal inference, to ease the burden of troubleshooting.
+    We end by enumerating several open research problems related to
+    the troubleshooting process.
+  }
+}
+
+@inproceedings{Heller2013Vision,
+ author = {B. Heller and C. Scott and N. Mckeown and S. Shenker and A. Wundsam and H. Zeng and S. Whitlock and V. Jeyakumar and N. Handigol and M.  McCauley and K. Zarifis and P. Kazemian},
+ title = {Leveraging SDN Layering to Systematically Troubleshoot Networks},
+ url = {http://www.eecs.berkeley.edu/~rcs/research/vision-paper.pdf},
+ booktitle = {HotSDN},
+ year = {2013},
+ abstract = {
+Today's networks are maintained by "masters of complexity": network admins who have accumulated the wisdom to troubleshoot complex problems, despite a limiting toolset.  This position paper advocates a more structured troubleshooting approach that leverages architectural layering in Software-Defined Networks (SDNs).  In all networks, high-level intent (policy) must correctly map to low-level forwarding behavior (hardware configuration).  In SDNs, intent is explicitly expressed, forwarding semantics are explicitly defined, and each architectural layer fully specifies the behavior of the network.  Building on these observations, we show how recently-developed troubleshooting tools fit into a coherent workflow that detects mistranslations between layers to precisely localize sources of errant control logic.   Our goals are  to explain the overall picture, show how the pieces fit together to enable a systematic workflow, and highlight the questions that remain. Once this workflow is realized, network admins can formally verify that their network is operating correctly, automatically troubleshoot bugs, and systematically track down their root cause -- freeing admins to fix problems, rather than diagnose their symptoms. 
+ }
+}
+
+@inproceedings{pandacap,
+  title={CAP for Networks},
+  author={Panda, Aurojit and Scott, Colin and Ghodsi, Ali and Koponen, Teemu and Shenker, Scott},
+  booktitle={HotSDN},
+  year = {2013},
+  url = {http://www.eecs.berkeley.edu/~rcs/research/cap-paper.pdf},
+ abstract = {The CAP theorem showed that it is impossible for datastore
+systems to achieve all three of linearizability, availability and partition tolerance. In this paper we investigate
+how these trade-offs apply to software-defined networks.
+Specifically, we investigate network policies such as tenant
+isolation and middlebox traversal, and prove that it is impossible for naive implementations to enforce them without
+sacrificing availability. We conclude by distilling practical
+design lessons from our observations.}
+}
+
+@inproceedings{agababov2015flywheel,
+  title={Flywheel: Google's Data Compression Proxy for the Mobile Web},
+  author={Victor Agababov and Michael Buettner and Victor Chudnovsky and Mark Cogan and Ben Greenstein and Shane McDaniel and Michael Piatek and Colin Scott and Matt Welsh and Bolian Yin},
+  booktitle={NSDI},
+  year={2015}
+}
+
+@inproceedings{colinDemi,
+    author = {C. Scott and A. Panda and V. Brajkovic and G. Necula and A.
+        Krishnamurthy and S. Shenker},
+    title = {Minimizing Faulty Executions of Distributed Systems},
+    booktitle = {NSDI '16},
+    year = {2016}
+}
+
+@inproceedings{ethanSoftflow,
+    author = {Ethan J. Jackson and Melvin Walls and Aurojit Panda and Justin
+        Pettit and Ben Pfaff and Jarno Rajahalme and Teemu Koponen and Scott
+            Shenker},
+    title = {SoftFlow: A Middlebox Architecture for Open vSwitch},
+    booktitle = {2016 USENIX Annual Technical Conference (USENIX ATC 16)},
+    year = {2016},
+    url = {https://www.usenix.org/conference/atc16/technical-sessions/presentation/jackson},
+    publisher = {USENIX Association}
+}
+
+@inproceedings{Sherry:2012:MMS:2342356.2342359,
+ author = {Sherry, Justine and Hasan, Shaddi and Scott, Colin and
+Krishnamurthy, Arvind and Ratnasamy, Sylvia and Sekar, Vyas},
+ title = {Making middleboxes someone else's problem: network
+processing as a cloud service},
+ booktitle = {Proceedings of the ACM SIGCOMM 2012 conference on
+Applications, technologies, architectures, and protocols for computer
+communication},
+ series = {SIGCOMM '12},
+ year = {2012},
+ isbn = {978-1-4503-1419-0},
+ location = {Helsinki, Finland},
+ pages = {13--24},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2342356.2342359},
+ doi = {10.1145/2342356.2342359},
+ acmid = {2342359},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {cloud, middlebox, outsourcing},
+}
+
+@mastersthesis{Sherry:EECS-2012-240,
+    Author = {Sherry, Justine},
+    Title = {Future Architectures for Middlebox Processing Services on
+the Internet and in the Cloud},
+    School = {EECS Department, University of California, Berkeley},
+    Year = {2012},
+    Month = {Dec},
+    URL = {http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-240.html},
+    Number = {UCB/EECS-2012-240},
+    Abstract = {   Middleboxes, such as caches, firewalls, and
+intrusion detection systems, form a vital part of network
+infrastructure today.
+    Administrators deploy middleboxes in diverse scenarios from
+enterprise networks, to datacenters, to access networks.
+    However, middleboxes are universally deployed under what we call
+the `unilateral model', where middleboxes are deployed and configured
+by administrators alone, for the benefit of hosts in a single domain
+alone.
+
+    In this thesis, we present two new deployment models for
+middleboxes which offer new capabilities for middlebox usage as well
+as new business models for middlebox deployment.
+    Netcalls is an extension to the Internet architecture that allows
+end host applications to invoke and configure middleboxes in any
+network their traffic traverses; for example, we present a web server
+that invokes inter-domain DDoS defense when it detects that it is
+under attack.
+    APLOMB is a system that allows enterprise networks (as well as
+individual end hosts) to tunnel their traffic to and from a cloud
+service that applies middlebox processing to their traffic, avoiding
+the costly and management-intensive burden of administering
+middleboxes in a local network.
+    Netcalls and APLOMB allow ISPs and cloud providers (respectively)
+to monetize their deployment of middleboxes by offering them as a
+service to third-party clients; all the while presenting new
+capabilities, in the case of netcalls by enabling application
+interaction and in the case of APLOMB by providing better scalability
+and easier management.
+
+    We discuss both of these proposals and their benefits in detail;
+we then discuss challenges and opportunities towards their deployment
+and adoption.}
+}
+
+@inproceedings{justineBlindbox,
+    author = {Sherry, Justine and Lan, Chang and Popa, Raluca Ada and Ratnasamy, Sylvia},
+    title = {BlindBox: Deep Packet Inspection over Encrypted Traffic},
+    booktitle = {Proceedings of the 2015 ACM Conference on Special Interest Group on Data Communication},
+    series = {SIGCOMM '15},
+    year={2015},
+}
+
+@inproceedings{justinFTMB,
+    author = {Sherry, Justine and Gao, Peter Xiang and Basu, Soumya and Panda, Aurojit and Krishnamurthy, Arvind and Maciocco, Christian and Manesh, Maziar and Martins, Jo\~{a}o and Ratnasamy, Sylvia and Rizzo, Luigi and Shenker, Scott},
+    title = {Rollback-Recovery for Middleboxes},
+    booktitle = {Proceedings of the 2015 ACM Conference on Special Interest Group on Data Communication},
+    series = {SIGCOMM '15},
+    year={2015},
+    publisher = {ACM}
+}
+
+@inproceedings{ousterhout2015making,
+  title={Making Sense of Performance in Data Analytics Frameworks},
+  author={Kay Ousterhout and Ryan Rasti and Sylvia Ratnasamy and Scott Shenker and Byung-Gon Chun},
+  booktitle={NSDI},
+  year={2015}
+}
+
+@inproceedings{keonSilo,
+    author = {Jang, Keon and Sherry, Justine and Ballani, Hitesh and Moncaster, Toby},
+    title = {Silo: Predictable Message Latency in the Cloud},
+    booktitle = {Proceedings of the 2015 ACM Conference on Special Interest Group on Data Communication},
+    series = {SIGCOMM '15},
+    year = {2015},
+    publisher = {ACM}
+} 
+
+@inproceedings{liTachyon,
+ author = {Li, Haoyuan and Ghodsi, Ali and Zaharia, Matei and Shenker, Scott and Stoica, Ion},
+ title = {Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks},
+ booktitle = {Proceedings of the ACM Symposium on Cloud Computing},
+ series = {SOCC '14},
+ year = {2014},
+}
+
+@inproceedings{HellerEMGGWZMSS10,
+  author    = {Brandon Heller and
+               David Erickson and
+               Nick McKeown and
+               Rean Griffith and
+               Igor Ganichev and
+               Scott Whyte and
+               Kyriakos Zarifis and
+               Daekyeong Moon and
+               Scott Shenker and
+               Stephen Stuart},
+  title     = {Ripcord: a modular platform for data center networking},
+  booktitle = {SIGCOMM},
+  year      = {2010},
+  pages     = {457-458},
+	Abstract = {In this demo, we present Ripcord, a modular platform for rapidly prototyping scale-out data center networks. Ripcord enables researchers to build and evaluate new network features and topologies, using only commercially available hardware and open-source software. The Ripcord demo will show three examples of custom network functions, operating together, on top of a 160-node cluster. The first is a routing engine that isolates classes of traffic. The second is a dynamic network manager than adjusts links and switch power states to reduce energy. The third is a statistics aggregator that supports network health monitoring and automatic alerts. The demo will be interactive, with a visualization of live parameters for each link and switch, such as bandwidth, drops, and power status, as well a control panel to modify the traffic load. We feel that an interactive demo is the best way to introduce the research community to Ripcord and get their feedback.},
+downloadsnonlocal={http://www.icsi.berkeley.edu/~zarifis/pubs/p457.pdf PDF},
+category={Software Defined Networking}
+}
+
+@inproceedings{Popa:2010,
+ author = {Popa, Lucian and Yu, Minlan and Ko, Steven Y. and
+Ratnasamy, Sylvia and Stoica, Ion},
+ title = {CloudPolice: taking access control out of the network},
+ booktitle = {Proceedings of the Ninth ACM SIGCOMM Workshop on Hot
+Topics in Networks},
+ series = {Hotnets '10},
+ year = {2010},
+ isbn = {978-1-4503-0409-2},
+ location = {Monterey, California},
+ pages = {7:1--7:6},
+ articleno = {7},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/1868447.1868454},
+ doi = {http://doi.acm.org/10.1145/1868447.1868454},
+ acmid = {1868454},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+
+abstract={Cloud computing environments impose new challenges on
+access control techniques due to multi-tenancy, the growing
+scale and dynamicity of hosts within the cloud infrastructure,
+and the increasing diversity of cloud network architectures.
+The majority of existing access control techniques were originally
+designed for enterprise environments that do not share
+these challenges and, as such, are poorly suited for cloud
+environments. In this paper, we argue that it is both sufﬁcient
+and advantageous to implement access control only within
+the hypervisors at the end-hosts. We thus propose CloudPolice, a
+system that implements a hypervisor-based access
+control mechanism. We argue that, not only can CloudPolice
+support more sophisticated access control policies, it can do
+so in a manner that is simpler, more scalable and more robust
+than existing network-based techniques.},
+
+downloadsnonlocal={http://www.eecs.berkeley.edu/~minlanyu/writeup/hotnets10.pdf PDF},
+category={Data Center Networking}
+}
+
+@inproceedings{murphyAxe,
+    author = {McCauley, James and Sheng, Alice and Jackson, Ethan J. and
+        Raghavan, Barath and Ratnasamy, Sylvia and Shenker, Scott},
+    title = {Taking an AXE to L2 Spanning Trees},
+    booktitle = {Proceedings of the 14th ACM Workshop on Hot Topics in
+        Networks},
+    series = {HotNets-XIV},
+    year = {2015},
+    publisher = {ACM},
+}
+
+@inproceedings{phost,
+    title={pHost: Distributed Near-optimal Datacenter Transport Over Commodity Network Fabric},
+    author={Gao, Peter X. and Narayan, Akshay and Kumar, Gautam and Agarwal, Rachit and Ratnasamy, Sylvia and Shenker, Scott},
+    booktitle={CoNEXT},
+    year = {2015}
+}
+
+@inproceedings{rc3Hotnets,
+  title = {How to Improve your Network Performance by Asking your Provider for Worse Server},
+  author = {Radhika Mittal and Justine Sherry and Sylvia Ratnasamy and Scott Shenker},
+  booktitle= {Proc. ACM Workshop on Hot Topics in Networks (HotNets)},
+  year = {2013}
+}
+
+@inproceedings{rc3NSDI,
+  author = {Radhika Mittal and Justine Sherry and Sylvia Ratnasamy and Scott Shenker},
+  title = {Recursively Cautious Congestion Control},
+  booktitle = {NSDI},
+  year = {2014}
+}
+
+@inproceedings{radhikaUps,
+    author = {Radhika Mittal and Rachit Agarwal and Sylvia Ratnasamy and Scott Shenker},
+    title = {Universal Packet Scheduling},
+    booktitle = {Proc. ACM HotNets},
+    year = {2015}
+} 
+
+@inproceedings{radhikaUpsNSDI,
+    author = {Radhika Mittal and Rachit Agarwal and Sylvia Ratnasamy and Scott
+        Shenker},
+    title = {Universal Packet Scheduling},
+    booktitle = {Usenix NSDI},
+    year = {2016}
+}
+
+@inproceedings{ddc-hotnets,
+  title = {Network support for resource disaggregation in next-generation datacenters},
+  author = {Han, Sangjin and Egi, Norbert and Panda, Aurojit and Ratnasamy, Sylvia and Shi, Guangyu and Shenker, Scott},
+  booktitle = {Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks},
+  year = {2013},
+  url = {http://www.eecs.berkeley.edu/~sangjin/static/pub/hotnets2013_ddc.pdf},
+  abstract = {
+    Datacenters have traditionally been architected as a collection
+    of servers wherein each server aggregates a fixed
+    amount of computing, memory, storage, and communication
+    resources. In this paper, we advocate an alternative
+    construction in which the resources within a server
+    are disaggregated and the datacenter is instead architected
+    as a collection of standalone resources.
+    Disaggregation brings greater modularity to datacenter
+    infrastructure, allowing operators to optimize their
+    deployments for improved efficiency and performance.
+    However, the key enabling or blocking factor for disaggregation
+    will be the network since communication that
+    was previously contained within a single server now traverses
+    the datacenter fabric. This paper thus explores the
+    question of whether we can build networks that enable
+    disaggregation at datacenter scales.
+  }
+}
+
+@inproceedings{celias-hotos,
+  title = {Large-scale computation not at the cost of expressiveness},
+  author = {Han, Sangjin and Ratnasamy, Sylvia},
+  booktitle = {Proceedings of the 14th USENIX conference on Hot Topics in Operating Systems},
+  year = {2013},
+  url = {http://www.eecs.berkeley.edu/~sangjin/static/pub/hotos2013_celias.pdf},
+  abstract = {
+    We present Celias, a new concurrent programming model for data-intensive 
+    scalable computing. Celias supports many virtues commonly found in existing 
+    distributed programming frameworks, such as elastic scaling and fault 
+    tolerance, without sacrificing expressiveness. The key design idea of Celias 
+    is the concept of a microtask, as a scalable, fault-tolerant, and completely 
+    data-driven unit of computation. By combining Tuplespace and microtasks, 
+    Celias provides an intuitive yet powerful programming abstraction for 
+    large and complex problems.
+  }
+}
+
+@inproceedings{megapipe-osdi,
+  title = {MegaPipe: A New Programming Interface for Scalable Network I/O},
+  author = {Sangjin Han and Scott Marshall and Byung-Gon Chun and Sylvia Ratnasamy},
+  booktitle = {Proceedings of the Usenix Symposium on Operating Systems Design and Implementation (OSDI)},
+  year = {2012},
+  url = {http://www.eecs.berkeley.edu/~sangjin/static/pub/osdi2012_megapipe.pdf},
+  abstract = {
+    We present MegaPipe, a new API for efficient, scalable network I/O for 
+    message-oriented workloads. The design of MegaPipe centers around the 
+    abstraction of a channel—a per-core, bidirectional pipe between the kernel 
+    and user space, used to exchange both I/O requests and event notifications. 
+    On top of the channel abstraction, we introduce three key concepts of 
+    MegaPipe: partitioning, lightweight socket (lwsocket), and batching.
+
+    We implement MegaPipe in Linux and adapt memcached and nginx. 
+    Our results show that, by embracing a clean-slate design approach, 
+    MegaPipe is able to exploit new opportunities for improved performance 
+    and ease of programmability. In microbenchmarks on an 8-core server with 
+    64 B messages, MegaPipe outperforms baseline Linux between 29\% (for long 
+    connections) and 582\% (for short connections). MegaPipe improves the 
+    performance of a modified version of memcached between 15\% and 320\%. 
+    For a workload based on real-world HTTP traces, MegaPipe boosts the 
+    throughput of nginx by 75\%.
+  }
+}
+
+@inproceedings{DBLP:conf/osdi/KoponenCGSPZRIIHS10,
+  author    = {Teemu Koponen and
+               Martin Casado and
+               Natasha Gude and
+               Jeremy Stribling and
+               Leon Poutievski and
+               Min Zhu and
+               Rajiv Ramanathan and
+               Yuichiro Iwata and
+               Hiroaki Inoue and
+               Takayuki Hama and
+               Scott Shenker},
+  title     = {Onix: A Distributed Control Platform for Large-scale Production
+               Networks},
+  booktitle = {OSDI},
+  year      = {2010},
+  pages     = {351-364},
+  downloadsnonlocal        =   {http://www.usenix.org/events/osdi10/tech/full_papers/Koponen.pdf PDF},
+}
+
+@article{DBLP:journals/tocs/WalfishVBKS10,
+  author    = {Michael Walfish and
+               Mythili Vutukuru and
+               Hari Balakrishnan and
+               David R. Karger and
+               Scott Shenker},
+  title     = {DDoS defense by offense},
+  journal   = {ACM Trans. Comput. Syst.},
+  volume    = {28},
+  number    = {1},
+  year      = {2010},
+  downloadsnonlocal        = {http://doi.acm.org/10.1145/1731060.1731063 PDF},
+}
+
+@inproceedings{DBLP:conf/eurosys/ZahariaBSESS10,
+  author    = {Matei Zaharia and
+               Dhruba Borthakur and
+               Joydeep Sen Sarma and
+               Khaled Elmeleegy and
+               Scott Shenker and
+               Ion Stoica},
+  title     = {Delay scheduling: a simple technique for achieving locality
+               and fairness in cluster scheduling},
+  booktitle = {EuroSys},
+  year      = {2010},
+  pages     = {265-278},
+  downloadsnonlocal        = {http://doi.acm.org/10.1145/1755913.1755940 PDF},
+}
+
+@article{DBLP:journals/ccr/CaesarCKRS10,
+  author    = {Matthew Caesar and
+               Martin Casado and
+               Teemu Koponen and
+               Jennifer Rexford and
+               Scott Shenker},
+  title     = {Dynamic route recomputation considered harmful},
+  journal   = {Computer Communication Review},
+  volume    = {40},
+  number    = {2},
+  year      = {2010},
+  pages     = {66-71},
+  downloadsnonlocal        = {http://doi.acm.org/10.1145/1764873.1764885 PDF},
+}
+
+@article{DBLP:journals/ccr/GanichevDGS10,
+  author    = {Igor Ganichev and
+               Bin Dai and
+               Brighten Godfrey and
+               Scott Shenker},
+  title     = {YAMR: yet another multipath routing protocol},
+  journal   = {Computer Communication Review},
+  volume    = {40},
+  number    = {5},
+  year      = {2010},
+  pages     = {13-19},
+  downloadsnonlocal        = {http://doi.acm.org/10.1145/1880153.1880156 PDF},
+}
+
+@inproceedings{DBLP:conf/sigmetrics/GodfreySZS10,
+  author    = {Brighten Godfrey and
+               Michael Schapira and
+               Aviv Zohar and
+               Scott Shenker},
+  title     = {Incentive compatibility and dynamics of congestion control},
+  booktitle = {SIGMETRICS},
+  year      = {2010},
+  pages     = {95-106},
+  downloadsnonlocal        = {http://doi.acm.org/10.1145/1811039.1811051 PDF},
+}
+
+@article{DBLP:journals/ccr/KoponenSBFGGGMPRRAK11,
+  author    = {Teemu Koponen and
+               Scott Shenker and
+               Hari Balakrishnan and
+               Nick Feamster and
+               Igor Ganichev and
+               Ali Ghodsi and
+               Brighten Godfrey and
+               Nick McKeown and
+               Guru M. Parulkar and
+               Barath Raghavan and
+               Jennifer Rexford and
+               Somaya Arianfar and
+               Dmitriy Kuptsov},
+  title     = {Architecting for innovation},
+  journal   = {Computer Communication Review},
+  volume    = {41},
+  number    = {3},
+  year      = {2011},
+  pages     = {24-36},
+  downloadsnonlocal        = {http://doi.acm.org/10.1145/2002250.2002256 PDF},
+}
+
+@inproceedings{DBLP:conf/sigmetrics/NguyenALCGS11,
+  author    = {Giang T. K. Nguyen and
+               Rachit Agarwal and
+               Junda Liu and
+               Matthew Caesar and
+               Brighten Godfrey and
+               Scott Shenker},
+  title     = {Slick packets},
+  booktitle = {SIGMETRICS},
+  year      = {2011},
+  pages     = {245-256},
+  downloadsnonlocal        = {http://doi.acm.org/10.1145/1993744.1993769 PDF},
+}
+
+@article{DBLP:journals/corr/abs-1201-1661,
+  author    = {Giang T. K. Nguyen and
+               Rachit Agarwal and
+               Junda Liu and
+               Matthew Caesar and
+               Brighten Godfrey and
+               Scott Shenker},
+  title     = {Slick Packets},
+  journal   = {CoRR},
+  volume    = {abs/1201.1661},
+  year      = {2012},
+  downloadsnonlocal        = {http://arxiv.org/pdf/1201.1661v1.pdf PDF}
+}
+
+@inproceedings{DBLP:conf/sigcomm/HinrichsGCMS09,
+  author    = {Timothy L. Hinrichs and
+               Natasha Gude and
+               Martin Casado and
+               John C. Mitchell and
+               Scott Shenker},
+  title     = {Practical declarative network management},
+  booktitle = {WREN},
+  year      = {2009},
+  pages     = {1-10},
+  downloadsnonlocal       = {http://doi.acm.org/10.1145/1592681.1592683 PDF},
+   
+   
+}
+
+@inproceedings{DBLP:conf/fast/ChunMSK09,
+  author    = {Byung-Gon Chun and
+               Petros Maniatis and
+               Scott Shenker and
+               John Kubiatowicz},
+  title     = {Tiered Fault Tolerance for Long-Term Integrity},
+  booktitle = {FAST},
+  year      = {2009},
+  pages     = {267-282},
+  downloadsnonlocal       = {http://www.usenix.org/events/fast09/tech/full_papers/chun/chun.pdf PDF},
+   
+   
+}
+
+
+@article{DBLP:journals/comcom/TangLLS09,
+  author    = {Li Tang and
+               Jun Li and
+               Yanda Li and
+               Scott Shenker},
+  title     = {An investigation of the Internet's IP-layer connectivity},
+  journal   = {Computer Communications},
+  volume    = {32},
+  number    = {5},
+  year      = {2009},
+  pages     = {913-926},
+  downloadsnonlocal       = {http://dx.doi.org/10.1016/j.comcom.2008.12.015 PDF},
+   
+}
+
+
+
+@inproceedings{DBLP:conf/fast/ErmolinskiyMCS09,
+  author    = {Andrey Ermolinskiy and
+               Daekyeong Moon and
+               Byung-Gon Chun and
+               Scott Shenker},
+  title     = {Minuet: Rethinking Concurrency Control in Storage Area Networks},
+  booktitle = {FAST},
+  year      = {2009},
+  pages     = {311-324},
+  downloadsnonlocal       =
+  {http://www.usenix.org/events/fast09/tech/full_papers/ermolinskiy/ermolinskiy.pdf PDF},
+   
+   
+}
+
+@article{DBLP:journals/ton/CasadoFPLGMS09,
+  author    = {Martin Casado and
+               Michael J. Freedman and
+               Justin Pettit and
+               Jianying Luo and
+               Natasha Gude and
+               Nick McKeown and
+               Scott Shenker},
+  title     = {Rethinking enterprise network control},
+  journal   = {IEEE/ACM Trans. Netw.},
+  volume    = {17},
+  number    = {4},
+  year      = {2009},
+  pages     = {1270-1283},
+  downloadsnonlocal       = {http://doi.acm.org/10.1145/1618562.1618582 PDF},
+   
+}
+
+@inproceedings{DBLP:conf/sigcomm/GodfreyGSS09,
+  author    = {Brighten Godfrey and
+               Igor Ganichev and
+               Scott Shenker and
+               Ion Stoica},
+  title     = {Pathlet routing},
+  booktitle = {SIGCOMM},
+  year      = {2009},
+  pages     = {111-122},
+  downloadsnonlocal       = {http://doi.acm.org/10.1145/1592568.1592583 PDF},
+   
+   
+}
+
+@mastersthesis{Marshall:EECS-2013-64,
+    Author = {Marshall, Scott},
+    Title = {CANDID: Classifying Assets in Networks by Determining Importance and Dependencies},
+    School = {EECS Department, University of California, Berkeley},
+    Year = {2013},
+    Month = {May},
+    URL = {http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-64.html},
+    Number = {UCB/EECS-2013-64},
+}
+
+@inproceedings{e2sosp,
+    title = {E2: A Framework for Network Function Virtualization},
+    author = {Shoumik Palkar and Chang Lan and Sangjin Han and Aurojit Panda and Keon Jang and Sylvia Ratnasamy and Luigi Rizzo and Scott Shenker}, 
+    booktitle = {Proc. ACM Symposium on Operating Systems Principles},
+    year = {2015}
+}
+
+@inproceedings{rb-contention,
+    author = {Mihai Dobrescu and Katerina Argyraki and Sylvia Ratnasamy},
+    booktitle = {Proceedings of the USENIX/ACM Symposium on Networked Systems Design and Implementation (NSDI)},
+    title = {Managing Resource Contention in Software-Based Networking (Mostly by Ignoring It)},
+    year = 2012 
+}
+
+@inproceedings{combo,
+    author = {Vyas Sekar and Norbert Egi and Sylvia Ratnasamy and Mike Reiter and Guangyu Shi},
+    booktitle = {Proceedings of the USENIX/ACM Symposium on Networked Systems Design and Implementation (NSDI)},
+    title = {The Design and Implementation of a Consolidated Middlebox Architecture},
+    year = 2012 
+}
+
+@inproceedings{combo-hotnets,
+    author = {Vyas Sekar and Sylvia Ratnasamy and Norbert Egi and Mike Reiter and Guangyu Shi},
+    booktitle = {Proceedings of the ACM Workshop on Hot Topics in Networks (HotNets)},
+    title = {The Middlebox Manifesto: Enabling Innovation in Middlebox Deployments},
+    year = 2011 
+}
+
+@inproceedings{faircloud-hotnets,
+    author = {Lucian Popa and Arvind Krishnamurthy and Sylvia Ratnasamy and Ion Stoica},
+    booktitle = {Proceedings of the ACM Workshop on Hot Topics in Networks (HotNets)},
+    title = {FairCloud: Sharing the Network in Cloud Computing},
+    year = 2011 
+}
+
+@inproceedings{rbf-osdi, 
+    title = {{Building Extensible Networks with Rule-Based Forwarding}},
+    author = {Lucian Popa and Sylvia Ratnasamy and Ion Stoica},
+    booktitle = {Proceedings of the Usenix Symposium on Operating Systems Design and Implementation (OSDI)},
+    year = 2010  
+}
+
+@inproceedings{dcn-conext, 
+    title = {{A Cost Comparison of Data Center Network Architectures}},
+    author = {Lucian Popa and Sylvia Ratnasamy and Gianluca Iannaccone and Arvind Krishnamurthy and Ion Stoica},
+    booktitle = {Proceedings of the ACM International Conference on emerging Networking Experiments and Technologies (CoNEXT)},
+    year = 2010  
+}
+
+@inproceedings{flatnames-conext, 
+    title = {{Scalable Routing on Flat Names}},
+    author = {Ankit Singla and Brighten Godfrey and Kevin Fall and Gianluca Iannaccone and Sylvia Ratnasamy},
+    booktitle = {Proceedings of the ACM International Conference on emerging Networking Experiments and Technologies (CoNEXT)},
+    year = 2010  
+}
+
+@inproceedings{contention-presto,
+    author = {Mihai Dobrescu and Katerina Argyraki and Gianluca Iannaccone and Sylvia Ratnasamy},
+    booktitle = {Proceedings of the ACM Sigcomm Workshop on Programmable Routers (PRESTO)},
+    title = {Controlling Parallelism in a Software Multicore Router},
+    year = 2010
+}
+
+@inproceedings{nics-presto,
+    author = {Maziar Manesh and Katerina Argyraki and Mihai Dobrescu and Norbert Egi and Kevin Fall and Gianluca Iannaccone and Eddie Kohler and Sylvia Ratnasamy},
+    booktitle = {Proceedings of the ACM Sigcomm Workshop on Programmable Routers (PRESTO)},
+    title = {Evaluating the Suitability of Server Network Cards for Software Routers},
+    year = 2010
+}
+
+@inproceedings{rb-sosp, 
+    title = {{RouteBricks: Exploiting Parallelism to Scale Software Routers}},
+    author = {Mihai Dobrescu and Norbert Egi and Katerina Argyraki and Byung-Gon Chun and Kevin Fall and Gianluca Iannaccone and Allan Knies and Maziar Manesh and Sylvia Ratnasamy},
+    booktitle = {Proceedings of the ACM Symposium on Operating Systems Principles (SOSP)},
+    year = 2009
+}
+
+@inproceedings{fibs-hotnets,
+    author = {Brighten Godfrey and Kevin Fall and Gianluca Iannaccone and Sylvia Ratnasamy},
+    booktitle = {Proceedings of the ACM Workshop on Hot Topics in Networks (HotNets)},
+    title = {Routing Tables: Is Smaller Really Better?},
+    year = 2009 
+}
+
+@inproceedings{rbf-hotnets,
+    author = {Lucian Popa and Ion Stoica and Sylvia Ratnasamy},
+    booktitle = {Proceedings of the ACM Workshop on Hot Topics in Networks (HotNets)},
+    title = {Rule-Based Forwarding: Improving the Internet's Flexibility and Security},
+    year = 2009 
+}
+

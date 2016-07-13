@@ -1,3 +1,0 @@
-bibtex2html is pretty quirky. Quirks encountered so far:
-  - You *must* use "booktitle" instead of "series"
-  - You *must* include a year field

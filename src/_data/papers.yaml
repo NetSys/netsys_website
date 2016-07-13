@@ -1,0 +1,14 @@
+- title: "Embark: Securely Outsourcing Middleboxes to the Cloud"
+  venue: "NSDI '16"
+  desc: >
+  url: "https://changlan.org/papers/embark.pdf"
+
+- title: "Universal Packet Scheduling"
+  venue: "NSDI '16"
+  desc: >
+  url: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-mittal.pdf"
+
+- title: "Minimizing Faulty Executions of Distributed Systems"
+  venue: "NSDI '16"
+  desc: >
+  url: "http://www.eecs.berkeley.edu/%7ercs/research/sts.pdf"

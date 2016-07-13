@@ -1,0 +1,351 @@
+- title: E2
+  url: "/projects/e2.html"
+  is_ongoing: true
+  participants: Shoumik Palkar, Chang Lan, Sangjin Han, Keon Jang, Aurojit Panda,
+    Melvin Walls, Christian Maciocco, Sylvia Ratnasamy, Joshua Reich,
+    Luigi Rizzo, Scott Shenker
+  desc: >
+    By moving network appliance functionality from proprietary hardware to software,
+    Network Function Virtualization promises to bring the advantages of cloud
+    computing to network packet processing. However, the evolution of cloud
+    computing (particularly for data analytics) has greatly benefited from
+    application-independent methods for scaling and placement that achieve high
+    efficiency while relieving programmers of these burdens. NFV has no such general
+    management solutions. To this end, we present E2 -- a scalable and
+    application-agnostic scheduling framework for packet processing.
+  feature_excerpt: >
+    E2 is a scalable and application-agnostic scheduling framework for packet
+    processing that aims to bring the ease of development and deployment seen by
+    cloud computing services to NFV.
+  links:
+    - {
+        name: SOSP Paper,
+        url: /static/papers/e2-sosp.pdf,
+        type: paper,
+        featured: true
+    }
+    - {
+        name: Slides,
+        url: /static/slides/IEEE-NFV2015-final.pptx,
+        type: slides
+    }
+    - {
+        name: Source Code,
+        url: "https://github.com/NetSys/e2",
+        type: code,
+    }
+
+- title: BESS
+  is_ongoing: true
+  participants: Sangjin Han, Keon Jang, Dongsu Han, Sylvia Ratnasamy
+  desc: >
+    Modern NICs implement various features in hardware, such as protocol
+    offloading, multicore supports, traffic control, and self virtualization. This
+    approach exposes several issues: protocol dependence, limited hardware resources,
+    and incomplete/buggy/non-compliant implementation. Even worse, the slow
+    evolution of hardware NICs due to increasingly overwhelming design
+    complexity cannot keep up in time with the new protocols and rapidly
+    changing network architectures. We introduce the SoftNIC architecture to
+    fill the gap between hardware capabilities and user demands. Our current
+    SoftNIC prototype implements sophisticated NIC features on a few dedicated
+    processor cores, while assuming only streamlined functionalities in
+    hardware. The preliminary evaluation results show that most NIC features can
+    be implemented in software with minimum performance cost, while the
+    flexibility of software provides further potential benefits.
+  feature_excerpt: >
+    BESS is a modular framework for software switches. BESS is neither
+    pre-configured or hardcoded to perform particular functionality. Instead, you
+    can configure your own packet processing datapath by composing small modules.
+  links:
+    - {
+        name: "Paper",
+        url: "http://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-155.pdf",
+        type: paper
+    }
+    - {
+        name: "Source Code",
+        url: "https://github.com/NetSys/bess",
+        type: code,
+        featured: true
+    }
+
+- title: NetBricks
+  is_ongoing: true
+  participants: Aurojit Panda, Sangjin Han, Keon Jang, Melvin Walls,
+    Sylvia Ratnasamy, Scott Shenker
+  desc: >
+    The move from hardware middleboxes to software net-work functions, as
+    advocated by NFV, has proven morechallenging than expected. Developing new NFs
+    remains a tedious process, with developers frequently having to re-discover and
+    reapply the same set of optimizations, while current techniques for safely
+    running multiple NFs (using VMs or containers) incur high performance overheads.
+    In this paper we describe NetBricks, a new NFV framework that aims to improve both
+    the building and running of NFs. For building NFs we take inspiration from
+    databases and modern data analytics frameworks (e.g.,Spark andMap Reduce) and
+    build a framework with a small set of customizable network processing elements.
+    To improve execution performance, NetBricks builds on safe languages and
+    runtimes to provide isolation in software, rather than relying on hardware
+    isolation. NetBricks provides memory isolation comparable to VMs, without the
+    associated performance penalties. To provide efficient I/O, we introducea novel
+    technique called zero-copy software isolation.
+
+- title: Quilt
+  is_ongoing: true
+  participants: Ethan J. Jackson, et. al
+  desc: >
+    Quilt aims to be the easiest way to deploy and network containers.
+
+    Traditional container orchestrators have a procedural API focused narrowly on
+    compute. The network, usually an afterthought, must be managed by a separate
+    system with its own independent API. This leaves operators with a complex task:
+    write a deployment script that configures everything necessary to get their
+    application up and running.
+
+    Quilt takes a different approach. It relies on a new domain specific language,
+    Stitch, to specify distributed applications, independent of the specific
+    infrastructure they run on. Given a stitch, Quilt can automatically deploy in a
+    variety of environments: Amazon EC2, Microsoft Azure, and Google Compute Engine,
+    with more coming soon. Furthermore it can do this with no setup -- just point
+    Quilt at a stitch and it will take care of the rest: booting virtual machines,
+    starting containers on those VMs, and ensuring they can communicate.
+
+    Quilt is currently in alpha and under heavy development. Please try it out! We
+    are eager for feedback!
+  feature_excerpt: >
+    Quilt aims to be the easiest way to deploy and network containers by relying
+    on a new domain specific language, Stitch, to specify distributed applications.
+  links:
+    - {
+        name: "Source Code",
+        url: "https://github.com/NetSys/quilt",
+        type: code,
+        featured: true
+    }
+
+- title: Recursively Cautious Congestion Control
+  is_ongoing: true
+  participants: Radhika Mittal, Justine Sherry, Sylvia Ratnasamy, Scott Shenker
+  desc: >
+    Any congestion control mechanism has two primary goals - to fill the pipe and to
+    do no harm to other flows in the network. These two goals conflict with
+    eachother – the former requires aggressiveness, whereas the latter requires
+    caution. Traditional approaches use the same mechanism (the sending rate) to
+    achieve these two conflicting goals. For example, TCP cautiously probes for
+    bandwidth using slow-start, starting with a small initial window and then
+    ramping up, in order to fill the pipe. As a result, it often takes flows several
+    round-trip times to fully utilize the available bandwidth.  RC3 simply decouples
+    these two goals by sending additional packets from the flow using several layers
+    of low priority service, to fill the pipe, while TCP runs as usual at higher
+    priority. It can therefore, quickly take advantage of available capacity from
+    the very first RTT to achieve near-optimal throughputs and smaller flow
+    completion times while preserving TCP-friendliness and fairness. In common
+    wide-area scenarios, RC3 results in a 40% reduction in average flow completion
+    times, with strongest improvements – more than 70% reduction in flow completion
+    time – seen in medium to large sized (100KB - 3MB) flows.
+  links:
+    - {
+        name: "HotNets Paper",
+        url: "http://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final19.pdf",
+        type: paper,
+    }
+
+- title: CANDID - Classifying Assets in Networks by Determining Importance and Dependencies
+  is_ongoing: true
+  participants: Scott Marshall, Sylvia Ratnasamy, and Vern Paxson
+  desc: >
+    CANDID is a passive NetFlow-based network traffic analysis platform targeted at
+    inferring relationships and dependencies among services running on hosts in
+    enterprise networks. These networks present challenges of great scale,
+    complexity, and nonstop dynamism, which hinder the ability for network
+    administrators to maintain insight into the complex relationships that exist in
+    these networks. Consequently, administrators do not always know how best to
+    proceed if a network failure occurs. CANDID strives to empower administrators by
+    illuminating these relationships, such that they will be prepared to remedy
+    complex service failures. The solutions we present take the first steps towards
+    understanding these complex in-network relationships, with a special focus on
+    inferring one class of dependencies and detecting load balanced services. The
+    current focal point of our work is two radically different, yet complementary,
+    strategies for inferring the presence of load balancing for pairs of systems. We
+    leverage a case study using real NetFlow data from the network located at
+    Lawrence Berkeley National Lab to validate our strategies. Promising results
+    indicate this problem space is rich with unanswered research questions and is
+    worthy of further exploration.
+  links:
+    - {
+        name: "M.S. Thesis",
+        url: "http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-64.html",
+        type: paper,
+    }
+
+- title: STS
+  is_ongoing: true
+  participants: Colin Scott, Andreas Wundsam, Barath Raghavan, Aurojit Panda,
+    Zhi Liu, Sam Whitlock, Ahmed El-Hassany, Andrew Or, Jefferson Lai, Eugene Huang,
+    Kyriakos Zarifis, and Scott Shenker
+  desc: >
+    Software bugs are inevitable in software-defined networking control software,
+    and troubleshooting is a tedious, time-consuming task. In this paper we discuss
+    how to improve control software troubleshooting by presenting a technique for
+    automatically identifying a minimal sequence of inputs responsible for
+    triggering a given bug, without making assumptions about the language or
+    instrumentation of the software under test. We apply our technique to five open
+    source SDN control platforms—Floodlight, NOX, POX, Pyretic, ONOS—and illustrate
+    how the minimal causal sequences our system found aided the troubleshooting
+    process.
+  links:
+    - {
+        name: "Paper Draft",
+        url: "http://www.eecs.berkeley.edu/~rcs/research/sts.pdf",
+        type: paper,
+    }
+    - {
+        name: "Stanford CTO Summit Slides",
+        url: "http://www.eecs.berkeley.edu/~rcs/research/troubleshooting_with_mcses.pptx",
+        type: slides,
+    }
+    - {
+        name: "Source Code",
+        url: "http://ucb-sts.github.com/sts/",
+        type: code,
+    }
+
+- title: Sparrow
+  is_ongoing: true
+  participants: Kay Outerhout, Patrick Wendall, Matei Zaharia, Ion Stoica
+  desc: >
+    Sparrow is a high throughput, low latency distributed cluster scheduler. Sparrow
+    is designed for applications that require frequent research allocations due to
+    launching very short jobs (e.g., jobs composed of 100ms tasks). To ensure that
+    scheduling does not become a bottleneck, Sparrow distributes scheduling over
+    several loosely coordianted machines. Each scheduler uses a constant-time
+    scheduling algorithm based on on-demand feedback acquired by probing slave
+    machines. Sparrow can perform task scheduling in milliseconds, two orders of
+    magnitude faster than existing approaches.
+  links:
+    - {
+        name: "Tech Report",
+        url: "http://www.pwendell.com/docs/sparrow-submission.pdf",
+        type: paper,
+    }
+    - {
+        name: "Source Code",
+        url: "https://github.com/radlab/sparrow",
+        type: code,
+    }
+
+- title: MegaPipe
+  is_ongoing: true
+  participants: Sangjin Han, Scott Marshall, Byung-Gon Chun, and Sylvia Ratnasamy
+  desc: >
+    BSD Sockets has been a de facto standard API for network programming. While it
+    provides a simple and portable way to perform network I/O, it shows suboptimal
+    performance for “message-oriented” network workloads, where connections are
+    short or messages are small. This problem is exacerbated by its poor scalability
+    on multi-core processors. In this work, we explore the benefits of a clean-slate
+    design of network APIs aimed at achieving both high performance and ease of
+    programming. We present MegaPipe, a new API for efficient, scalable network I/O,
+    and evaluate its efficiency and effectiveness with a proof-of-concept
+    implementation.
+  links:
+    - {
+        name: "OSDI Paper",
+        url: "http://www.eecs.berkeley.edu/~sangjin/static/pub/osdi2012_megapipe.pdf",
+        type: paper,
+    }
+
+- title: DDC
+  is_ongoing: true
+  participants: Junda Liu, Aurojit Panda, Ankit Singla, P. Brighten Godfrey, Michael Schapira, Scott Shenker
+  desc: >
+    Ensuring basic connectivity in the network is generally handled by the control
+    plane. However control plane convergence times are several orders of magnitude
+    larger than the rate at which switches forward packets, which means that after a
+    failure the network might be disrupted for a while, even though the network is
+    not partitioned. Traditionally, networks have handled this problem by
+    precomputing a set of backup paths, over which traffic can be redirected in the
+    case of link failures. The most widely deployed example of such a mechanism is
+    MPLS FRR, however MPLS fast-reroute can only handle a limited number of link
+    failures. A natural question that arises is whether one could design a static
+    mechanism, capable of dealing with any arbitrary set of link failures? We have
+    shown that a static mechanism cannot handle an arbitrary set of failures.
+
+    Given this result, one must rely on a dynamic mechanism to guarantee ideal
+    connectivity (i.e. packets are delivered as long as a network is connected, and
+    barring congestion related drops). Previous work in this area, has resulted in
+    algorithms that both require unbounded space in packet headers, and NP-complete
+    computations to provide this guarantee. We propose a new algorithm, Data Driven
+    Connectivity, which guarantees ideal connectivity, uses a single bit in the
+    packet header, and can be carried out at line rate. 
+  links:
+    - {
+        name: "NSDI Paper",
+        url: "http://eecs.berkeley.edu/~apanda/paper/nsdi13.pdf",
+        type: paper,
+    }
+
+- title: APLOMB
+  is_ongoing: true
+  participants: Justine Sherry, Shaddi Hasan, Colin Scott, Arvind Krishnamurthy, Sylvia Ratnasamy, Vyas Sekar
+  desc: >
+    Middleboxes – such as firewalls, proxies, and WAN optimizers – have become
+    almost ubiquitous in modern enterprises. In a survey of 57 enterprise network
+    administrators, we found that these devices, while popular, are costly, error
+    prone, and hard to manage. To ease these challenges, we developed APLOMB: a
+    service for outsourcing middleboxes to the cloud entirely. With APLOMB,
+    enterprise clients tunnel all of their Internet traffic to and from a cloud
+    provider; the traffic undergoes middlebox processing at the cloud before being
+    forwarded out to the Internet at large. Our implementation is built from open
+    source components including Vyatta and OpenVPN; we hope to have a
+    publicly-available service soon. 
+  links:
+    - {
+        name: "SIGCOMM Paper",
+        url: "http://homes.cs.washington.edu/~arvind/papers/mbox-cloud.pdf",
+        type: paper,
+    }
+
+- title: NetCalls
+  is_ongoing: true
+  participants: Justine Sherry, Shaddi Hasan, Colin Scott, Arvind Krishnamurthy, Sylvia Ratnasamy, Vyas Sekar
+  desc: >
+    Modern networks deploy middleboxes to support numerous advanced processing
+    capabilities such as firewalling, traffic compression, and caching. Despite the
+    widespread deployment of these features, they are nevertheless invisible to the
+    end hosts using the network. We designed ‘network calls’ (netcalls) to allow end
+    hosts to make function calls to the network processing their traffic, allowing
+    the end hosts to invoke and configure the numerous advanced features provided by
+    the networks their traffic traverses. For example, we built a web server that,
+    upon detecting it is under attack using application-layer knowledge, adds
+    additional filters to the firewalls in its network. A key challenge to netcalls
+    is that we want to allow advanced configuration to end hosts not only in their
+    local network, but in any network their traffic traverses. Thus, the netcalls
+    architecture lies primarily in two components: an intra-domain protocol for end
+    hosts to invoke function calls with their network provider, and an inter-domain
+    protocol, by which providers invoke features in each others networks on behalf
+    of their clients. Source code forthcoming.
+  links:
+    - {
+        name: "Tech Report",
+        url: "http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-240.html",
+        type: paper,
+    }
+
+- title: POX
+  is_ongoing: true
+  participants:
+  desc: >
+    POX is a Python framework for writing network control software. At its most
+    minimal, it is an OpenFlow controller. It targets research and education, and
+    favors ease of use over most other concerns.
+  links:
+    - {
+        name: "Website",
+        url: "http://www.noxrepo.org/",
+        type: misc,
+    }
+    - {
+        name: "Source Code",
+        url: "https://github.com/noxrepo/pox",
+        type: code,
+    }
+

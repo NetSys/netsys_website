@@ -1,0 +1,138 @@
+---
+layout: default
+title: Project Page
+---
+<div class="row" style="margin-top: 2em;">
+    <div class="col-md-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h1>E2</h1>
+                <h2>A Framework for NFV Applications</h2>
+                <p>
+                By moving network appliance functionality from proprietary
+                hardware to software, Network Function Virtualization promises
+                to bring the advantages of cloud computing to network packet
+                processing. However, the evolution of cloud computing
+                (particularly for data analytics) has greatly benefited from
+                application-independent methods for scaling and placement that
+                achieve high efficiency while relieving programmers of these
+                burdens. NFV has no such general management solutions. To this
+                end, we present E2 -- a scalable and application-agnostic
+                scheduling framework for packet processing.
+                </p>
+                <p>
+                    <a class="btn btn-primary" href="/static/papers/e2-sosp.pdf" role="button">
+                        <span class="glyphicon glyphicon-file"></span>
+                        SOSP Paper
+                    </a>
+
+                    <a class="btn btn-primary" href="/static/slides/IEEE-NFV2015-final.pptx" role="button">
+                        <span class="glyphicon glyphicon-picture"></span>
+                        Slides
+                    </a>
+
+                    <a class="btn btn-primary" href="https://github.com/NetSys/e2" role="button">
+                        <span class="glyphicon glyphicon-github"></span>
+                        Source Code
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="thumbnail">
+            <img src="http://span.cs.berkeley.edu/static/images/e2-arch.png">
+            <div class="caption">
+                <h3>Architecture</h3>
+                <p>
+                E2 is made up of three main system components: the E2 Manager
+                which orchestrates overall operation of the cluster, a Server
+                Agent that manages operation within each server, and the E2
+                Dataplane (E2D) that acts as a software traffic processing layer
+                beneath the NFs at each server. The E2 Manager interfaces with
+                the hardware switch(es) through standard switch APIs and with
+                the Server Agents.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>Pipelets</h3>
+                <p>
+                E2 provides a declarative interface through which the global SDN
+                controller tells each E2 cluster how traffic should be
+                processed. It does so by specifying a set of policy statements
+                that we call pipelets. Each pipelet defines a traffic class and
+                a corresponding directed acyclic graph (DAG) that captures how
+                this traffic class should be processed by NFs.
+                </p>
+            </div>
+            <img src="http://span.cs.berkeley.edu/static/images/e2-pipelet.png">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="thumbnail">
+            <img src="http://span.cs.berkeley.edu/static/images/e2-fig10.png">
+            <div class="caption">
+                <h3>Dynamic Scaling</h3>
+                <p>
+                E2 provides hooks for NFs to report on their instantaneous load,
+                and the E2D detects overloads based on queues and processing
+                delays. When the E2D detects overload, it splits the overloaded
+                NF instance to lighten the load. This involves placing the new
+                instances, setting up new interconnection state, and considering
+                the affinity requirements of flows, so it is not to be done
+                lightly. Pictured above is the traffic load at an overloaded NF
+                instance and its corresponding new instance with migration
+                avoidance enabled (original NF splits at 2s).
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="thumbnail">
+            <img src="http://span.cs.berkeley.edu/static/images/e2-split.png">
+            <div class="caption">
+                <h3>Migration Avoidance</h3>
+                <p>
+                E2 employs a novel migration avoidance strategy in which the
+                hardware and software switches act in concert to maintain flow
+                affinity. This scheme does not require state migration and is
+                designed to minimize the number of flow table entries used on
+                the hardware switch to pass traffic to NF instances
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>The Team</h3>
+                <ul>
+                    <li>Shoumik Palkar</li>
+                    <li>Chang Lan</li>
+                    <li>Sangjin Han</li>
+                    <li>Keon Jang</li>
+                    <li>Aurojit Panda</li>
+                    <li>Melvin Walls</li>
+                    <li>Christian Maciocco</li>
+                    <li>Sylvia Ratnasamy</li>
+                    <li>Joshua Reich</li>
+                    <li>Luigi Rizzo</li>
+                    <li>Scott Shenker</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

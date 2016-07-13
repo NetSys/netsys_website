@@ -1,0 +1,24 @@
+gems: ['jekyll-paginate', 'jekyll/scholar']
+name: NetSys
+markdown: redcarpet
+source: ./src
+destination: ./build
+excerpt_separator: <!--more--> 
+paginate: 5
+paginate_path: "/news/page:num"
+
+scholar:
+  style: ./src/static/acm-mod.csl
+  locale: en
+
+  sort_by: year
+  order: desc
+
+  source: ./src/_bibliography
+  bibliography: references
+  bibliography_template: '{% if entry.series %}<strong>[{{entry.series}}]</strong>{% endif %} {{reference}} [<a href="{{entry.url}}">PDF</a>]'
+
+  replace_strings: true
+  join_strings:    true
+
+  query: "@*"

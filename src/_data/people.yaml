@@ -1,0 +1,209 @@
+- name: Sylvia Ratnasamy
+  c_affil: ucb
+  c_cate: faculty
+  pic_url: static/img/people/ratnasamy.jpg
+  email: sylvia@eecs.berkeley.edu
+  homepage: http://www.eecs.berkeley.edu/~sylvia/
+  bio: > 
+    Sylvia Ratnasamy is an Assistant Professor in Computer Science at the
+    University of California, Berkeley. She received her Ph.D. in Computer Science
+    from U.C. Berkeley in 2002 and a B.E. from the University of Pune, India in
+    1997. Prior to joining U.C. Berkeley, Sylvia was a senior research scientist at
+    Intel where her work focussed on the design and implementation of
+    energy-efficient and programmable networks. She is a recipient of the ACM
+    SIGCOMM Test-of-Time award, the ACM SIGCOMM Rising Star award, the Alfred P.
+    Sloan research fellowship, the Intel Early Career Faculty Award, the Yahoo! ACE
+    Award and best paper awards at ACM SOSP and ACM IMC.
+
+- name: Scott Shenker
+  c_affil: ucb
+  c_cate: faculty
+  pic_url: static/img/people/shenker.jpg
+  email: shenker@icsi.berkeley.edu
+  homepage: http://www.icsi.berkeley.edu/icsi/people/shenker
+  bio: >
+    Scott Shenker is a professor in the Electrical Engineering and Computer
+    Sciences Department at the University of California, Berkeley. He is also the
+    chief scientist and the leader of the Networking Group at the International
+    Computer Science Institute, where he was a founding member of the ICSI Center
+    for Internet Research. He received his doctorate in physics in 1983 from the
+    University of Chicago, and was later awarded an honorary doctorate from the
+    same university in recognition of his contributions to Internet architecture.
+    He has received both the SIGCOMM and IEEE Internet awards.  Along with Martin
+    Casado and Nick McKeown, he has been a leader in the movement toward
+    Software-Defined Networking. In terms of commercial activities, he was
+    co-founder (with Casado and McKeown), founding CEO, and chief scientist of
+    Nicira.
+
+- name: Peter Gao
+  c_affil: ucb
+  c_cate: grad
+  pic_url: static/img/people/peter.jpg
+  email: petergao@berkeley.edu
+  homepage: http://petergao.net/
+
+- name: Sangjin Han
+  c_affil: ucb
+  c_cate: grad
+  pic_url: static/img/people/sangjin.jpg
+  email: sangjin@eecs.berkeley.edu
+  homepage: https://www.eecs.berkeley.edu/~sangjin
+
+- name: Gautam Kumar
+  c_affil: ucb
+  c_cate: alumni
+  pic_url: static/img/people/gautam.jpg
+  email: gautamk@eecs.berkeley.edu
+  homepage: https://www.eecs.berkeley.edu/~gautamk
+
+- name: Chang Lan
+  c_cate: grad
+  pic_url: static/img/people/chang.jpg
+  email: clan@eecs.berkeley.edu
+  homepage: https://www.eecs.berkeley.edu/~clan
+
+- name: Murphy McCauley
+  c_cate: grad
+  pic_url: static/img/people/murphy.jpg
+  email: murphy.mccauley@gmail.com
+
+- name: Radhika Mittal
+  c_cate: grad
+  pic_url: static/img/people/radhika.jpg
+  email: radhika@eecs.berkeley.edu
+  homepage: https://www.eecs.berkeley.edu/~radhika
+
+- name: Kay Ousterhout
+  c_cate: grad
+  pic_url: static/img/people/kay.jpg
+  email: keo@cs.berkeley.edu
+  homepage: https://www.eecs.berkeley.edu/~keo
+
+- name: Aurojit Panda
+  c_cate: grad
+  pic_url: static/img/people/panda.jpg
+  email: apanda@cs.berkeley.edu
+  homepage: https://www.eecs.berkeley.edu/~apanda
+
+- name: Aisha Mushtaq
+  c_affil: ucb
+  c_cate: grad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Amin Tootoonchian
+  c_cate: staff
+  pic_url: static/img/people/amin.jpg
+  email: amin@cs.toronto.edu
+  homepage: http://www.cs.toronto.edu/~amin/
+
+- name: Joshua Reich
+  c_cate: staff
+  pic_url: static/img/people/reich.jpg
+  email: jreich@research.att.com
+  homepage: http://www.cs.columbia.edu/~reich
+
+- name: Colin Scott
+  c_cate: alumni
+  pic_url: static/img/people/colin.jpg
+  email: rcs@eecs.berkeley.edu
+  homepage: https://www.eecs.berkeley.edu/~rcs
+
+- name: Justine Sherry
+  c_cate: alumni
+  pic_url: static/img/people/justine.jpg
+  email: justine@eecs.berkeley.edu
+  homepage: https://www.cs.berkeley.edu/~justine
+
+- name: Ethan J. Jackson
+  c_cate: grad
+  pic_url: static/img/people/no_image.jpg
+  email: ejj@eecs.berkeley.edu
+  homepage: https://www.cs.berkeley.edu/~ejj
+
+- name: Zafar Ayyub Qazi
+  c_cate: staff
+  pic_url: static/img/people/zafar.jpg
+  email: zaqazi@berkeley.edu
+  homepage: https://people.eecs.berkeley.edu/~zaqazi/
+
+- name: Melvin Walls
+  c_cate: staff
+  pic_url: static/img/people/no_image.jpg
+  email: mwalls@berkeley.edu
+
+- name: Shoumik Palkar
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
+
+- name: Akshay Narayan
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
+
+- name: Christopher Canel
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
+
+- name: Soumya Basu
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
+
+- name: Eric Shen
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
+
+- name: Aleks Kamko
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
+
+- name: Zhongtian Wang
+  c_cate: staff
+  pic_url: static/img/people/no_image.jpg
+
+- name: Alice Sheng
+  c_cate: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Kevin Lin
+  c_cate: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Luise Valentin
+  c_cate: undergrad
+  pic_url: static/img/people/luise.jpg
+  homepage: https://www.linkedin.com/in/luisevalentinrygaard
+
+- name: Matthew Mussomele
+  c_cate: undergrad
+  pic_url: static/img/people/no_image.jpg
+  homepage: https://mmussomele.github.io/
+
+- name: Steven H. Wang
+  c_cate: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Vivian Fang
+  c_cate: undergrad
+  pic_url: static/img/people/vivian.jpg
+  homepage: http://www.vivian.tk/
+
+- name: Jack Zhao
+  c_cate: undergrad
+  pic_url: static/img/people/jack.png
+
+- name: Brian Kim
+  c_cate: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Yuen Mei Wan
+  c_cate: alumni
+  pic_url: static/img/people/mei.jpg
+  homepage: https://www.linkedin.com/in/wanyuenmei
+
+- name: Nicholas Sun
+  c_cate: alumni
+  pic_url: static/img/people/nlsun.jpeg
+  homepage: http://www.nlsun.com/
+
+- name: Max Wolffe
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
