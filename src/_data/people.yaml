@@ -56,6 +56,11 @@
   email: gautamk@eecs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~gautamk
 
+- name: Scott Marshal
+  c_affil: ucb
+  c_cate: alumni
+  pic_url: static/img/people/no_image.jpg
+
 - name: Chang Lan
   c_cate: grad
   pic_url: static/img/people/chang.jpg
