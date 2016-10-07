@@ -13,10 +13,6 @@
     efficiency while relieving programmers of these burdens. NFV has no such general
     management solutions. To this end, we present E2 -- a scalable and
     application-agnostic scheduling framework for packet processing.
-  feature_excerpt: >
-    E2 is a scalable and application-agnostic scheduling framework for packet
-    processing that aims to bring the ease of development and deployment seen by
-    cloud computing services to NFV.
   links:
     - {
         name: SOSP Paper,
@@ -60,7 +56,8 @@
     - {
         name: "Paper",
         url: "http://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-155.pdf",
-        type: paper
+        type: paper,
+        featured: true
     }
     - {
         name: "Source Code",
@@ -88,6 +85,24 @@
     isolation. NetBricks provides memory isolation comparable to VMs, without the
     associated performance penalties. To provide efficient I/O, we introducea novel
     technique called zero-copy software isolation.
+  feature_excerpt: >
+    NetBricks is a safe and fast framework for rapid development of network
+    functions for use in NFV written using Rust and DPDK. NetBricks aims to make it
+    faster to develop new NFs, while also providing faster mechanisms for safely
+    chaining NFs. 
+  links:
+    - {
+        name: "Paper",
+        url: "https://people.eecs.berkeley.edu/~apanda/assets/papers/osdi16.pdf",
+        type: paper,
+        featured: true
+    }
+    - {
+        name: "Source Code",
+        url: "https://github.com/netsys/NetBricks",
+        type: code,
+        featured: true
+    }
 
 - title: Quilt
   is_ongoing: true
