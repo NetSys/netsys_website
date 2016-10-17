@@ -125,6 +125,11 @@
   email: ejj@eecs.berkeley.edu
   homepage: https://www.cs.berkeley.edu/~ejj
 
+- name: Michael Chang
+  c_cate: grad
+  pic_url: static/img/people/michael_chang.png
+  homepage: https://michaelchang.me
+
 - name: Zafar Ayyub Qazi
   c_cate: staff
   pic_url: static/img/people/zafar.jpg
@@ -163,6 +168,10 @@
 - name: Zhongtian Wang
   c_cate: staff
   pic_url: static/img/people/no_image.jpg
+
+- name: Xiaohe Hu
+  c_cate: staff
+  pic_url: static/img/people/xiaohe.jpg
 
 - name: Alice Sheng
   c_cate: undergrad
