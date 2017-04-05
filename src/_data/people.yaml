@@ -128,7 +128,7 @@
 - name: Michael Chang
   c_cate: grad
   pic_url: static/img/people/michael_chang.png
-  homepage: https://michaelchang.me
+  homepage: http://michaelchang.me
 
 - name: Zafar Ayyub Qazi
   c_cate: staff
@@ -221,3 +221,10 @@
 - name: Max Wolffe
   c_cate: alumni
   pic_url: static/img/people/no_image.jpg
+
+- name: Marc Körner
+  c_affil: ucb
+  c_cate: staff
+  pic_url: static/img/people/marc.png
+  email: koerner@icsi.berkeley.edu
+  homepage: http://www.user.tu-berlin.de/marc.koerner/
