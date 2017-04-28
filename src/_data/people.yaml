@@ -228,3 +228,13 @@
   pic_url: static/img/people/marc.png
   email: koerner@icsi.berkeley.edu
   homepage: http://www.user.tu-berlin.de/marc.koerner/
+
+- name: Torsten Runge
+  c_affil: ucb
+  c_cate: staff
+  pic_url: static/img/people/torsten.jpg
+
+- name: Carlyn Chinen
+  c_affil: ucb
+  c_cate: staff
+  pic_url: static/img/people/carlyn.jpg
