@@ -95,6 +95,12 @@
   c_cate: grad
   pic_url: static/img/people/no_image.jpg
 
+- name: Silvery Fu
+  c_affil: ucb
+  c_cate: grad
+  pic_url: static/img/people/silvery.jpg
+  email: silvery@eecs.berkeley.edu
+
 - name: Amin Tootoonchian
   c_cate: staff
   pic_url: static/img/people/amin.jpg
