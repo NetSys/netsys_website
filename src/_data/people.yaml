@@ -4,7 +4,7 @@
   pic_url: static/img/people/ratnasamy.jpg
   email: sylvia@eecs.berkeley.edu
   homepage: http://www.eecs.berkeley.edu/~sylvia/
-  bio: > 
+  bio: >
     Sylvia Ratnasamy is an Assistant Professor in Computer Science at the
     University of California, Berkeley. She received her Ph.D. in Computer Science
     from U.C. Berkeley in 2002 and a B.E. from the University of Pune, India in
@@ -176,7 +176,7 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Xiaohe Hu
-  c_cate: staff
+  c_cate: alumni
   pic_url: static/img/people/xiaohe.jpg
 
 - name: Alice Sheng
@@ -184,7 +184,7 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Kevin Lin
-  c_cate: undergrad
+  c_cate: alumni
   pic_url: static/img/people/no_image.jpg
 
 - name: Luise Valentin
@@ -198,7 +198,7 @@
   homepage: https://mmussomele.github.io/
 
 - name: Steven H. Wang
-  c_cate: undergrad
+  c_cate: alumni
   pic_url: static/img/people/no_image.jpg
 
 - name: Vivian Fang
@@ -207,7 +207,7 @@
   homepage: http://www.vivian.tk/
 
 - name: Jack Zhao
-  c_cate: undergrad
+  c_cate: alumni
   pic_url: static/img/people/jack.png
 
 - name: Brian Kim
@@ -239,6 +239,7 @@
   c_affil: ucb
   c_cate: staff
   pic_url: static/img/people/torsten.jpg
+  homepage: https://tm-runge.github.io/
 
 - name: Carlyn Chinen
   c_affil: ucb
