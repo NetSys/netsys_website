@@ -49,6 +49,12 @@
   email: sangjin@eecs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~sangjin
 
+- name: Wen Zhang
+  c_affil: ucb
+  c_cate: grad
+  pic_url: static/img/people/no_image.jpg
+  email: zhangwen@cs.berkeley.edu
+
 - name: Gautam Kumar
   c_affil: ucb
   c_cate: alumni
@@ -79,13 +85,13 @@
   homepage: https://www.eecs.berkeley.edu/~radhika
 
 - name: Kay Ousterhout
-  c_cate: grad
+  c_cate: alumni
   pic_url: static/img/people/kay.jpg
   email: keo@cs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~keo
 
 - name: Aurojit Panda
-  c_cate: grad
+  c_cate: alumni
   pic_url: static/img/people/panda.jpg
   email: apanda@cs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~apanda

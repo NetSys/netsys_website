@@ -1,6 +1,6 @@
-#USERNAME = `whoami`
-USERNAME=mwalls
-REMOTE=$(USERNAME)@login.eecs.berkeley.edu:/project/cs/netsys/www/netsys/data/
+USERNAME = `whoami`
+#USERNAME=mwalls
+REMOTE=$(USERNAME)@watson.millennium.berkeley.edu:/project/cs/netsys/www/netsys/data/
 
 build:
 	bundle exec jekyll build
@@ -9,4 +9,4 @@ test:
 	bundle exec jekyll serve --watch
 
 push:
-	scp -r ./build/* ${REMOTE}
+	rsync -avzP ./build/ ${REMOTE}
