@@ -52,7 +52,7 @@
 - name: Wen Zhang
   c_affil: ucb
   c_cate: grad
-  pic_url: static/img/people/no_image.jpg
+  pic_url: static/img/people/wen.jpg
   email: zhangwen@cs.berkeley.edu
 
 - name: Gautam Kumar
@@ -106,6 +106,24 @@
   c_cate: grad
   pic_url: static/img/people/silvery.jpg
   email: silvery@eecs.berkeley.edu
+
+- name: Emmanuel Amaro
+  c_affil: ucb
+  c_cate: grad
+  pic_url: static/img/people/emmanuel.png
+  email: amaro@berkeley.edu
+
+- name: Anwar Hithnawi 
+  c_cate: staff
+  pic_url: static/img/people/anwar.jpg
+  email: hithnawi@eecs.berkeley.edu
+  homepage: https://people.eecs.berkeley.edu/~hithnawi/
+
+- name: Yotam Harchol
+  c_cate: staff
+  pic_url: static/img/people/yotam.jpg
+  email: yotamhc@berkeley.edu
+  homepage: http://www.yotamharchol.com/
 
 - name: Amin Tootoonchian
   c_cate: staff
