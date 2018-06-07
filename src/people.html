@@ -2,6 +2,8 @@
 layout: default
 title: People
 ---
+
+{% assign people = site.data.people | sort: 'name' %}
 <div class="row">
     <h1 class="col-md-12">People</h1>
 
@@ -25,16 +27,7 @@ title: People
                 </div>
                 <div class="col-md-12">
             {% endif %}
-            <div class="col-md-2 person">
-                {% if person.homepage %}
-                    <a href="{{ person.homepage }}">
-                {% endif %}
-                <img class="people-pic img-thumbnail" src="{{ person.pic_url }}" alt="">
-                <p>{{ person.name }}</p>
-                {% if person.homepage %}
-                    </a>
-                {% endif %}
-            </div>
+            {% include person.html person=person %}
             {% capture v %}{% increment fidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
@@ -42,23 +35,14 @@ title: People
 
     <h2 id="graduate" class="col-md-12">Graduate Students</h2>
     <div class="col-md-12">
-    {% for person in site.data.people %}
+    {% for person in people %}
         {% if person.c_cate == "grad" %}
             {% assign m = gidx | modulo: 6 %}
             {% if m == 0 %}
                 </div>
                 <div class="col-md-12">
             {% endif %}
-            <div class="col-md-2 person">
-                {% if person.homepage %}
-                    <a href="{{ person.homepage }}">
-                {% endif %}
-                <img class="people-pic img-thumbnail" src="{{ person.pic_url }}" alt="">
-                <p>{{ person.name }}</p>
-                {% if person.homepage %}
-                    </a>
-                {% endif %}
-            </div>
+            {% include person.html person=person %}
             {% capture v %}{% increment gidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
@@ -66,23 +50,14 @@ title: People
  
     <h2 id="staff" class="col-md-12">Post-Docs, Staff, and Visitors</h2>
     <div class="col-md-12">
-    {% for person in site.data.people %}
+    {% for person in people %}
         {% if person.c_cate == "staff" or person.c_cate == "visitor" or person.c_cate == "postdoc" %}
             {% assign m = sidx | modulo: 6 %}
             {% if m == 0 %}
                 </div>
                 <div class="col-md-12">
             {% endif %}
-            <div class="col-md-2 person">
-                {% if person.homepage %}
-                    <a href="{{ person.homepage }}">
-                {% endif %}
-                <img class="people-pic img-thumbnail" src="{{ person.pic_url }}" alt="">
-                <p>{{ person.name }}</p>
-                {% if person.homepage %}
-                    </a>
-                {% endif %}
-            </div>
+            {% include person.html person=person %}
             {% capture v %}{% increment sidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
@@ -90,50 +65,35 @@ title: People
 
     <h2 id="undergraduate" class="col-md-12">Undergaduate Students</h2>
     <div class="col-md-12">
-    {% for person in site.data.people %}
+    {% for person in people %}
         {% if person.c_cate == "undergrad" %}
             {% assign m = uidx | modulo: 6 %}
             {% if m == 0 %}
                 </div>
                 <div class="col-md-12">
             {% endif %}
-            <div class="col-md-2 person">
-                {% if person.homepage %}
-                    <a href="{{ person.homepage }}">
-                {% endif %}
-                <img class="people-pic img-thumbnail" src="{{ person.pic_url }}" alt="">
-                <p>{{ person.name }}</p>
-                {% if person.homepage %}
-                    </a>
-                {% endif %}
-            </div>
+            {% include person.html person=person %}
             {% capture v %}{% increment uidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
     </div>
 
+    {% assign alumni = people | group_by: "c_before" %}
     <h2 id="alumni" class="col-md-12">Alumni</h2>
     <div class="col-md-12">
-    {% for person in site.data.people %}
-        {% if person.c_cate == "alumni" %}
-            {% assign m = aidx | modulo: 6 %}
-            {% if m == 0 %}
-                </div>
-                <div class="col-md-12">
-            {% endif %}
-            <div class="col-md-2 person">
-                {% if person.homepage %}
-                    <a href="{{ person.homepage }}">
-                {% endif %}
-                <img class="people-pic img-thumbnail" src="{{ person.pic_url }}" alt="">
-                <p>{{ person.name }}</p>
-                {% if person.homepage %}
-                    </a>
-                {% endif %}
-            </div>
-
-            {% capture v %}{% increment aidx %}{% endcapture %}
-        {% endif %}
+    {% for type in alumni %}
+        {% assign people = type.items | sort: "name" %}
+        {% for person in people %}
+          {% if person.c_cate == "alumni" %}
+              {% assign m = aidx | modulo: 6 %}
+              {% if m == 0 %}
+                  </div>
+                  <div class="col-md-12">
+              {% endif %}
+              {% include person.html person=person %}
+              {% capture v %}{% increment aidx %}{% endcapture %}
+          {% endif %}
+        {% endfor %}
     {% endfor %}
     </div>
 </div>

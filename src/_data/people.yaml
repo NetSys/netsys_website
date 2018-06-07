@@ -1,6 +1,7 @@
 - name: Sylvia Ratnasamy
   c_affil: ucb
   c_cate: faculty
+  c_before: faculty
   pic_url: static/img/people/ratnasamy.jpg
   email: sylvia@eecs.berkeley.edu
   homepage: http://www.eecs.berkeley.edu/~sylvia/
@@ -18,6 +19,7 @@
 - name: Scott Shenker
   c_affil: ucb
   c_cate: faculty
+  c_before: faculty
   pic_url: static/img/people/shenker.jpg
   email: shenker@icsi.berkeley.edu
   homepage: http://www.icsi.berkeley.edu/icsi/people/shenker
@@ -38,6 +40,7 @@
 - name: Peter Gao
   c_affil: ucb
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/peter.jpg
   email: petergao@berkeley.edu
   homepage: http://petergao.net/
@@ -45,6 +48,7 @@
 - name: Sangjin Han
   c_affil: ucb
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/sangjin.jpg
   email: sangjin@eecs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~sangjin
@@ -52,12 +56,14 @@
 - name: Wen Zhang
   c_affil: ucb
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/wen.jpg
   email: zhangwen@cs.berkeley.edu
 
 - name: Gautam Kumar
   c_affil: ucb
   c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/gautam.jpg
   email: gautamk@eecs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~gautamk
@@ -65,33 +71,39 @@
 - name: Scott Marshal
   c_affil: ucb
   c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/no_image.jpg
 
 - name: Chang Lan
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/chang.jpg
   email: clan@eecs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~clan
 
 - name: Murphy McCauley
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/murphy.jpg
   email: murphy.mccauley@gmail.com
 
 - name: Radhika Mittal
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/radhika.jpg
   email: radhika@eecs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~radhika
 
 - name: Kay Ousterhout
   c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/kay.jpg
   email: keo@cs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~keo
 
 - name: Aurojit Panda
   c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/panda.jpg
   email: apanda@cs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~apanda
@@ -99,173 +111,270 @@
 - name: Aisha Mushtaq
   c_affil: ucb
   c_cate: grad
-  pic_url: static/img/people/no_image.jpg
+  c_before: grad
+  pic_url: static/img/people/aisha.jpg
 
 - name: Silvery Fu
   c_affil: ucb
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/silvery.jpg
   email: silvery@eecs.berkeley.edu
 
 - name: Emmanuel Amaro
   c_affil: ucb
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/emmanuel.png
   email: amaro@berkeley.edu
 
 - name: Anwar Hithnawi 
   c_cate: staff
+  c_before: post
   pic_url: static/img/people/anwar.jpg
   email: hithnawi@eecs.berkeley.edu
   homepage: https://people.eecs.berkeley.edu/~hithnawi/
 
 - name: Yotam Harchol
   c_cate: staff
+  c_before: staff
   pic_url: static/img/people/yotam.jpg
   email: yotamhc@berkeley.edu
   homepage: http://www.yotamharchol.com/
 
 - name: Amin Tootoonchian
   c_cate: staff
+  c_before: staff
   pic_url: static/img/people/amin.jpg
   email: amin@cs.toronto.edu
   homepage: http://www.cs.toronto.edu/~amin/
 
 - name: Joshua Reich
   c_cate: staff
+  c_before: staff
   pic_url: static/img/people/reich.jpg
   email: jreich@research.att.com
   homepage: http://www.cs.columbia.edu/~reich
 
 - name: Colin Scott
   c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/colin.jpg
   email: rcs@eecs.berkeley.edu
   homepage: https://www.eecs.berkeley.edu/~rcs
 
 - name: Justine Sherry
   c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/justine.jpg
   email: justine@eecs.berkeley.edu
   homepage: https://www.cs.berkeley.edu/~justine
 
 - name: Ethan J. Jackson
-  c_cate: grad
+  c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/no_image.jpg
   email: ejj@eecs.berkeley.edu
   homepage: https://www.cs.berkeley.edu/~ejj
 
 - name: Michael Chang
   c_cate: grad
+  c_before: grad
   pic_url: static/img/people/michael_chang.png
   homepage: http://michaelchang.me
 
 - name: Zafar Ayyub Qazi
-  c_cate: staff
+  c_cate: alumni
+  c_before: staff
   pic_url: static/img/people/zafar.jpg
   email: zaqazi@berkeley.edu
   homepage: https://people.eecs.berkeley.edu/~zaqazi/
 
 - name: Melvin Walls
   c_cate: staff
+  c_before: staff
   pic_url: static/img/people/no_image.jpg
   email: mwalls@berkeley.edu
 
 - name: Shoumik Palkar
   c_cate: alumni
+  c_before: staff
   pic_url: static/img/people/no_image.jpg
 
 - name: Akshay Narayan
   c_cate: alumni
+  c_before: staff
   pic_url: static/img/people/no_image.jpg
 
 - name: Christopher Canel
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Soumya Basu
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Eric Shen
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Aleks Kamko
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Zhongtian Wang
-  c_cate: staff
+  c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Xiaohe Hu
   c_cate: alumni
+  c_before: staff
   pic_url: static/img/people/xiaohe.jpg
 
 - name: Alice Sheng
-  c_cate: undergrad
+  c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Kevin Lin
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Luise Valentin
-  c_cate: undergrad
+  c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/luise.jpg
   homepage: https://www.linkedin.com/in/luisevalentinrygaard
 
 - name: Matthew Mussomele
-  c_cate: undergrad
+  c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
   homepage: https://mmussomele.github.io/
 
 - name: Steven H. Wang
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Vivian Fang
-  c_cate: undergrad
+  c_cate: staff
+  c_before: staff
   pic_url: static/img/people/vivian.jpg
   homepage: http://www.vivian.tk/
 
 - name: Jack Zhao
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/jack.png
 
 - name: Brian Kim
-  c_cate: undergrad
+  c_cate: alumni
+  c_before: grad
   pic_url: static/img/people/no_image.jpg
 
 - name: Yuen Mei Wan
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/mei.jpg
   homepage: https://www.linkedin.com/in/wanyuenmei
 
 - name: Nicholas Sun
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/nlsun.jpeg
   homepage: http://www.nlsun.com/
 
 - name: Max Wolffe
   c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Marc Körner
   c_affil: ucb
   c_cate: staff
+  c_before: staff
   pic_url: static/img/people/marc.png
   email: koerner@icsi.berkeley.edu
   homepage: http://www.user.tu-berlin.de/marc.koerner/
 
 - name: Torsten Runge
   c_affil: ucb
-  c_cate: staff
+  c_cate: alumni
+  c_before: staff
   pic_url: static/img/people/torsten.jpg
   homepage: https://tm-runge.github.io/
 
 - name: Carlyn Chinen
   c_affil: ucb
   c_cate: staff
+  c_before: staff
   pic_url: static/img/people/carlyn.jpg
+
+- name: Hantao Wang
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/will.png
+  homepage: http://www.hantaowang.me/
+
+- name: Yuan Cheng (Anson) Tsai
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/anson.jpeg
+  homepage: https://www.linkedin.com/in/anson-tsai-83b9a312a/
+
+- name: Michelle Hwang
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/michelle.jpeg
+  homepage: https://www.linkedin.com/in/mhwangc/
+
+- name: Amit Talreja
+  c_affil: ucb
+  c_cate: alumni
+  c_before: undergrad
+  pic_url: static/img/people/amit.jpg
+
+- name: Alex Fang
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+  homepage: https://www.linkedin.com/in/alex-fang-8a11a8115/
+
+- name: Domenic Bottini
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/domenic.jpeg
+  homepage: https://www.linkedin.com/in/dbottini/
+
+- name: Lisa Jian
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+  homepage: https://www.linkedin.com/in/lisajian/
+
+- name: Pranay Kumar
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/pranay.png
+  homepage: http://www.pranayk.com/
+
+- name: Neil Agarwal
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/neil.jpeg
+  homepage: https://www.linkedin.com/in/neil-agarwal-2848b6110/
