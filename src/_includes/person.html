@@ -1,0 +1,10 @@
+<div class="col-md-2 person">
+    {% if include.person.homepage %}
+        <a href="{{ person.homepage }}">
+    {% endif %}
+    <img class="people-pic img-thumbnail" src="{{ include.person.pic_url }}" alt="">
+    <p>{{ include.person.name }}</p>
+    {% if include.person.homepage %}
+        </a>
+    {% endif %}
+</div>
