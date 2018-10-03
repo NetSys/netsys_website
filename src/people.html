@@ -19,68 +19,77 @@ title: People
     </div>
 
     <h2 id="faculty" class="col-md-12">Faculty</h2>
-    <div class="col-md-12">
+    <div class="container-fluid">
+    <div class="row">
     {% for person in site.data.people %}
         {% if person.c_cate == "faculty" %}
             {% assign m = fidx | modulo: 6 %}
             {% if m == 0 %}
                 </div>
-                <div class="col-md-12">
+                <div class="row">
             {% endif %}
             {% include person.html person=person %}
             {% capture v %}{% increment fidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
     </div>
+    </div>
 
     <h2 id="graduate" class="col-md-12">Graduate Students</h2>
-    <div class="col-md-12">
+    <div class="container-fluid">
+    <div class="row">
     {% for person in people %}
         {% if person.c_cate == "grad" %}
             {% assign m = gidx | modulo: 6 %}
             {% if m == 0 %}
                 </div>
-                <div class="col-md-12">
+                <div class="row">
             {% endif %}
             {% include person.html person=person %}
             {% capture v %}{% increment gidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
     </div>
+    </div>
  
     <h2 id="staff" class="col-md-12">Post-Docs, Staff, and Visitors</h2>
-    <div class="col-md-12">
+    <div class="container-fluid">
+    <div class="row">
     {% for person in people %}
         {% if person.c_cate == "staff" or person.c_cate == "visitor" or person.c_cate == "postdoc" %}
             {% assign m = sidx | modulo: 6 %}
             {% if m == 0 %}
                 </div>
-                <div class="col-md-12">
+                <div class="row">
             {% endif %}
             {% include person.html person=person %}
             {% capture v %}{% increment sidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
     </div>
+    </div>
 
-    <h2 id="undergraduate" class="col-md-12">Undergaduate Students</h2>
-    <div class="col-md-12">
+    <h2 id="undergraduate" class="col-md-12">Undergraduate Students</h2>
+    <div class="container-fluid">
+    <div class="row">
     {% for person in people %}
         {% if person.c_cate == "undergrad" %}
             {% assign m = uidx | modulo: 6 %}
             {% if m == 0 %}
                 </div>
-                <div class="col-md-12">
+                <div class="row">
             {% endif %}
             {% include person.html person=person %}
             {% capture v %}{% increment uidx %}{% endcapture %}
         {% endif %}
     {% endfor %}
     </div>
+    </div>
 
     {% assign alumni = people | group_by: "c_before" %}
     <h2 id="alumni" class="col-md-12">Alumni</h2>
-    <div class="col-md-12">
+    <div class="container-fluid">
+    <div class="row">
     {% for type in alumni %}
         {% assign people = type.items | sort: "name" %}
         {% for person in people %}
@@ -88,12 +97,13 @@ title: People
               {% assign m = aidx | modulo: 6 %}
               {% if m == 0 %}
                   </div>
-                  <div class="col-md-12">
+                  <div class="row">
               {% endif %}
               {% include person.html person=person %}
               {% capture v %}{% increment aidx %}{% endcapture %}
           {% endif %}
         {% endfor %}
     {% endfor %}
+    </div>
     </div>
 </div>
