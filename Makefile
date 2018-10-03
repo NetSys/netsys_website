@@ -1,5 +1,6 @@
 USERNAME = `whoami`
 #USERNAME=mwalls
+USERNAME=silvery
 REMOTE=$(USERNAME)@watson.millennium.berkeley.edu:/project/cs/netsys/www/netsys/data/
 
 build:
