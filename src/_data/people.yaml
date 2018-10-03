@@ -39,7 +39,7 @@
 
 - name: Peter Gao
   c_affil: ucb
-  c_cate: grad
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/peter.jpg
   email: petergao@berkeley.edu
@@ -47,7 +47,7 @@
 
 - name: Sangjin Han
   c_affil: ucb
-  c_cate: grad
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/sangjin.jpg
   email: sangjin@eecs.berkeley.edu
@@ -59,6 +59,7 @@
   c_before: grad
   pic_url: static/img/people/wen.jpg
   email: zhangwen@cs.berkeley.edu
+  homepage: https://people.eecs.berkeley.edu/~zhangwen/
 
 - name: Gautam Kumar
   c_affil: ucb
@@ -75,7 +76,7 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Chang Lan
-  c_cate: grad
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/chang.jpg
   email: clan@eecs.berkeley.edu
@@ -88,7 +89,7 @@
   email: murphy.mccauley@gmail.com
 
 - name: Radhika Mittal
-  c_cate: grad
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/radhika.jpg
   email: radhika@eecs.berkeley.edu
@@ -127,10 +128,18 @@
   c_before: grad
   pic_url: static/img/people/emmanuel.png
   email: amaro@berkeley.edu
+  homepage: https://people.eecs.berkeley.edu/~amaro
+
+- name: Ed Oakes
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/ed.jpg
+  email: eoakes@berkeley.edu
 
 - name: Anwar Hithnawi 
   c_cate: staff
-  c_before: post
+  c_before: staff
   pic_url: static/img/people/anwar.jpg
   email: hithnawi@eecs.berkeley.edu
   homepage: https://people.eecs.berkeley.edu/~hithnawi/
@@ -143,7 +152,7 @@
   homepage: http://www.yotamharchol.com/
 
 - name: Amin Tootoonchian
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/amin.jpg
   email: amin@cs.toronto.edu
@@ -191,7 +200,7 @@
   homepage: https://people.eecs.berkeley.edu/~zaqazi/
 
 - name: Melvin Walls
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/no_image.jpg
   email: mwalls@berkeley.edu
@@ -203,6 +212,28 @@
 
 - name: Akshay Narayan
   c_cate: alumni
+  c_before: staff
+  pic_url: static/img/people/no_image.jpg
+
+- name: Liangcheng Yu
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/liangcheng.jpg
+  homepage: http://liangchengyu.com/
+
+- name: Gaogang Xie
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/gaogang.jpg
+  homepage: http://fi.ict.ac.cn/member/~xie.htm
+
+- name: Victor Millnert
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/victor.jpeg
+
+- name: Huiyang Yang
+  c_cate: staff
   c_before: staff
   pic_url: static/img/people/no_image.jpg
 
@@ -311,11 +342,11 @@
   pic_url: static/img/people/torsten.jpg
   homepage: https://tm-runge.github.io/
 
-- name: Carlyn Chinen
-  c_affil: ucb
-  c_cate: staff
-  c_before: staff
-  pic_url: static/img/people/carlyn.jpg
+# - name: Carlyn Chinen
+#   c_affil: ucb
+#   c_cate: staff
+#   c_before: staff
+#   pic_url: static/img/people/carlyn.jpg
 
 - name: Hantao Wang
   c_affil: ucb
@@ -333,7 +364,7 @@
 
 - name: Michelle Hwang
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/michelle.jpeg
   homepage: https://www.linkedin.com/in/mhwangc/
@@ -360,14 +391,14 @@
 
 - name: Lisa Jian
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
   homepage: https://www.linkedin.com/in/lisajian/
 
 - name: Pranay Kumar
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/pranay.png
   homepage: http://www.pranayk.com/
