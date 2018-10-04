@@ -136,6 +136,7 @@
   c_before: grad
   pic_url: static/img/people/ed.jpg
   email: eoakes@berkeley.edu
+  homepage: https://edoakes.github.io
 
 - name: Anwar Hithnawi 
   c_cate: staff
@@ -189,7 +190,7 @@
 - name: Michael Chang
   c_cate: grad
   c_before: grad
-  pic_url: static/img/people/michael_chang.png
+  pic_url: static/img/people/michael_chang.jpg
   homepage: http://michaelchang.me
 
 - name: Zafar Ayyub Qazi
@@ -231,6 +232,7 @@
   c_cate: staff
   c_before: staff
   pic_url: static/img/people/victor.jpeg
+  homepage: http://portal.research.lu.se/portal/en/persons/victor-millnert(d2f220f2-e6c6-4658-ab8d-4e04c717640f).html
 
 - name: Huiyang Yang
   c_cate: staff
@@ -298,7 +300,7 @@
   c_cate: staff
   c_before: staff
   pic_url: static/img/people/vivian.jpg
-  homepage: http://www.vivian.tk/
+  homepage: http://www.vivi.sh
 
 - name: Jack Zhao
   c_cate: alumni
@@ -377,7 +379,7 @@
 
 - name: Alex Fang
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
   homepage: https://www.linkedin.com/in/alex-fang-8a11a8115/
@@ -409,3 +411,24 @@
   c_before: undergrad
   pic_url: static/img/people/neil.jpeg
   homepage: https://www.linkedin.com/in/neil-agarwal-2848b6110/
+
+- name: Junkeun Yi
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+  homepage: https://www.linkedin.com/in/junkeun-yi-05a409150
+
+- name: Gavin Kliger
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/gavin.jpg
+  homepage: https://gkliger.github.io/
+
+- name: Emerson Hsieh
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/emerson.jpg
+  homepage: http://www.emersonhsieh.com/
