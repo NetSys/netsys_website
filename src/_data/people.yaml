@@ -217,19 +217,19 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Liangcheng Yu
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/liangcheng.jpg
   homepage: http://liangchengyu.com/
 
 - name: Gaogang Xie
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/gaogang.jpg
   homepage: http://fi.ict.ac.cn/member/~xie.htm
 
 - name: Victor Millnert
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/victor.jpeg
   homepage: http://portal.research.lu.se/portal/en/persons/victor-millnert(d2f220f2-e6c6-4658-ab8d-4e04c717640f).html
@@ -331,7 +331,7 @@
 
 - name: Marc Körner
   c_affil: ucb
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/marc.png
   email: koerner@icsi.berkeley.edu
@@ -356,6 +356,19 @@
   c_before: undergrad
   pic_url: static/img/people/will.png
   homepage: http://www.hantaowang.me/
+
+- name: Amir Shahatit
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/amir.jpg
+  homepage: http://amirshahatit.com
+
+- name: Christopher Branner-Augmon
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
 
 - name: Yuan Cheng (Anson) Tsai
   c_affil: ucb
