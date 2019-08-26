@@ -11,3 +11,6 @@ test:
 
 push:
 	rsync -avzP ./build/ ${REMOTE}
+
+pull:
+	rsync -avzP ${REMOTE} ./build/
