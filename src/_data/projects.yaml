@@ -1,34 +1,24 @@
-- title: E2
-  url: "/projects/e2.html"
+- title: Kappa
+  url: "https://kappa.cs.berkeley.edu/"
   is_ongoing: true
-  participants: Shoumik Palkar, Chang Lan, Sangjin Han, Keon Jang, Aurojit Panda,
-    Melvin Walls, Christian Maciocco, Sylvia Ratnasamy, Joshua Reich,
-    Luigi Rizzo, Scott Shenker
+  participants: Wen Zhang, Vivian Fang, Aurojit Panda, Scott Shenker
   desc: >
-    By moving network appliance functionality from proprietary hardware to software,
-    Network Function Virtualization promises to bring the advantages of cloud
-    computing to network packet processing. However, the evolution of cloud
-    computing (particularly for data analytics) has greatly benefited from
-    application-independent methods for scaling and placement that achieve high
-    efficiency while relieving programmers of these burdens. NFV has no such general
-    management solutions. To this end, we present E2 -- a scalable and
-    application-agnostic scheduling framework for packet processing.
+    Serverless computing (e.g., AWS Lambda) was initially designed for event-driven applications, 
+    where each event handler is guaranteed to complete within a limited time duration. Kappa aims 
+    to enable general purpose, parallel computation on serverless platforms. To do this, Kappa 
+    provides a continuation-based checkpointing mechanism that allows long-running computations on 
+    time-bounded lambda functions; and, a message-passing concurrency API for easily expressing 
+    parallelism and exploiting the elasticity of serverless platforms.
+  feature_excerpt: >
+    Kappa is a framework for creating and running applications on serverless computing platforms. 
+    Kappa enables writing long-running applications on time-bounded Lambda functions through Kappa's 
+    continuation-based checkpointing mechanism and its expressive message-passing concurrency API.
   links:
     - {
-        name: SOSP Paper,
-        url: /static/papers/e2-sosp.pdf,
-        type: paper,
-        featured: true
-    }
-    - {
-        name: Slides,
-        url: /static/slides/IEEE-NFV2015-final.pptx,
-        type: slides
-    }
-    - {
         name: Source Code,
-        url: "https://github.com/NetSys/e2",
+        url: "https://github.com/NetSys/kappa",
         type: code,
+        featured: true,
     }
 
 - title: BESS
@@ -64,6 +54,39 @@
         url: "https://github.com/NetSys/bess",
         type: code,
         featured: true
+    }
+
+- title: E2
+  url: "/projects/e2.html"
+  is_ongoing: true
+  participants: Shoumik Palkar, Chang Lan, Sangjin Han, Keon Jang, Aurojit Panda,
+    Melvin Walls, Christian Maciocco, Sylvia Ratnasamy, Joshua Reich,
+    Luigi Rizzo, Scott Shenker
+  desc: >
+    By moving network appliance functionality from proprietary hardware to software,
+    Network Function Virtualization promises to bring the advantages of cloud
+    computing to network packet processing. However, the evolution of cloud
+    computing (particularly for data analytics) has greatly benefited from
+    application-independent methods for scaling and placement that achieve high
+    efficiency while relieving programmers of these burdens. NFV has no such general
+    management solutions. To this end, we present E2 -- a scalable and
+    application-agnostic scheduling framework for packet processing.
+  links:
+    - {
+        name: SOSP Paper,
+        url: /static/papers/e2-sosp.pdf,
+        type: paper,
+        featured: true
+    }
+    - {
+        name: Slides,
+        url: /static/slides/IEEE-NFV2015-final.pptx,
+        type: slides
+    }
+    - {
+        name: Source Code,
+        url: "https://github.com/NetSys/e2",
+        type: code,
     }
 
 - title: NetBricks
@@ -126,9 +149,9 @@
 
     Quilt is currently in alpha and under heavy development. Please try it out! We
     are eager for feedback!
-  feature_excerpt: >
-    Quilt aims to be the easiest way to deploy and network containers by relying
-    on a new domain specific language, Stitch, to specify distributed applications.
+  # feature_excerpt: >
+    # Quilt aims to be the easiest way to deploy and network containers by relying
+    # on a new domain specific language, Stitch, to specify distributed applications.
   links:
     - {
         name: "Source Code",

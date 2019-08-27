@@ -138,6 +138,28 @@
   email: eoakes@berkeley.edu
   homepage: https://edoakes.com
 
+- name: Lloyd Brown
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/lloyd.png
+  email: lloydbrown@berkeley.edu
+  homepage: lloydabrown.com
+
+- name: Zhihong Luo
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/zhihong.jpg
+  email: zhluo@berkeley.edu
+
+- name: Amy Ousterhout
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/no_image.jpg
+  email: aousterh@mit.edu
+  homepage: https://people.csail.mit.edu/aousterh/
+
 - name: Anwar Hithnawi 
   c_cate: staff
   c_before: staff

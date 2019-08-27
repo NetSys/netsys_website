@@ -1,3 +1,33 @@
+- title: "Enabling a Permanent Revolution in Internet Architecture"
+  venue: "James McCauley, Yotam Harchol, Aurojit Panda, Barath Raghavan, Scott Shenker, SIGCOMM '19"
+  desc: >
+  url: "http://doi.acm.org/10.1145/3341302.3342075"
+
+- title: "Network Evolution for DNNs"
+  venue: "Michael Alan Chang et al., SysML '18"
+  desc: >
+  url: "https://people.eecs.berkeley.edu/~apanda/assets/papers/sysml18-dnn.pdf"
+
+- title: "CESSNA: Resilient Edge-Computing"
+  venue: "Yotam Harchol, Aisha Mushtaq, James McCauley, Aurojit Panda, Scott Shenker, MECOMM '18"
+  desc: >
+  url: "http://doi.acm.org/10.1145/3229556.3229558"
+
+- title: "Elastic scaling of stateful network functions"
+  venue: "Shinae Woo et al., NSDI '18"
+  desc: >
+  url: "https://www.usenix.org/system/files/conference/nsdi18/nsdi18-woo.pdf"
+
+- title: "Resq: Enabling slos in network function virtualization"
+  venue: "Amin Tootoonchian et al., NSDI '18"
+  desc: >
+  url: "https://www.usenix.org/system/files/conference/nsdi18/nsdi18-tootoonchian.pdf"
+
+- title: "Revisiting Network Support for RDMA"
+  venue: "Radhika Mittal et al., SICOMM '18"
+  desc: >
+  url: "http://radhikam.web.illinois.edu/irn.pdf"
+
 - title: "Embark: Securely Outsourcing Middleboxes to the Cloud"
   venue: "NSDI '16"
   desc: >
