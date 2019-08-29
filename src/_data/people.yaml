@@ -168,8 +168,8 @@
   homepage: https://people.eecs.berkeley.edu/~hithnawi/
 
 - name: Yotam Harchol
-  c_cate: staff
-  c_before: staff
+  c_cate: alumni
+  c_before: alumni
   pic_url: static/img/people/yotam.jpg
   email: yotamhc@berkeley.edu
   homepage: http://www.yotamharchol.com/
@@ -319,8 +319,8 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Vivian Fang
-  c_cate: staff
-  c_before: staff
+  c_cate: grad
+  c_before: grad
   pic_url: static/img/people/vivian.jpg
   homepage: http://www.vivi.sh
 
