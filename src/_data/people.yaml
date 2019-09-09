@@ -156,7 +156,7 @@
 - name: Amy Ousterhout
   c_cate: staff
   c_before: staff
-  pic_url: static/img/people/no_image.jpg
+  pic_url: static/img/people/amy.jpg
   email: aousterh@mit.edu
   homepage: https://people.csail.mit.edu/aousterh/
 
