@@ -160,6 +160,13 @@
   email: aousterh@mit.edu
   homepage: https://people.csail.mit.edu/aousterh/
 
+- name: Sarah McClure 
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/sarah.jpg
+  email: sarah_mcclure@berkeley.edu
+
 - name: Anwar Hithnawi 
   c_cate: staff
   c_before: staff
