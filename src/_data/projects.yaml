@@ -74,7 +74,7 @@
   links:
     - {
         name: SOSP Paper,
-        url: /static/papers/e2-sosp.pdf,
+        url: https://people.eecs.berkeley.edu/~sylvia/cs268-2016/papers/e2.pdf,
         type: paper,
         featured: true
     }
