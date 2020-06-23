@@ -1,3 +1,13 @@
+- title: "Can far memory improve job throughput?"
+  venue: "Amaro, E., Branner-Augmon, C., Luo, Z., Ousterhout, A., Aguilera, M.K., Panda, A., Ratnasamy, S. and Shenker, S. EuroSys '20"
+  desc: >
+  url: "https://dl.acm.org/doi/abs/10.1145/3342195.3387522"
+
+- title: "TimeCrypt: Encrypted Data Stream Processing at Scale with Cryptographic Access Control"
+  venue: "Burkhalter, L., Hithnawi, A., Viand, A., Shafagh, H. and Ratnasamy, S. NSDI '20"
+  desc: >
+  url: "https://www.usenix.org/system/files/nsdi20-paper-burkhalter.pdf"
+
 - title: "Enabling a Permanent Revolution in Internet Architecture"
   venue: "James McCauley, Yotam Harchol, Aurojit Panda, Barath Raghavan, Scott Shenker, SIGCOMM '19"
   desc: >
