@@ -1,0 +1,41 @@
+---
+layout: default
+title: Past Projects
+---
+<div class="row">
+    <h1>Past Projects</h1>
+    {% for project in site.data.projects %}
+    {% unless !project.is_ongoing %}
+    <div class="col-md-12 netsys-project">
+        <h2>
+            {% if project.url %}
+                <a href="{{ project.url }}">{{ project.title }}</a>
+            {% else %}
+                {{ project.title }}
+            {% endif %}
+        </h2>
+        <p>{{ project.participants }}</p>
+        <p style="font-size: 95%">{{ project.desc }}</p>
+        <p>
+        {% for link in project.links %}
+            <a class="btn btn-primary" href="{{ link.url }}" role="button">
+                {% case link.type %}
+                {% when 'paper' %}
+                <span class="glyphicon glyphicon-file"></span>
+                {% when 'slides' %}
+                <span class="glyphicon glyphicon-picture"></span>
+                {% when 'video' %}
+                <span class="glyphicon glyphicon-film"></span>
+                {% when 'code' %}
+                <span class="glyphicon glyphicon-star"></span>
+                {% else %}
+                <span class="glyphicon glyphicon-globe"></span>
+                {% endcase %}
+                {{ link.name }}
+            </a>
+        {% endfor %}
+        </p>
+    </div>
+    {% endunless %}
+    {% endfor %}
+</div>

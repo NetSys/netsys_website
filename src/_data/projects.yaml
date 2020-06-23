@@ -22,7 +22,7 @@
     }
 
 - title: BESS
-  is_ongoing: true
+  is_ongoing: false
   participants: Sangjin Han, Keon Jang, Dongsu Han, Sylvia Ratnasamy
   desc: >
     Modern NICs implement various features in hardware, such as protocol
@@ -58,7 +58,7 @@
 
 - title: E2
   url: "/projects/e2.html"
-  is_ongoing: true
+  is_ongoing: false
   participants: Shoumik Palkar, Chang Lan, Sangjin Han, Keon Jang, Aurojit Panda,
     Melvin Walls, Christian Maciocco, Sylvia Ratnasamy, Joshua Reich,
     Luigi Rizzo, Scott Shenker
@@ -90,7 +90,7 @@
     }
 
 - title: NetBricks
-  is_ongoing: true
+  is_ongoing: false
   participants: Aurojit Panda, Sangjin Han, Keon Jang, Melvin Walls,
     Sylvia Ratnasamy, Scott Shenker
   desc: >
@@ -128,7 +128,7 @@
     }
 
 - title: Quilt
-  is_ongoing: true
+  is_ongoing: false
   participants: Ethan J. Jackson, et. al
   desc: >
     Quilt aims to be the easiest way to deploy and network containers.
@@ -161,7 +161,7 @@
     }
 
 - title: Recursively Cautious Congestion Control
-  is_ongoing: true
+  is_ongoing: false
   participants: Radhika Mittal, Justine Sherry, Sylvia Ratnasamy, Scott Shenker
   desc: >
     Any congestion control mechanism has two primary goals - to fill the pipe and to
@@ -188,7 +188,7 @@
     }
 
 - title: CANDID - Classifying Assets in Networks by Determining Importance and Dependencies
-  is_ongoing: true
+  is_ongoing: false
   participants: Scott Marshall, Sylvia Ratnasamy, and Vern Paxson
   desc: >
     CANDID is a passive NetFlow-based network traffic analysis platform targeted at
@@ -216,7 +216,7 @@
     }
 
 - title: STS
-  is_ongoing: true
+  is_ongoing: false
   participants: Colin Scott, Andreas Wundsam, Barath Raghavan, Aurojit Panda,
     Zhi Liu, Sam Whitlock, Ahmed El-Hassany, Andrew Or, Jefferson Lai, Eugene Huang,
     Kyriakos Zarifis, and Scott Shenker
@@ -248,7 +248,7 @@
     }
 
 - title: Sparrow
-  is_ongoing: true
+  is_ongoing: false
   participants: Kay Outerhout, Patrick Wendall, Matei Zaharia, Ion Stoica
   desc: >
     Sparrow is a high throughput, low latency distributed cluster scheduler. Sparrow
@@ -272,7 +272,7 @@
     }
 
 - title: MegaPipe
-  is_ongoing: true
+  is_ongoing: false
   participants: Sangjin Han, Scott Marshall, Byung-Gon Chun, and Sylvia Ratnasamy
   desc: >
     BSD Sockets has been a de facto standard API for network programming. While it
@@ -292,7 +292,7 @@
     }
 
 - title: DDC
-  is_ongoing: true
+  is_ongoing: false
   participants: Junda Liu, Aurojit Panda, Ankit Singla, P. Brighten Godfrey, Michael Schapira, Scott Shenker
   desc: >
     Ensuring basic connectivity in the network is generally handled by the control
@@ -322,7 +322,7 @@
     }
 
 - title: APLOMB
-  is_ongoing: true
+  is_ongoing: false
   participants: Justine Sherry, Shaddi Hasan, Colin Scott, Arvind Krishnamurthy, Sylvia Ratnasamy, Vyas Sekar
   desc: >
     Middleboxes – such as firewalls, proxies, and WAN optimizers – have become
@@ -343,7 +343,7 @@
     }
 
 - title: NetCalls
-  is_ongoing: true
+  is_ongoing: false
   participants: Justine Sherry, Shaddi Hasan, Colin Scott, Arvind Krishnamurthy, Sylvia Ratnasamy, Vyas Sekar
   desc: >
     Modern networks deploy middleboxes to support numerous advanced processing
@@ -369,7 +369,7 @@
     }
 
 - title: POX
-  is_ongoing: true
+  is_ongoing: false
   participants:
   desc: >
     POX is a Python framework for writing network control software. At its most
