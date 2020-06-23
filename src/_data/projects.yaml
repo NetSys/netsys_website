@@ -11,8 +11,8 @@
     parallelism and exploiting the elasticity of serverless platforms.
   feature_excerpt: >
     Kappa is a framework for creating and running applications on serverless computing platforms. 
-    Kappa enables writing long-running applications on time-bounded Lambda functions through Kappa's 
-    continuation-based checkpointing mechanism and its expressive message-passing concurrency API.
+    It enables writing long-running applications on time-bounded Lambda functions through its 
+    continuation-based checkpointing mechanism and message-passing concurrency API.
   links:
     - {
         name: Source Code,
@@ -20,6 +20,56 @@
         type: code,
         featured: true,
     }
+
+- title: CFM
+  url: "https://github.com/clusterfarmem"
+  is_ongoing: true
+  participants: Emmanuel Amaro, Christopher Branner-Augmon, Zhihong  Luo, Zhihong Luo, Amy Ousterhout, Marcos K. Aguilera, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker
+  desc: >
+    As memory requirements grow, and advances in memory technology slow, the availability of sufficient 
+    main memory is increasingly the bottleneck in large compute clusters. One solution to this is memory 
+    disaggregation, where jobs can remotely access memory on other servers, or far memory. This project 
+    presents a faster swapping mechanism and a far memory-aware cluster scheduler that make it possible 
+    to support far memory at rack scale. While far memory is not a panacea, for memory-intensive workloads, 
+    CFM can provide performance improvements on the order of 10% or more even without changing the total 
+    amount of memory available.
+  feature_excerpt: >
+    CFM presents a faster swapping mechanism and a far memory-aware cluster scheduler that make it possible 
+    to support far memory at rack scale. For memory-intensive workloads, CFM can provide performance improvements 
+    on the order of 10% or more even without changing the total amount of memory available.
+  links:
+    - {
+        name: Source Code,
+        url: "https://github.com/clusterfarmem",
+        type: code,
+        featured: true,
+    }
+    - {
+        name: "Paper",
+        url: "https://dl.acm.org/doi/abs/10.1145/3342195.3387522",
+        type: paper,
+        featured: true
+    }
+
+- title: Persimmon
+  url: "#"
+  is_ongoing: true
+  participants: Wen Zhang, Scott Shenker, Irene Zhang
+  desc: >
+    Distributed in-memory storage systems are crucial for meeting the low latency
+    requirements of modern datacenter services. However, they lose all state on
+    failure, so recovery is expensive and data loss is always a risk.  The
+    Persimmon system leverages persistent memory (PM) to convert existing in-memory
+    storage systems into persistent, crash-consistent versions with low overhead
+    and minimal code changes. Persimmon offers a simple Persistent State Machine
+    abstraction for PM and implements persistence through operation logging on the
+    critical path and a novel crash-consistent shadow execution technique for log
+    digestion in the background.
+  feature_excerpt: >
+    The Persimmon system leverages persistent memory (PM) to convert existing in-memory
+    storage systems into persistent, crash-consistent versions with low overhead 
+    and minimal code changes. 
+
 
 - title: BESS
   is_ongoing: false
