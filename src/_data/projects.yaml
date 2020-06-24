@@ -1,6 +1,6 @@
 - title: Programmable RDMA
   is_ongoing: true
-  participants: New project by Emmanuel Amaro, Zhihong Luo, Amy Ousterhout, Arvind Krishnamurthy, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker
+  participants: New project led by Emmanuel Amaro
   desc: >
     We propose extensions to RDMA called Remote Memory Calls (RMCs) that allows applications to 
     install a customized set of 1-sided RDMA operations. We are exploring how can RMCs be implemented 
@@ -32,7 +32,7 @@
 
 - title: μTelco
   is_ongoing: true
-  participants: New project by Zhihong Luo
+  participants: New project led by Zhihong Luo
   desc: >
     Today’s cellular network architecture and its business model are driven by the presence of monopoly, 
     which causes high barrier-to-entry for small network operators, excessively complicated spec and difficulty 
@@ -42,6 +42,21 @@
     Today’s cellular network architecture and its business model are driven by the presence of monopoly. 
     We propose μTCell architecture to address these issues by federating cellular network among a 
     large number of μTelcos.
+
+- title: Efficient Work Stealing
+  is_ongoing: true
+  participants: Early project led by Amy Ousterhout
+  desc: >
+    Datacenter servers must balance load across many (sometimes dozens) of cores. 
+    Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks 
+    that take only a couple of microseconds. At these timescales, cores may spend a significant fraction of their 
+    time just looking for work, rather than actually doing useful work; this wastes CPU resources that could be 
+    used by other applications on the same server. We are exploring techniques to perform load balancing more 
+    efficiently, so that requests are handled faster and cores waste fewer cycles looking for work. 
+  feature_excerpt: >
+    Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks 
+    that take only a couple of microseconds. We explore techniques to perform load balancing more efficiently, 
+    so that requests are handled faster and cores waste fewer cycles looking for work. 
 
 - title: Kappa
   url: "https://kappa.cs.berkeley.edu/"
@@ -62,6 +77,23 @@
         featured: true,
     }
 
+- title: Automating GDPR
+  is_ongoing: true
+  participants: New project by Michael Alan Chang, Wen Zhang, Eric Sheng, Aurojit Panda, Scott Shenker
+  desc: >
+    Recent Data Privacy Acts like GDPR and CCPA necessitate well-defined data APIs between data 
+    security/privacy personnel and application developers. However, poor data governance in Kubernetes 
+    applications poses a major obstacle towards developing this API. Data tends to be disorganized, 
+    decentralized, and redundant, and is stored under different names over different databases, views, 
+    tables -- all of which are constantly being changed. Thus, tracking and controlling application-wide 
+    data flow is currently impossible. We have developed a network control plane for data 
+    that provides developer with a centralized interface to enforce policy around data. 
+    Moreover, we have developed the theoretical foundations to formally guarantee that incoming 
+    queries are compliant with the operator-specified policies.
+  feature_excerpt: >
+    We developed a network control plane for data that provides developer with a centralized interface to enforce policy around data. 
+    We also built theoretical foundations to formally guarantee that incoming queries are compliant with the operator-specified policies.
+
 - title: RCS
   is_ongoing: true
   participants: New project by Lloyd Brown, Arvind Krishnamurth (UW), Ganesh Ananthanarayanan (MSR), Ethan Katz Basset (Columbia), Sylvia Ratnasamy, Scott Shenker
@@ -76,6 +108,16 @@
     The conventional wisdom requires that all congestion control algorithms deployed on the public Internet be TCP-friendly.
     We propose an alternative to the TCP-friendly paradigm that can accommodate innovation, is consistent with the Internet’s 
     current economic model, and is feasible to deploy given current usage trends.
+
+- title: Autotune
+  is_ongoing: true
+  participants: Ongoing project by Michael Alan Chang, Will Wang, Aurojit Panda, Scott Shenker
+  desc: >
+    Most large web-scale applications are now built by composing collections (up to 100s or 1000s) of microservices. 
+    Operators need to decide how many resources are allocated to each microservice, and these allocations can have a 
+    large impact on application performance. Manually determining allocations that are both cost-efficient and 
+    meet performance requirements is challenging, even for experienced operators. In this paper we present 
+    Autotune, an end-to-end tool that automatically minimizes resource utilization while maintaining good application performance.
 
 - title: Persimmon
   is_ongoing: true
@@ -94,21 +136,6 @@
     Distributed in-memory storage systems lose all state on failure, so recovery is expensive and data loss is always a risk.
     The Persimmon system leverages persistent memory (PM) to convert existing in-memory storage systems into persistent, 
     crash-consistent versions with low overhead and minimal code changes. 
-
-- title: Efficient Work Stealing
-  is_ongoing: true
-  participants: Early project led by Amy Ousterhout
-  desc: >
-    Datacenter servers must balance load across many (sometimes dozens) of cores. 
-    Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks 
-    that take only a couple of microseconds. At these timescales, cores may spend a significant fraction of their 
-    time just looking for work, rather than actually doing useful work; this wastes CPU resources that could be 
-    used by other applications on the same server. We are exploring techniques to perform load balancing more 
-    efficiently, so that requests are handled faster and cores waste fewer cycles looking for work. 
-  feature_excerpt: >
-    Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks 
-    that take only a couple of microseconds. We explore techniques to perform load balancing more efficiently, 
-    so that requests are handled faster and cores waste fewer cycles looking for work. 
 
 - title: CFM
   url: "https://github.com/clusterfarmem"
@@ -145,10 +172,6 @@
      to vast performance changes in underlying technologies like networks and storage), the central 
      importance of isolation (in the sense of performance, data, and metadata), and shifting workloads 
      (such as extremely short and varied edge workloads).
-  feature_excerpt: >
-     This NetSys project attempts to rethink foundational aspects of operating system design for 
-     servers in the modern age, confronting issues such as changing performance bottlenecks, the central 
-     importance of isolation, and shifting workloads.
 
 - title: Routing Resilience
   is_ongoing: true
@@ -161,7 +184,6 @@
     A project in this area attempts to deliver a routing resiliency mechanism that is easily implementable, 
     easily deployable, and easily manageable while offering packet delivery rates that rival those of 
     the most sophisticated resiliency mechanisms.
-
 
 - title: Edgy
   is_ongoing: true
@@ -197,6 +219,26 @@
         url: "https://dl.acm.org/doi/10.1145/3341302.3342075",
         type: paper,
         featured: true
+    }
+
+- title: Network Evolution for DNNs
+  is_ongoing: false
+  participants:  Michael Alan Chang, Aurojit Panda, Scott Shenker
+  desc: >
+    Deep Neural Networks increasingly power applications like image search, voice recognition, autonomous vehicles, 
+    spam detection, datacenter power management, etc. Many of these applications require DNNs to be periodically retrained, 
+    thereby improving prediction quality. As a result improving DNN training time has a significant impact on application performance. 
+    As a result DNN training is increasingly distributed across machines, and executed on GPUs, ASICs, or other specialized hardware. 
+    In this paper we analyze how the network fabric impacts DNN training time in order to determine how the network fabric should 
+    change to better accommodate these jobs. We rely on analytical models and trace driven simulation for our analysis and find 
+    that changing the network fabric can significantly impact DNN training performance, but unlike traditional data parallel systems 
+    the biggest improvements come from improving data distribution mechanisms rather than aggregation mechanisms.
+  inks:
+    - {
+        name: SysML Paper,
+        url: "https://arxiv.org/abs/2004.10275",
+        type: paper,
+        featured: true,
     }
 
 - title: Savanna
