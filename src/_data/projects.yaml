@@ -191,6 +191,13 @@
     proposed design radically reduces the requirements for deploying a new architecture (i.e., it doesn't 
     require replacing every router in the world), and removes the requirement that a single architectural 
     design must meet everyone's needs.
+  links:
+    - {
+        name: "SIGCOMM Paper",
+        url: "https://dl.acm.org/doi/10.1145/3341302.3342075",
+        type: paper,
+        featured: true
+    }
 
 - title: Savanna
   is_ongoing: true
