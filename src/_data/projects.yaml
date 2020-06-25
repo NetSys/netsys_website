@@ -245,7 +245,7 @@
     change to better accommodate these jobs. We rely on analytical models and trace driven simulation for our analysis and find 
     that changing the network fabric can significantly impact DNN training performance, but unlike traditional data parallel systems 
     the biggest improvements come from improving data distribution mechanisms rather than aggregation mechanisms.
-  inks:
+  links:
     - {
         name: SysML Paper,
         url: "https://arxiv.org/abs/2004.10275",
