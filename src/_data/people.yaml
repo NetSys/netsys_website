@@ -38,7 +38,7 @@
     Nicira.
 
 - name: Peter Gao
-  c_affil: ucb
+  c_affil: Waymo
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/peter.jpg
@@ -46,7 +46,7 @@
   homepage: http://petergao.net/
 
 - name: Sangjin Han
-  c_affil: ucb
+  c_affil: Nefeli Networks
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/sangjin.jpg
@@ -62,20 +62,19 @@
   homepage: https://people.eecs.berkeley.edu/~zhangwen/
 
 - name: Gautam Kumar
-  c_affil: ucb
+  c_affil: Google
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/gautam.jpg
   email: gautamk@eecs.berkeley.edu
-  homepage: https://www.eecs.berkeley.edu/~gautamk
 
 - name: Scott Marshal
-  c_affil: ucb
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/no_image.jpg
 
 - name: Chang Lan
+  c_affil: Google
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/chang.jpg
@@ -89,25 +88,28 @@
   email: murphy.mccauley@gmail.com
 
 - name: Radhika Mittal
+  c_affil: UIUC
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/radhika.jpg
-  email: radhika@eecs.berkeley.edu
-  homepage: https://www.eecs.berkeley.edu/~radhika
+  email: radhikam@illinois.edu
+  homepage: http://radhikam.web.illinois.edu/
 
 - name: Kay Ousterhout
+  c_affil: LightStep
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/kay.jpg
   email: keo@cs.berkeley.edu
-  homepage: https://www.eecs.berkeley.edu/~keo
+  homepage: http://kayousterhout.org/
 
 - name: Aurojit Panda
+  c_affil: NYU
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/panda.jpg
-  email: apanda@cs.berkeley.edu
-  homepage: https://www.eecs.berkeley.edu/~apanda
+  email: apanda@cs.nyu.edu
+  homepage: https://people.eecs.berkeley.edu/~apanda/
 
 - name: Aisha Mushtaq
   c_affil: ucb
@@ -130,7 +132,7 @@
   email: amaro@berkeley.edu
   homepage: https://people.eecs.berkeley.edu/~amaro
 
-- name: Ed Oakes
+- name: Ed Oakes (on leave)
   c_affil: ucb
   c_cate: grad
   c_before: grad
@@ -167,8 +169,15 @@
   pic_url: static/img/people/sarah.jpg
   email: sarah_mcclure@berkeley.edu
 
+- name: Narek Galstyan
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/narek.png
+  email: narekg@berkeley.edu
+
 - name: Anwar Hithnawi 
-  c_cate: staff
+  c_cate: alumni 
   c_before: staff
   pic_url: static/img/people/anwar.jpg
   email: hithnawi@eecs.berkeley.edu
@@ -176,7 +185,7 @@
 
 - name: Yotam Harchol
   c_cate: alumni
-  c_before: alumni
+  c_before: staff 
   pic_url: static/img/people/yotam.jpg
   email: yotamhc@berkeley.edu
   homepage: http://www.yotamharchol.com/
@@ -188,14 +197,8 @@
   email: amin@cs.toronto.edu
   homepage: http://www.cs.toronto.edu/~amin/
 
-- name: Joshua Reich
-  c_cate: staff
-  c_before: staff
-  pic_url: static/img/people/reich.jpg
-  email: jreich@research.att.com
-  homepage: http://www.cs.columbia.edu/~reich
-
 - name: Colin Scott
+  c_affil: Google
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/colin.jpg
@@ -203,14 +206,15 @@
   homepage: https://www.eecs.berkeley.edu/~rcs
 
 - name: Justine Sherry
+  c_affil: CMU
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/justine.jpg
-  email: justine@eecs.berkeley.edu
-  homepage: https://www.cs.berkeley.edu/~justine
+  email: sherry@cs.cmu.edu
+  homepage: http://www.justinesherry.com/
 
-- name: Ethan J. Jackson
-  c_cate: alumni
+- name: Ethan J. Jackson (on leave)
+  c_cate: grad 
   c_before: grad
   pic_url: static/img/people/no_image.jpg
   email: ejj@eecs.berkeley.edu
@@ -263,11 +267,6 @@
   pic_url: static/img/people/victor.jpeg
   homepage: http://portal.research.lu.se/portal/en/persons/victor-millnert(d2f220f2-e6c6-4658-ab8d-4e04c717640f).html
 
-- name: Huiyang Yang
-  c_cate: staff
-  c_before: staff
-  pic_url: static/img/people/no_image.jpg
-
 - name: Christopher Canel
   c_cate: alumni
   c_before: undergrad
@@ -279,7 +278,7 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Eric Sheng
-  c_cate: alumni
+  c_cate: staff 
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
@@ -337,8 +336,8 @@
   pic_url: static/img/people/jack.png
 
 - name: Brian Kim
-  c_cate: alumni
-  c_before: grad
+  c_cate: grad 
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Yuen Mei Wan
@@ -408,7 +407,7 @@
 
 - name: Christopher Branner-Augmon
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: staff 
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 

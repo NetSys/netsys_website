@@ -86,15 +86,19 @@ title: People
     </div>
     </div>
 
-    {% assign alumni = people | group_by: "c_before" %}
+    {% assign alumni = people | group_by: "c_before" | sort: "name" %}
     <h2 id="alumni" class="col-md-12">Alumni</h2>
     <div class="container-fluid">
     <div class="row">
     {% for type in alumni %}
+        {% unless type.name == "faculty" %}
+            {% assign t_ctr = aidx %}
+            <h4 id="alumni" class="col-md-12">{{ type.name | capitalize }} Alumni</h2>
+        {% endunless %}
         {% assign people = type.items | sort: "name" %}
         {% for person in people %}
           {% if person.c_cate == "alumni" %}
-              {% assign m = aidx | modulo: 6 %}
+              {% assign m = aidx | minus: t_ctr | modulo: 6 %}
               {% if m == 0 %}
                   </div>
                   <div class="row">
@@ -106,4 +110,5 @@ title: People
     {% endfor %}
     </div>
     </div>
+
 </div>
