@@ -69,6 +69,7 @@
   email: gautamk@eecs.berkeley.edu
 
 - name: Scott Marshal
+  c_affil: Apple
   c_cate: alumni
   c_before: grad
   pic_url: static/img/people/no_image.jpg
