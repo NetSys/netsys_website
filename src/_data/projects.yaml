@@ -163,6 +163,21 @@
         featured: true
     }
 
+- title: Understanding the root causes and fixes of congestion collapse.
+  is_ongoing: true
+  participants: New project led by Aisha Mustaq
+  desc: >
+    In many ways, our current approach to Internet congestion control arose from the need to deal with a 
+    series of congestion collapses. While some of those innovations were explicitly intended to prevent 
+    congestion collapse, others helped give TCP better congestion control more generally. In this paper 
+    we try to identify the aspects of congestion control that are necessary and sufficient to prevent 
+    congestion collapse. We argue that -- in the context of a basic congestion control framework that 
+    includes such features as sliding window, reasonably accurate RTTs, and backing off retransmit timers 
+    -- we need two and only two relatively straightforward conditions on retransmit timers to prevent 
+    congestion collapse. Making it easy to tell if a congestion control algorithm is congestion-collapse 
+    resistant will be important as congestion control turns away from the current paradigm and adopts rather 
+    different approaches, as is starting to occur.
+
 - title: OS for the Modern Age
   is_ongoing: true
   participants: Early project led by Murphy McCauley
@@ -213,6 +228,25 @@
     replication logic from application logic, thus enabling applications to better respond to workload and 
     infrastructure changes.
 
+- title: TimeCrypt
+  is_ongoing: false
+  participants: Lukas Burkhalter, Anwar Hithnawi, Alexander Viand, Hossein Shafagh, Sylvia Ratnasamy
+  desc: >
+    A growing number of devices and services collect detailed time series data that is stored in the cloud. 
+    Protecting the confidentiality of this vast and continuously generated data is an acute need for many applications 
+    in this space. At the same time, we must preserve the utility of this data by enabling authorized services to 
+    securely and selectively access and run analytics. This paper presents TimeCrypt, a system that provides scalable 
+    and real-time analytics over large volumes of encrypted time series data. TimeCrypt allows users to define expressive 
+    data access and privacy policies and enforces it cryptographically via encryption. In TimeCrypt, data is encrypted 
+    end-to-end, and authorized parties can only decrypt and verify queries within their authorized access scope. Our evaluation 
+    of TimeCrypt shows that its memory overhead and performance are competitive and close to operating on data in the clear.
+  links:
+    - {
+        name: "NSDI Paper",
+        url: "https://www.usenix.org/system/files/nsdi20-paper-burkhalter.pdf",
+        type: paper,
+    }
+
 - title: Enabling a Permanent Revolution in Internet Architecture
   is_ongoing: false
   participants: James Murphy McCauley, Yotam Harchol, Aurojit Panda, Barath Raghavan, Scott Shenker
@@ -231,26 +265,6 @@
         url: "https://dl.acm.org/doi/10.1145/3341302.3342075",
         type: paper,
         featured: true
-    }
-
-- title: Network Evolution for DNNs
-  is_ongoing: false
-  participants:  Michael Alan Chang, Aurojit Panda, Scott Shenker
-  desc: >
-    Deep Neural Networks increasingly power applications like image search, voice recognition, autonomous vehicles, 
-    spam detection, datacenter power management, etc. Many of these applications require DNNs to be periodically retrained, 
-    thereby improving prediction quality. As a result improving DNN training time has a significant impact on application performance. 
-    As a result DNN training is increasingly distributed across machines, and executed on GPUs, ASICs, or other specialized hardware. 
-    In this paper we analyze how the network fabric impacts DNN training time in order to determine how the network fabric should 
-    change to better accommodate these jobs. We rely on analytical models and trace driven simulation for our analysis and find 
-    that changing the network fabric can significantly impact DNN training performance, but unlike traditional data parallel systems 
-    the biggest improvements come from improving data distribution mechanisms rather than aggregation mechanisms.
-  links:
-    - {
-        name: SysML Paper,
-        url: "https://arxiv.org/abs/2004.10275",
-        type: paper,
-        featured: true,
     }
 
 - title: Savanna
@@ -282,6 +296,53 @@
     greatly improves prediction accuracy. Since it is difficult to eliminate all possible sources of 
     system performance variability, we further discuss how ML models can be extended to cope with them
     by learning a distribution as opposed to point estimates.
+
+- title: Network Evolution for DNNs
+  is_ongoing: false
+  participants:  Michael Alan Chang, Aurojit Panda, Scott Shenker
+  desc: >
+    Deep Neural Networks increasingly power applications like image search, voice recognition, autonomous vehicles, 
+    spam detection, datacenter power management, etc. Many of these applications require DNNs to be periodically retrained, 
+    thereby improving prediction quality. As a result improving DNN training time has a significant impact on application performance. 
+    As a result DNN training is increasingly distributed across machines, and executed on GPUs, ASICs, or other specialized hardware. 
+    In this paper we analyze how the network fabric impacts DNN training time in order to determine how the network fabric should 
+    change to better accommodate these jobs. We rely on analytical models and trace driven simulation for our analysis and find 
+    that changing the network fabric can significantly impact DNN training performance, but unlike traditional data parallel systems 
+    the biggest improvements come from improving data distribution mechanisms rather than aggregation mechanisms.
+  links:
+    - {
+        name: SysML Paper,
+        url: "https://arxiv.org/abs/2004.10275",
+        type: paper,
+        featured: true,
+    }
+
+- title: "Datacenter Congestion Control: Identifying what is essential and making it practical"
+  is_ongoing: false
+  participants: Aisha Mushtaq, Radhika Mittal, James Murphy McCauley, Mohammad Alizadeh, Sylvia Ratnasamy, Scott Shenker
+  desc: >
+    Recent years have seen a slew of papers on datacenter congestion control mechanisms. In this work, 
+    we ask whether the bulk of this research is needed for the common case where congestion control involves 
+    hosts responding to simple congestion signals from the network and the performance goal is reducing some 
+    average measure of flow completion time. We raise this question because we find that, out of all the possible 
+    variations one could make in congestion control algorithms, the most essential feature is the switch scheduling 
+    algorithm. More specifically, we find that congestion control mechanisms that use Shortest-Remaining-Processing-Time 
+    (SRPT) achieve superior performance as long as the rate-setting algorithm at the host is reasonable. We further 
+    find that while SRPT’s performance is quite robust to host behaviors, the performance of schemes that use scheduling 
+    algorithms like FIFO or Fair Queuing depend far more crucially on the rate-setting algorithm, and their performance 
+    is typically worse than what can be achieved with SRPT. Given these findings, we then ask whether it is practical 
+    to realize SRPT in switches without requiring custom hardware. We observe that approximate and deployable SRPT (ADS) 
+    designs exist, which leverage the small number of priority queues supported in almost all commodity switches, and require 
+    only software changes in the host and the switches. Our evaluations with one very simple ADS design shows that 
+    it can achieve performance close to true SRPT and is significantly better than FIFO. Thus, the answer to our 
+    basic question - whether the bulk of recent research on datacenter congestion control algorithms is needed for the common case - is no.
+  links:
+    - {
+        name: SIGCOMM-CCR Paper,
+        url: "https://ccronline.sigcomm.org/2019/ccr-july-2019/datacenter-congestion-control-identifying-what-is-essential-and-making-it-practical/",
+        type: paper,
+        featured: true,
+    }
 
 - title: BESS
   is_ongoing: false
@@ -377,7 +438,7 @@
     chaining NFs. 
   links:
     - {
-        name: "Paper",
+        name: "OSDI Paper",
         url: "https://people.eecs.berkeley.edu/~apanda/assets/papers/osdi16.pdf",
         type: paper,
         featured: true
