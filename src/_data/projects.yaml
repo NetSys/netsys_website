@@ -185,6 +185,21 @@
     easily deployable, and easily manageable while offering packet delivery rates that rival those of 
     the most sophisticated resiliency mechanisms.
 
+- title: Smarter Prefetching
+  is_ongoing: true
+  participants: Early project led by Christopher Branner-Augmon
+  desc: >
+    Many common algorithms are data oblivious, meaning that their memory access patterns are independent of their input 
+    data (e.g., common matrix operations). Our goal in this project is to exploit the predictability of memory access 
+    patterns in data oblivious algorithms in order to reduce their memory footprint, while limiting their performance 
+    degradation. We do this by utilizing a smart memory prefetcher, which is able to use information garnered from one 
+    execution to accurately prefetch on subsequent executions of an application. For data-oblivious applications, our 
+    approach will allow us to achieve much better prefetching accuracy when compared to existing approaches.
+  feature_excerpt: >
+    We propose a smart memory prefetcher to exploit the predictability of memory access patterns in data oblivious algorithms to 
+    reduce their memory footprint, while limiting their performance degradation. It can use information garnered from one 
+    execution to accurately prefetch on subsequent executions of an application. 
+
 - title: Edgy
   is_ongoing: true
   participants: Ongoing project by John Westhoff, Aisha Mushtaq, Amir Shahatit, Yotam Harchol, Aurojit Panda, Scott Shenker
@@ -197,9 +212,6 @@
     in poor performance when adopting edge computing. In this work we propose Edgy, a framework that decouples 
     replication logic from application logic, thus enabling applications to better respond to workload and 
     infrastructure changes.
-  feature_excerpt: >
-    We propose Edgy, a framework that decouples replication logic from application logic, 
-    thus enabling applications to better respond to workload and infrastructure changes.
 
 - title: Enabling a Permanent Revolution in Internet Architecture
   is_ongoing: false
