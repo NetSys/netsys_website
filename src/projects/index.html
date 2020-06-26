@@ -4,16 +4,16 @@ title: Projects
 ---
 <div class="row">
     <h1 >Projects</h1>
-    {% for project in site.data.projects  %}
+    {% for project in site.data.projects %}
         {% if project.is_ongoing %}
         <div class="netsys-project">
-            <h3>
+            <h2>
                 {% if project.url %}
                     <a href="{{ project.url }}">{{ project.title }}</a>
                 {% else %}
                     {{ project.title }}
                 {% endif %}
-            </h3>
+            </h2>
             <p>{{ project.participants }}</p>
             <p style="font-size: 95%">{{ project.desc }}</p>
             <p>
