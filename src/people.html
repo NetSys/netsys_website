@@ -93,7 +93,12 @@ title: People
     {% for type in alumni %}
         {% unless type.name == "faculty" %}
             {% assign t_ctr = aidx %}
+            {% unless type.name == "staff" %}
             <h4 id="alumni" class="col-md-12">{{ type.name | capitalize }} Alumni</h2>
+            {% endunless %}
+            {% if type.name == "staff" %}
+            <h4 id="alumni" class="col-md-12">Post-Doc/Staff/Visitor Alumni</h2>
+            {% endif %}
         {% endunless %}
         {% assign people = type.items | sort: "name" %}
         {% for person in people %}

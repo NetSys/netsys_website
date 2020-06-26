@@ -191,6 +191,13 @@
   email: hithnawi@eecs.berkeley.edu
   homepage: https://people.eecs.berkeley.edu/~hithnawi/
 
+- name: Lukas Burkhalter
+  c_cate: alumni 
+  c_before: staff
+  pic_url: static/img/people/no_image.jpg
+  email: lukas.burkhalter@inf.ethz.ch
+  homepage: https://people.inf.ethz.ch/burlukas/
+
 - name: Yotam Harchol
   c_cate: alumni
   c_before: staff 
