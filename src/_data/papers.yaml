@@ -8,7 +8,7 @@
   url: "https://dl.acm.org/doi/abs/10.1145/3342195.3387522"
 
 - title: "Droplet: Decentralized Authorization and Access Control for Encrypted Data Streams"
-  venue: "Shafagh, H., Burkhalter, L., Ratnasamy, S. and Hithnawi, A. USENIX Security '20"
+  venue: "Shafagh, H., Burkhalter, L., Hithnawi, A. and Ratnasamy, S. USENIX Security '20"
   desc: >
   url: "https://arxiv.org/abs/1806.02057"
 

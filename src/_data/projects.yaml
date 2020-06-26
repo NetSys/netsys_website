@@ -2,7 +2,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
-  participants: Led by Emmanuel Amaro
+  participants: "Contact researcher: Emmanuel Amaro"
   desc: >
     We propose extensions to RDMA called Remote Memory Calls (RMCs) that allows applications to 
     install a customized set of 1-sided RDMA operations. We are exploring how can RMCs be implemented 
@@ -38,7 +38,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
-  participants: Led by Zhihong Luo
+  participants: "Contact researcher: Zhihong Luo"
   desc: >
     Today’s cellular network architecture and its business model are driven by the presence of monopoly, 
     which causes high barrier-to-entry for small network operators, excessively complicated spec and difficulty 
@@ -53,7 +53,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
-  participants: Led by Amy Ousterhout
+  participants: "Contact researcher: Amy Ousterhout"
   desc: >
     Datacenter servers must balance load across many (sometimes dozens) of cores. 
     Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks 
@@ -187,7 +187,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
-  participants: Led by Aisha Mustaq
+  participants: "Contact researcher: Aisha Mustaq"
   desc: >
     In many ways, our current approach to Internet congestion control arose from the need to deal with a 
     series of congestion collapses. While some of those innovations were explicitly intended to prevent 
@@ -204,7 +204,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
-  participants: Led by Murphy McCauley
+  participants: "Contact researcher: Murphy McCauley"
   desc: >
      This NetSys project attempts to rethink foundational aspects of operating system design for 
      servers in the modern age, confronting issues such as changing performance bottlenecks (e.g., due 
@@ -216,7 +216,7 @@
   is_ongoing: true
   stage: ongoing
   stage_order: 3
-  participants: Led by Murphy McCauley
+  participants: "Contact researcher: Murphy McCauley"
   desc: >
     A project in this area attempts to deliver a routing resiliency mechanism that is easily 
     implementable, easily deployable, and easily manageable while offering packet delivery rates 
@@ -230,7 +230,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
-  participants: Led by Christopher Branner-Augmon
+  participants: "Contact researcher: Christopher Branner-Augmon"
   desc: >
     Many common algorithms are data oblivious, meaning that their memory access patterns are independent of their input 
     data (e.g., common matrix operations). Our goal in this project is to exploit the predictability of memory access 
