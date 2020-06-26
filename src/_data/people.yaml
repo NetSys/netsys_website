@@ -163,6 +163,13 @@
   email: aousterh@mit.edu
   homepage: https://people.csail.mit.edu/aousterh/
 
+- name: Muhammad Asim Jamshed
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/no_image.jpg
+  email: asim.jamshed@gmail.com
+  homepage: https://ajamshed.github.io/
+
 - name: Sarah McClure 
   c_affil: ucb
   c_cate: grad

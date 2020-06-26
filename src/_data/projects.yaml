@@ -1,6 +1,8 @@
 - title: Programmable RDMA
   is_ongoing: true
-  participants: New project led by Emmanuel Amaro
+  stage: new
+  stage_order: 2
+  participants: Led by Emmanuel Amaro
   desc: >
     We propose extensions to RDMA called Remote Memory Calls (RMCs) that allows applications to 
     install a customized set of 1-sided RDMA operations. We are exploring how can RMCs be implemented 
@@ -14,7 +16,9 @@
 
 - title: CESSNA
   is_ongoing: true
-  participants: Ongoing project by Aisha Mushtaq, Yotam Harchol, Vivian Fang, Murphy McCauley, Aurojit Panda, Scott Shenker
+  stage: ongoing
+  stage_order: 3
+  participants: Aisha Mushtaq, Yotam Harchol, Vivian Fang, Murphy McCauley, Aurojit Panda, Scott Shenker
   desc: >
     The introduction of computational resources at the network edge allows application designers 
     to offload computation from clients and/or servers, thereby reducing response latency and 
@@ -32,7 +36,9 @@
 
 - title: μTelco
   is_ongoing: true
-  participants: New project led by Zhihong Luo
+  stage: new
+  stage_order: 2
+  participants: Led by Zhihong Luo
   desc: >
     Today’s cellular network architecture and its business model are driven by the presence of monopoly, 
     which causes high barrier-to-entry for small network operators, excessively complicated spec and difficulty 
@@ -45,7 +51,9 @@
 
 - title: Efficient Work Stealing
   is_ongoing: true
-  participants: Early project led by Amy Ousterhout
+  stage: early
+  stage_order: 1
+  participants: Led by Amy Ousterhout
   desc: >
     Datacenter servers must balance load across many (sometimes dozens) of cores. 
     Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks 
@@ -61,6 +69,8 @@
 - title: Kappa
   url: "https://kappa.cs.berkeley.edu/"
   is_ongoing: true
+  stage: finished
+  stage_order: 4
   participants: Wen Zhang, Vivian Fang, Aurojit Panda, Scott Shenker
   desc: >
     Serverless computing (e.g., AWS Lambda) was initially designed for event-driven applications, 
@@ -79,7 +89,9 @@
 
 - title: Automating GDPR
   is_ongoing: true
-  participants: New project by Michael Alan Chang, Wen Zhang, Eric Sheng, Aurojit Panda, Scott Shenker
+  stage: new
+  stage_order: 2
+  participants: Michael Alan Chang, Wen Zhang, Eric Sheng, Aurojit Panda, Scott Shenker
   desc: >
     Recent Data Privacy Acts like GDPR and CCPA necessitate well-defined data APIs between data 
     security/privacy personnel and application developers. However, poor data governance in Kubernetes 
@@ -96,7 +108,9 @@
 
 - title: RCS
   is_ongoing: true
-  participants: New project by Lloyd Brown, Arvind Krishnamurth (UW), Ganesh Ananthanarayanan (MSR), Ethan Katz Basset (Columbia), Sylvia Ratnasamy, Scott Shenker
+  stage: new
+  stage_order: 2
+  participants: Lloyd Brown, Arvind Krishnamurth (UW), Ganesh Ananthanarayanan (MSR), Ethan Katz Basset (Columbia), Sylvia Ratnasamy, Scott Shenker
   desc: >
     The conventional wisdom requires that all congestion control algorithms deployed on the public Internet be TCP-friendly. 
     If universally obeyed, this requirement would greatly constrain the future of such congestion control algorithms. 
@@ -111,7 +125,9 @@
 
 - title: Autotune
   is_ongoing: true
-  participants: Ongoing project by Michael Alan Chang, Will Wang, Aurojit Panda, Scott Shenker
+  stage: ongoing
+  stage_order: 3
+  participants: Michael Alan Chang, Will Wang, Aurojit Panda, Scott Shenker
   desc: >
     Most large web-scale applications are now built by composing collections (up to 100s or 1000s) of microservices. 
     Operators need to decide how many resources are allocated to each microservice, and these allocations can have a 
@@ -121,6 +137,8 @@
 
 - title: Persimmon
   is_ongoing: true
+  stage: finished
+  stage_order: 4
   participants: Wen Zhang, Scott Shenker, Irene Zhang
   desc: >
     Distributed in-memory storage systems are crucial for meeting the low latency
@@ -140,6 +158,8 @@
 - title: CFM
   url: "https://github.com/clusterfarmem"
   is_ongoing: true
+  stage: finished
+  stage_order: 4
   participants: Emmanuel Amaro, Christopher Branner-Augmon, Zhihong Luo, Amy Ousterhout, Marcos K. Aguilera, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker
   desc: >
     As memory requirements grow, and advances in memory technology slow, the availability of sufficient 
@@ -163,9 +183,11 @@
         featured: true
     }
 
-- title: Understanding the root causes and fixes of congestion collapse.
+- title: Understanding the root causes and fixes of congestion collapse
   is_ongoing: true
-  participants: New project led by Aisha Mustaq
+  stage: new
+  stage_order: 2
+  participants: Led by Aisha Mustaq
   desc: >
     In many ways, our current approach to Internet congestion control arose from the need to deal with a 
     series of congestion collapses. While some of those innovations were explicitly intended to prevent 
@@ -180,7 +202,9 @@
 
 - title: OS for the Modern Age
   is_ongoing: true
-  participants: Early project led by Murphy McCauley
+  stage: early
+  stage_order: 1
+  participants: Led by Murphy McCauley
   desc: >
      This NetSys project attempts to rethink foundational aspects of operating system design for 
      servers in the modern age, confronting issues such as changing performance bottlenecks (e.g., due 
@@ -190,7 +214,9 @@
 
 - title: Routing Resilience
   is_ongoing: true
-  participants: Ongoing project led by Murphy McCauley
+  stage: ongoing
+  stage_order: 3
+  participants: Led by Murphy McCauley
   desc: >
     A project in this area attempts to deliver a routing resiliency mechanism that is easily 
     implementable, easily deployable, and easily manageable while offering packet delivery rates 
@@ -202,7 +228,9 @@
 
 - title: Smarter Prefetching
   is_ongoing: true
-  participants: Early project led by Christopher Branner-Augmon
+  stage: early
+  stage_order: 1
+  participants: Led by Christopher Branner-Augmon
   desc: >
     Many common algorithms are data oblivious, meaning that their memory access patterns are independent of their input 
     data (e.g., common matrix operations). Our goal in this project is to exploit the predictability of memory access 
@@ -217,7 +245,9 @@
 
 - title: Edgy
   is_ongoing: true
-  participants: Ongoing project by John Westhoff, Aisha Mushtaq, Amir Shahatit, Yotam Harchol, Aurojit Panda, Scott Shenker
+  stage: ongoing
+  stage_order: 3
+  participants: John Westhoff, Aisha Mushtaq, Amir Shahatit, Yotam Harchol, Aurojit Panda, Scott Shenker
   desc: >
     In the last few years there has been increased interest in deploying application logic at the network edge.  
     However, in order to effectively use edge resources, applications must replicate state at edges. In current 
@@ -269,7 +299,9 @@
 
 - title: Savanna
   is_ongoing: true
-  participants: Ongoing project by Lloyd Brown, Peter Gao, Ed Oakes, Wen Zhang, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker
+  stage: ongoing
+  stage_order: 3
+  participants: Lloyd Brown, Peter Gao, Ed Oakes, Wen Zhang, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker
   desc: >
     Serverless computing is a relatively recent cloud computing paradigm that allows customers 
     to write lightweight, short-lived functions that are executed on resources provisioned and managed by 
@@ -284,6 +316,8 @@
 
 - title: Predicting System Performance
   is_ongoing: true
+  stage: finished
+  stage_order: 4
   participants: Silvery Fu, Aditya Srivastava, Saurabh Gupta, Radhika Mittal, Sylvia Ratnasamy
   desc: >
     The ability to predict system performance is key to enabling better system optimization and planning. 

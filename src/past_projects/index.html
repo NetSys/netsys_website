@@ -4,9 +4,10 @@ title: Past Projects
 ---
 <div class="row">
     <h1>Past Projects</h1>
+    <hr>
     {% for project in site.data.projects %}
     {% unless !project.is_ongoing %}
-    <div class="col-md-12 netsys-project">
+    <div class="netsys-project">
         <h2>
             {% if project.url %}
                 <a href="{{ project.url }}">{{ project.title }}</a>
