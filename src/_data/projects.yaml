@@ -40,14 +40,18 @@
   stage_order: 2
   participants: "Contact researcher: Zhihong Luo"
   desc: >
-    Today’s cellular network architecture and its business model are driven by the presence of monopoly, 
-    which causes high barrier-to-entry for small network operators, excessively complicated spec and difficulty 
-    in extending network coverage. We propose μTCell architecture to address these issues by federating 
-    cellular network among a large number of μTelcos.
+    Today’s cellular ecosystem is dominated by a small number of providers and the monopolistic nature of 
+    the market has long hampered innovation. We propose an alternate access architecture that lowers 
+    the barrier to entry for new providers by making two important changes. First, we remove the traditional 
+    requirement that users have a trusted relationship with their access provider, instead allowing users to 
+    consume (and pay for) access on-demand  from any access provider. Secondly, we move support for mobility 
+    from the network infrastructure to the user device thus enabling seamless roaming and handovers, without 
+    the need for complex network support. Together, these changes enable a simpler cellular architecture that 
+    scales to a large number of small “micro-telco” access providers.
   feature_excerpt: >
-    Today’s cellular network architecture and its business model are driven by the presence of monopoly. 
-    We propose μTCell architecture to address these issues by federating cellular network among a 
-    large number of μTelcos.
+    Today’s cellular ecosystem is dominated by a small number of providers and the monopolistic nature of 
+    the market has long hampered innovation. We propose an alternate access architecture that lowers 
+    the barrier to entry for new providers.
 
 - title: Efficient Work Stealing
   is_ongoing: true
