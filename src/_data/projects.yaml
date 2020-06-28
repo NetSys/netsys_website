@@ -204,6 +204,64 @@
     resistant will be important as congestion control turns away from the current paradigm and adopts rather 
     different approaches, as is starting to occur.
 
+- title: A Public Option for the Core
+  is_ongoing: true
+  stage: finished
+  stage_order: 4
+  participants: "Contact author: Scott Shenker"
+  desc: >
+    This project is focused not on the Internet architecture -- as defined by layering, 
+    the narrow waist of IP, and other core design principles -- but on the Internet infrastructure, 
+    as embodied in the technologies and organizations that provide Internet service. We consider 
+    both the challenges and the opportunities that make this an auspicious time to revisit how we might 
+    best structure the Internet’s infrastructure. Currently, the tasks of transit-between-domains and 
+    last-mile-delivery are jointly handled by a set of ISPs who interconnect through BGP. Instead, we propose 
+    cleanly separating these two tasks. For transit, we propose the creation of a ``public option’' for the 
+    Internet’s core backbone. This public option core, which complements rather than replaces the backbones 
+    used by large-scale ISPs, would (i) run an open market for backbone bandwidth so it could leverage 
+    links offered by third-parties, and (ii) structure its terms-of-service to enforce network neutrality 
+    so as to encourage competition and reduce the advantage of large incumbents.
+
+- title: Tunnels as an Abstraction
+  is_ongoing: true
+  stage: new
+  stage_order: 2
+  participants: "Contact author: Scott Shenker"
+  desc: >
+    Network APIs such as UNIX sockets, DPDK, and Netmap, assume that networks provide 
+    only end-to-end connectivity. However, networks increasingly include smartNICs and 
+    programmable switches that can implement both network and application functions. 
+    Several recent works have shown the benefit of offloading application functionality 
+    to the network, but using these approaches requires changing not just the applications, 
+    but also network and system configuration. In this project we propose a network API that 
+    rovides a uniform abstraction for offloads, aiming to simplify their use.
+
+- title: Economics of Data Sharing
+  is_ongoing: true
+  stage: early
+  stage_order: 1
+  participants: "Contact author: Scott Shenker"
+  desc: >
+    There are many learning tasks — detecting bank fraud, predicting treatment effectiveness 
+    -- that are done by separate entities, but where sharing the data would produce better 
+    results. However, there are both privacy and incentive problems with sharing data. We 
+    propose the use of learning brokers that receive data from various entities and perform 
+    two valuable functions. First, they run the training algorithms over the data, and only 
+    give the inference engines to others, not the raw data. Second, they share the data in 
+    such a way that all entities have an incentive to share everything with the broker. This 
+    work is in the very early stages.
+
+- title: Theory of Network Neutrality
+  is_ongoing: true
+  stage: early
+  stage_order: 1
+  participants: "Contact author: Scott Shenker"
+  desc: >
+    There is a huge literature on network neutrality, which typically starts with our current economic arrangements 
+    on the Internet and asks about the wisdom of certain limited measures (such as termination fees or prioritizing service). 
+    This projects instead looks at the set of economic actors and asks which economic arrangements would lead to the 
+    socially optimal outcome. This work is in the very early stages.
+
 - title: OS for the Modern Age
   is_ongoing: true
   stage: early
@@ -282,7 +340,7 @@
     }
 
 - title: Enabling a Permanent Revolution in Internet Architecture
-  is_ongoing: false
+  is_ongoing: true 
   participants: James Murphy McCauley, Yotam Harchol, Aurojit Panda, Barath Raghavan, Scott Shenker
   desc: >
     The research community has developed a number of interesting proposals for new Internet architectures 
