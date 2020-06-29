@@ -415,7 +415,7 @@
 
 - name: Amir Shahatit
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/amir.jpg
   homepage: http://amirshahatit.com
@@ -428,10 +428,22 @@
 
 - name: Yuan Cheng (Anson) Tsai
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/anson.jpeg
   homepage: https://www.linkedin.com/in/anson-tsai-83b9a312a/
+
+- name: Julian Kung
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Fang Shuo Deng
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
 
 - name: Michelle Hwang
   c_affil: ucb
@@ -455,7 +467,7 @@
 
 - name: Domenic Bottini
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/domenic.jpeg
   homepage: https://www.linkedin.com/in/dbottini/
@@ -476,14 +488,14 @@
 
 - name: Neil Agarwal
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/neil.jpeg
   homepage: https://www.linkedin.com/in/neil-agarwal-2848b6110/
 
 - name: Junkeun Yi
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
   homepage: https://www.linkedin.com/in/junkeun-yi-05a409150
@@ -497,7 +509,7 @@
 
 - name: Emerson Hsieh
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/emerson.jpg
   homepage: http://www.emersonhsieh.com/
