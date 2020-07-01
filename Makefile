@@ -2,6 +2,7 @@ USERNAME = `whoami`
 #USERNAME=mwalls
 USERNAME=silvery
 REMOTE=$(USERNAME)@watson.millennium.berkeley.edu:/project/cs/netsys/www/netsys/data/
+EDGECENTER_REPO=../edgecenter_website
 
 build:
 	bundle exec jekyll build
@@ -14,3 +15,6 @@ push:
 
 pull:
 	rsync -avzP ${REMOTE} ./build/
+
+sync_ec:
+	rsync -avzP ./src/_data ${EDGECENTER_REPO}/src/
