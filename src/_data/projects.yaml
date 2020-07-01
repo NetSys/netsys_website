@@ -2,6 +2,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
+  edge_project: rmc
   participants: "Contact researcher: Emmanuel Amaro"
   desc: >
     We propose extensions to RDMA called Remote Memory Calls (RMCs) that allows applications to 
@@ -18,6 +19,7 @@
   is_ongoing: true
   stage: ongoing
   stage_order: 3
+  edge_project: cessna
   participants: Aisha Mushtaq, Yotam Harchol, Vivian Fang, Murphy McCauley, Aurojit Panda, Scott Shenker
   desc: >
     The introduction of computational resources at the network edge allows application designers 
@@ -38,6 +40,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
+  edge_project: mutcell
   participants: "Contact researcher: Zhihong Luo"
   desc: >
     Today’s cellular ecosystem is dominated by a small number of providers and the monopolistic nature of 
@@ -57,6 +60,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
+  edge_project: workstealing
   participants: "Contact researcher: Amy Ousterhout"
   desc: >
     Datacenter servers must balance load across many (sometimes dozens) of cores. 
@@ -75,6 +79,7 @@
   is_ongoing: true
   stage: finished
   stage_order: 4
+  edge_project: kappa
   participants: Wen Zhang, Vivian Fang, Aurojit Panda, Scott Shenker
   desc: >
     Serverless computing (e.g., AWS Lambda) was initially designed for event-driven applications, 
@@ -114,6 +119,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
+  edge_project: rcs
   participants: Lloyd Brown, Arvind Krishnamurth (UW), Ganesh Ananthanarayanan (MSR), Ethan Katz Basset (Columbia), Sylvia Ratnasamy, Scott Shenker
   desc: >
     The conventional wisdom requires that all congestion control algorithms deployed on the public Internet be TCP-friendly. 
@@ -131,6 +137,7 @@
   is_ongoing: true
   stage: ongoing
   stage_order: 3
+  edge_project: autotune
   participants: Michael Alan Chang, Will Wang, Aurojit Panda, Scott Shenker
   desc: >
     Most large web-scale applications are now built by composing collections (up to 100s or 1000s) of microservices. 
@@ -143,6 +150,7 @@
   is_ongoing: true
   stage: finished
   stage_order: 4
+  edge_project: persimmon
   participants: Wen Zhang, Scott Shenker, Irene Zhang
   desc: >
     Distributed in-memory storage systems are crucial for meeting the low latency
@@ -164,6 +172,7 @@
   is_ongoing: true
   stage: finished
   stage_order: 4
+  edge_project: cfm
   participants: Emmanuel Amaro, Christopher Branner-Augmon, Zhihong Luo, Amy Ousterhout, Marcos K. Aguilera, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker
   desc: >
     As memory requirements grow, and advances in memory technology slow, the availability of sufficient 
@@ -208,6 +217,7 @@
   is_ongoing: true
   stage: finished
   stage_order: 4
+  edge_project: poc
   participants: "Contact author: Scott Shenker"
   desc: >
     This project is focused not on the Internet architecture -- as defined by layering, 
@@ -226,6 +236,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
+  edge_project: tunnels
   participants: "Contact author: Scott Shenker"
   desc: >
     Network APIs such as UNIX sockets, DPDK, and Netmap, assume that networks provide 
@@ -240,6 +251,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
+  edge_project: data-sharing
   participants: "Contact author: Scott Shenker"
   desc: >
     There are many learning tasks — detecting bank fraud, predicting treatment effectiveness 
@@ -255,6 +267,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
+  edge_project: net-neutral
   participants: "Contact author: Scott Shenker"
   desc: >
     There is a huge literature on network neutrality, which typically starts with our current economic arrangements 
@@ -266,6 +279,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
+  edge_project: os-redesign
   participants: "Contact researcher: Murphy McCauley"
   desc: >
      This NetSys project attempts to rethink foundational aspects of operating system design for 
@@ -292,6 +306,7 @@
   is_ongoing: true
   stage: early
   stage_order: 1
+  edge_project: prefetch
   participants: "Contact researcher: Christopher Branner-Augmon"
   desc: >
     Many common algorithms are data oblivious, meaning that their memory access patterns are independent of their input 
@@ -309,6 +324,7 @@
   is_ongoing: true
   stage: ongoing
   stage_order: 3
+  edge_project: edgy
   participants: John Westhoff, Aisha Mushtaq, Amir Shahatit, Yotam Harchol, Aurojit Panda, Scott Shenker
   desc: >
     In the last few years there has been increased interest in deploying application logic at the network edge.  
@@ -322,6 +338,7 @@
 
 - title: TimeCrypt
   is_ongoing: false
+  edge_project: timecrypt
   participants: Lukas Burkhalter, Anwar Hithnawi, Alexander Viand, Hossein Shafagh, Sylvia Ratnasamy
   desc: >
     A growing number of devices and services collect detailed time series data that is stored in the cloud. 
@@ -363,6 +380,7 @@
   is_ongoing: true
   stage: ongoing
   stage_order: 3
+  edge_project: savanna
   participants: Lloyd Brown, Peter Gao, Ed Oakes, Wen Zhang, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker
   desc: >
     Serverless computing is a relatively recent cloud computing paradigm that allows customers 
@@ -376,10 +394,26 @@
     for serverless applications. Savanna requires applications to use a file API, but is otherwise transparent 
     to serverless applications.
 
+- title: DepSched
+  is_ongoing: false
+  stage: finished
+  stage_order: 4
+  edge_project: depsched
+  participants: Silvery Fu, Radhika Mittal, Lei Zhang, Sylvia Ratnasamy
+  desc: >
+    Container is becoming the canonical way of deploying compute tasks at the edge. Unfortunately, container startup latency and overhead remain high, 
+    limiting responsiveness and of edge deployment. This latency comes mostly from fetching container dependencies including system libraries, tools, 
+    configuration files, and data files. To address this, we propose that schedulers in container orchestrators take into account a task's dependencies. 
+    Hence, in dependency scheduling, the scheduler tries to place a task at a node that has the maximum number of the task's dependencies 
+    stored locally. We implement dependency scheduling within Kubernetes and evaluate it through extensive experiments and measurement-driven 
+    simulations. We show that dependency scheduling improves task startup latency by 1.4-2.3x relative to current dependency-agnostic 
+    scheduling for typical scenarios.
+  
 - title: Predicting System Performance
   is_ongoing: true
   stage: finished
   stage_order: 4
+  edge_project: perfpredict
   participants: Silvery Fu, Aditya Srivastava, Saurabh Gupta, Radhika Mittal, Sylvia Ratnasamy
   desc: >
     The ability to predict system performance is key to enabling better system optimization and planning. 

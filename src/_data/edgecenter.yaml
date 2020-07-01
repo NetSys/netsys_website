@@ -1,0 +1,43 @@
+- title: Overview
+  type: section
+  text: With generous funding from Intel and VMware, we have formed a new research center at Berkeley on Edge Computing. This effort is led by professors Sylvia Ratnasamy and Scott Shenker, and includes the entire <a href="https://netsys.cs.berkeley.edu">NetSys</a> group of roughly twelve graduate students and four postdocs and staff. Please see our <a href="https://netsys.cs.berkeley.edu/people.html">people</a>, <a href="projects/">project</a>, and <a href="https://netsys.cs.berkeley.edu/publications.html">publication</a> pages.
+
+- title: What is Edge Computing?
+  type: section
+  text: ""
+
+- title: ""
+  type: paragraph
+  text: Edge computing has been a central component of the Internet from almost the very beginning, in the form of Content Distribution Networks. However, this form of edge computing is limited to a narrow set of functionality (content retrieval) and only involves soft-state.<br> 
+
+- title: ""
+  type: paragraph
+  text: In recent years, a new generation of edge computing has arisen, with more general and stateful functionality which, in the words of Network World, “is transforming the way data is being handled, processed, and delivered from millions of devices around the world” by lowering response times and backbone bandwidth to real-time applications such as gaming, video processing and analytics, self-driving cars, and IoT.<br> 
+
+- title: ""
+  type: paragraph
+  text: In our effort, the term “edge computing” refers to the insertion of nontrivial and stateful application-specific computation between the client and the cloud. The edge could be within the home, enterprise, on a nearby telephone pole, on the cloud, at the service provider’s central office, or somewhere on their network. We do not focus on simpler cases where either all computation has moved from the cloud to a nearby network edge, or where the edge only does caching or stateless computation. Instead, we focus on the challenges that arise when edge computing moves us from the traditional client-server/cloud model to a client-edge-server/cloud model.
+
+- title: "Edge Computing: Research Challenges"
+  type: section
+  text: "Edge computing raises many interesting issues that we are pursuing. Below is an evolving list of challenges that our research addresses."
+
+- title: Privacy
+  type: subsection
+  text: With data passing through computational edges, edge computing must ensure privacy of data. Our <a href="projects/#timecrypt">TimeCrypt</a> project allows scalable and real-time analytics to be run over large volumes of encrypted time series data.
+
+- title: Limited computation
+  type: subsection
+  text: Many of the ``edges'' in edge computing are relatively small computing installations (rather than large datacenters). Thus, these edges must be prepared to cope with limited computing resources. Several of our projects (<a href="projects/#kappa">kappa</a>, <a href="projects/#workstealing">workstealing</a>, <a href="projects/#cfm">CFM</a>, <a href="projects/#prefetch">prefetch</a>, <a href="projects/#perfpredict">perf-predict</a>, <a href="projects/#savanna">savanna</a>, <a href="projects/#depsched">depsched</a>), while not explicitly focused on the edge, provide techniques to use computing resources more efficiently
+
+- title: Self-managing
+  type: subsection
+  text: Similarly, many of the edge locations have no onsite operators, so they must be self-managing. Our <a href="projects/#autotune">AutoTune</a> project automates the optimal placement of jobs to increase efficiency, and our <a href="publications.html">AXE</a> and <a href="publications.html">Ark</a> projects automate network resiliency.
+
+- title: Ad hoc distribution
+  type: subsection
+  text: For distributed applications like gaming, one never knows in advance which edges will have clients attached, yet the performance of the application depends on where state is placed. Our <a href="projects/#edgy">Edgy</a> project allows operators to cope with this <em>ad hoc</em> distribution by enabling operators to seamlessly change where state is stored while maintaining the correctness of the application.
+
+- title: New paradigms
+  type: subsection
+  text: The preceding projects accept the basic computational and networking infrastructure as given, and provide ways to make it better. However, we also have projects that look to make fundamental changes in the underlying infrastructure. First, we are looking for how we might completely <a href="projects/#os-redesign">redesign operating systems</a> to fit the modern age of computing. Second, we are investing radical <a href="projects/#mutcell">new ways of designing cellular networks</a>, where most edge computing clients will live. Lastly, we have proposed a <a href="projects/#poc">restructuring of the Internet infrastructure</a> that would greatly change how edges are deployed.

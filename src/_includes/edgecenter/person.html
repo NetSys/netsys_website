@@ -3,9 +3,9 @@
         <a href="{{ person.homepage }}">
     {% endif %}
     <div class="img-thumbnail people-pic-wrapper {{ include.person.c_before }}">
-      <img class="people-pic" src="{{ include.person.pic_url }}" alt="">
+      <img class="people-pic" src="../{{ include.person.pic_url }}" alt="">
     </div>
-    <p align="center"><div class="term">{{ include.person.name }}</div>
+    <p align="center">{{ include.person.name }}
     {% if include.person.homepage %}</a>{% endif %}
     <br>
     {% if include.person.c_cate == "alumni" and include.person.c_before == "grad"%}
