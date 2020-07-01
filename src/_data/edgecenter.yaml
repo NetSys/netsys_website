@@ -22,13 +22,17 @@
   type: section
   text: "Edge computing raises many interesting issues that we are pursuing. Below is an evolving list of challenges that our research addresses."
 
+- title: "Resiliency"
+  type: subsection
+  text: Perhaps the biggest change from CDNs to today's edge computing is making the edge stateful, so application correctness can be undermined -- or its functioning stopped -- when an edge fails and its state disappears. We are addressing this in two ways. First, in our <a href="projects/#cessna">CESSNA</a> project we provide a toolkit that can allow arbitrary client and server code to seamlessly recover from an edge failure (the edge code must be CESSNA-aware). Second, our <a href="projects/#persimmon">Persimmon</a> project uses in-memory applications (as most edge processing would be) to create persistent state without much additional overhead.
+
 - title: Privacy
   type: subsection
   text: With data passing through computational edges, edge computing must ensure privacy of data. Our <a href="projects/#timecrypt">TimeCrypt</a> project allows scalable and real-time analytics to be run over large volumes of encrypted time series data.
 
 - title: Limited computation
   type: subsection
-  text: Many of the ``edges'' in edge computing are relatively small computing installations (rather than large datacenters). Thus, these edges must be prepared to cope with limited computing resources. Several of our projects (<a href="projects/#kappa">kappa</a>, <a href="projects/#workstealing">workstealing</a>, <a href="projects/#cfm">CFM</a>, <a href="projects/#prefetch">prefetch</a>, <a href="projects/#perfpredict">perf-predict</a>, <a href="projects/#savanna">savanna</a>, <a href="projects/#depsched">depsched</a>), while not explicitly focused on the edge, provide techniques to use computing resources more efficiently
+  text: Many of the “edges“ in edge computing are relatively small computing installations (rather than large datacenters). Thus, these edges must be prepared to cope with limited computing resources. Several of our projects (<a href="projects/#kappa">kappa</a>, <a href="projects/#workstealing">workstealing</a>, <a href="projects/#cfm">CFM</a>, <a href="projects/#prefetch">prefetch</a>, <a href="projects/#perfpredict">perf-predict</a>, <a href="projects/#savanna">savanna</a>, <a href="projects/#depsched">depsched</a>), while not explicitly focused on the edge, provide techniques to use computing resources more efficiently
 
 - title: Self-managing
   type: subsection
@@ -41,3 +45,24 @@
 - title: New paradigms
   type: subsection
   text: The preceding projects accept the basic computational and networking infrastructure as given, and provide ways to make it better. However, we also have projects that look to make fundamental changes in the underlying infrastructure. First, we are looking for how we might completely <a href="projects/#os-redesign">redesign operating systems</a> to fit the modern age of computing. Second, we are investing radical <a href="projects/#mutcell">new ways of designing cellular networks</a>, where most edge computing clients will live. Lastly, we have proposed a <a href="projects/#poc">restructuring of the Internet infrastructure</a> that would greatly change how edges are deployed.
+
+- title: Overall View of Projects
+  type: section
+  text: "The above list of challenges have resulted in many projects. It is helpful to think of them falling into one of four categories:"
+
+- title: Ecosystem
+  type: point
+  text: These are projects that address how broader themes, like the overall Internet infrastructure or the nature of congestion control in the public Internet, that impact what happens at the edge.
+ 
+- title: Use Cases
+  type: point
+  text: These are use cases that could utilize edge computing, ranging from new cellular designs to privacy and analytics.
+
+- title: Programming Models and Runtime Frameworks
+  type: point
+  text: These projects involve software designs that would be run at the edge.
+
+- title: System Infrastructure
+  type: point
+  text: These are advances in lower-level technology, such as extending RDMA or exploiting persistent memory, that edge solutions could use.
+
