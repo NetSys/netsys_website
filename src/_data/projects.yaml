@@ -40,7 +40,7 @@
         name: Paper,
         url: "https://dl.acm.org/doi/10.1145/3229556.3229558",
         type: paper,
-        featured: true,
+        featured: false
     }
 
 - title: μTelco
@@ -100,7 +100,7 @@
         name: Source Code,
         url: "https://github.com/NetSys/kappa",
         type: code,
-        featured: true,
+        featured: false
     }
 
 - title: Automating GDPR
@@ -194,13 +194,13 @@
         name: "Paper",
         url: "https://dl.acm.org/doi/abs/10.1145/3342195.3387522",
         type: paper,
-        featured: true
+        featured: false
     }
     - {
         name: Source Code,
         url: "https://github.com/clusterfarmem",
         type: code,
-        featured: true,
+        featured: false
     }
 
 - title: Understanding the root causes and fixes of congestion collapse
@@ -380,7 +380,7 @@
         name: "SIGCOMM Paper",
         url: "https://dl.acm.org/doi/10.1145/3341302.3342075",
         type: paper,
-        featured: true
+        featured: false
     }
 
 - title: Savanna
@@ -420,13 +420,13 @@
         name: "Paper",
         url: "https://www.usenix.org/system/files/hotedge20_paper_fu.pdf",
         type: paper,
-        featured: true
+        featured: false
     }
     - {
-        name: "Source code",
+        name: "Source Code",
         url: "https://github.com/kubernetes/kubernetes/pull/68081",
         type: code,
-        featured: true
+        featured: false
     }
   
 - title: Predicting System Performance
@@ -464,7 +464,7 @@
         name: SysML Paper,
         url: "https://arxiv.org/abs/2004.10275",
         type: paper,
-        featured: true,
+        featured: false
     }
 
 - title: "Datacenter Congestion Control: Identifying what is essential and making it practical"
@@ -491,7 +491,7 @@
         name: SIGCOMM-CCR Paper,
         url: "https://ccronline.sigcomm.org/2019/ccr-july-2019/datacenter-congestion-control-identifying-what-is-essential-and-making-it-practical/",
         type: paper,
-        featured: true,
+        featured: false
     }
 
 - title: BESS
@@ -520,13 +520,13 @@
         name: "Paper",
         url: "http://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-155.pdf",
         type: paper,
-        featured: true
+        featured: false
     }
     - {
         name: "Source Code",
         url: "https://github.com/NetSys/bess",
         type: code,
-        featured: true
+        featured: false
     }
 
 - title: E2
@@ -549,7 +549,7 @@
         name: SOSP Paper,
         url: https://people.eecs.berkeley.edu/~sylvia/cs268-2016/papers/e2.pdf,
         type: paper,
-        featured: true
+        featured: false
     }
     - {
         name: Slides,
@@ -591,13 +591,13 @@
         name: "OSDI Paper",
         url: "https://people.eecs.berkeley.edu/~apanda/assets/papers/osdi16.pdf",
         type: paper,
-        featured: true
+        featured: false
     }
     - {
         name: "Source Code",
         url: "https://github.com/netsys/NetBricks",
         type: code,
-        featured: true
+        featured: false
     }
 
 - title: Quilt
@@ -630,7 +630,7 @@
         name: "Source Code",
         url: "https://github.com/NetSys/quilt",
         type: code,
-        featured: true
+        featured: false
     }
 
 - title: Recursively Cautious Congestion Control
