@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CESSNA ande MetalMind are accepted at SoCC '20
+title: CESSNA ande Kappa are accepted at SoCC '20
 ---
 
 Congratulations to the authors! 

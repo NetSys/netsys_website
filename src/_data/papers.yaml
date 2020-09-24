@@ -1,6 +1,19 @@
+- title: "Kappa: A Programming Framework for Serverless Computing"
+  venue: "Zhang, Wen and Fang, Vivian and Panda, Aurojit and Shenker, Scott SoCC'20"
+  desc: >
+
+- title: "Persistent State Machines for Recoverable In-memory Storage Systems with NVRam"
+  venue: "Zhang, Wen and Shenker, Scott and Zhang, Irene OSDI'20"
+  desc: >
+
+- title: "On the Future of Congestion Control for the Public Internet"
+  venue: "Lloyd Brown, Ganesh Ananthanarayanan, Ethan Katz-Bassett, Arvind Krishnamurthy, Sylvia Ratnasamy, Michael Schapira and Scott Shenker, HotNets '20"
+  desc: >
+
 - title: "A Public Option for the Core"
   venue: "Harchol, Y., Bergemann, D., Feamster, N., Friedman, E., Krishnamurthy, A., Panda, A., Ratnasamy, S., Schapira, M. and Shenker, S. SIGCOMM '20"
   desc: >
+  url: "https://dl.acm.org/doi/10.1145/3387514.3405875"
 
 - title: "Can far memory improve job throughput?"
   venue: "Amaro, E., Branner-Augmon, C., Luo, Z., Ousterhout, A., Aguilera, M.K., Panda, A., Ratnasamy, S. and Shenker, S. EuroSys '20"

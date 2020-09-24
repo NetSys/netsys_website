@@ -1,3 +1,12 @@
+- title: Vertex
+  is_ongoing: true
+  stage: ongoing
+  stage_order: 2
+  edge_project: vertex
+  participants: "Lloyd Brown, Scott Shenker, Aurojit Panda, Amy Outerhout, Brian Kim, Michael Perry"
+  desc: >
+    The goal of edge computing is to make nearby computing resources available to a rich set of applications. However, current offerings provide incomplete interfaces that limit applications, and disparate interfaces that prevent applications from using edges from other providers. To fix this we propose Vertex, a standard edge computing interface to enable provider-agnostic edge computing with a fuller set of abstractions.
+
 - title: Programmable RDMA
   is_ongoing: true
   stage: new
