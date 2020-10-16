@@ -1,3 +1,13 @@
+- title: dSpace
+  is_ongoing: true
+  stage: ongoing
+  stage_order: 2
+  edge_project: dspace
+  participants: "Silvery Fu, Sylvia Ratnasamy"
+  desc: >
+    While there has been explosive growth in the diversity and availability of IoT devices, systems support for the same has lagged far behind. As a result, existing IoT applications tend to be tedious to implement and inflexible to operate. We propose dSpace, an open and modular programming framework that aims to simplify both the development and operation of IoT applications. dSpace provides two key building blocks - digivices that implement device control and actuation and digilakes that process IoT data to generate events and insights — together with novel abstractions for composing these building blocks into higher-level abstractions. 
+
+
 - title: Vertex
   is_ongoing: true
   stage: ongoing
