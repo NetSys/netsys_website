@@ -1,3 +1,15 @@
+- title: Z project - Design Principles for Heterogeneous and Evolving Data 
+  is_ongoing: true
+  stage: ongoing
+  stage_order: 2
+  participants: "Contact author: Amy Ousterhout, Silvery Fu"
+  desc: >
+    Processing heterogeneous and evolving data is challenging with today's data frameworks. 
+    In the Z project, we re-architect data processing from the ground up to handle data with 
+    heterogeneous and evolving schemas by design. We argue that the key to doing so is to design 
+    our data-processing systems — particularly our data models and query languages, to offer 
+    schema-flexibility and first-class schemas.
+
 - title: dSpace
   is_ongoing: true
   stage: ongoing
@@ -5,7 +17,13 @@
   edge_project: dspace
   participants: "Silvery Fu, Sylvia Ratnasamy"
   desc: >
-    While there has been explosive growth in the diversity and availability of IoT devices, systems support for the same has lagged far behind. As a result, existing IoT applications tend to be tedious to implement and inflexible to operate. We propose dSpace, an open and modular programming framework that aims to simplify both the development and operation of IoT applications. dSpace provides two key building blocks - digivices that implement device control and actuation and digilakes that process IoT data to generate events and insights — together with novel abstractions for composing these building blocks into higher-level abstractions. 
+    While there has been explosive growth in the diversity and availability of IoT devices, 
+    systems support for the same has lagged far behind. As a result, existing IoT applications tend 
+    to be tedious to implement and inflexible to operate. We propose dSpace, an open and modular 
+    programming framework that aims to simplify both the development and operation of IoT applications. 
+    dSpace provides two key building blocks - digivices that implement device control and actuation and 
+    digilakes that process IoT data to generate events and insights — together with novel abstractions for 
+    composing these building blocks into higher-level abstractions. 
 
 
 - title: Vertex
@@ -62,25 +80,27 @@
         featured: false
     }
 
-- title: μTelco
+- title: CellBricks
   is_ongoing: true
-  stage: new
+  stage: ongoing
   stage_order: 2
   edge_project: mutcell
-  participants: "Contact author: Zhihong Luo"
+  participants: "Zhihong Luo, Silvery Fu, Mark Theis, Shaddi Hasan, Sylvia Ratnasamy, Scott Shenker"
   desc: >
-    Today’s cellular ecosystem is dominated by a small number of providers and the monopolistic nature of 
-    the market has long hampered innovation. We propose an alternate access architecture that lowers 
-    the barrier to entry for new providers by making two important changes. First, we remove the traditional 
-    requirement that users have a trusted relationship with their access provider, instead allowing users to 
-    consume (and pay for) access on-demand  from any access provider. Secondly, we move support for mobility 
-    from the network infrastructure to the user device thus enabling seamless roaming and handovers, without 
-    the need for complex network support. Together, these changes enable a simpler cellular architecture that 
-    scales to a large number of small “micro-telco” access providers.
+    Markets in which competition thrives are good for both consumers and innovation but, 
+    unfortunately, competition is not thriving in the increasingly important cellular market.
+    We propose CellBricks, a novel cellular architecture that lowers the barrier to entry for
+    new operators by enabling users to consume access on-demand from any available cellular 
+    operator — small or large, trusted or untrusted. CellBricks achieves this by moving support 
+    for mobility and user management (authentication and billing) out of the network and into end hosts. 
+    These changes, we believe, bring valuable benefits beyond enabling competition: they lead to a cellular 
+    infrastructure that is simpler and more efficient. We design, build, and evaluate CellBricks, 
+    showing that its benefits come at little-to-no cost in performance compared to what's achieved 
+    by current cellular infrastructure.
   feature_excerpt: >
-    Today’s cellular ecosystem is dominated by a small number of providers and the monopolistic nature of 
-    the market has long hampered innovation. We propose an alternate access architecture that lowers 
-    the barrier to entry for new providers.
+    We propose CellBricks, a novel cellular architecture that lowers the barrier to entry for
+    new operators by enabling users to consume access on-demand from any available cellular 
+    operator — small or large, trusted or untrusted.
 
 - title: Efficient Work Stealing
   is_ongoing: true
@@ -453,7 +473,7 @@
   stage: finished
   stage_order: 4
   edge_project: perfpredict
-  participants: Silvery Fu, Aditya Srivastava, Saurabh Gupta, Radhika Mittal, Sylvia Ratnasamy
+  participants: Silvery Fu, Saurabh Gupta, Radhika Mittal, Sylvia Ratnasamy
   desc: >
     The ability to predict system performance is key to enabling better system optimization and planning. 
     Given recent advances in Machine learning (ML), one might 
