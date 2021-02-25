@@ -83,7 +83,8 @@
   homepage: https://www.eecs.berkeley.edu/~clan
 
 - name: Murphy McCauley
-  c_cate: grad
+  c_affil: Mount Holyoke
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/murphy.jpg
   email: murphy.mccauley@gmail.com
@@ -351,8 +352,8 @@
   pic_url: static/img/people/jack.png
 
 - name: Brian Kim
-  c_cate: grad 
-  c_before: undergrad
+  c_cate: alumni 
+  c_before: grad
   pic_url: static/img/people/no_image.jpg
 
 - name: Yuen Mei Wan
