@@ -508,6 +508,18 @@
   pic_url: static/img/people/gavin.jpg
   homepage: https://gkliger.github.io/
 
+- name: Ananya Krishnaswamy
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Autumn Li
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+
 - name: Emerson Hsieh
   c_affil: ucb
   c_cate: alumni
