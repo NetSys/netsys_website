@@ -157,6 +157,20 @@
   pic_url: static/img/people/zhihong.jpg
   email: zhluo@berkeley.edu
 
+- name: Emily Marx
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/emily_marx.jpg
+  email: emily_marx@berkeley.edu
+
+- name: Tenzin Ukyab
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/tenzin_ukyab.jpg
+  email: ukyab@berkeley.edu
+
 - name: Amy Ousterhout
   c_cate: staff
   c_before: staff
@@ -165,7 +179,7 @@
   homepage: https://people.csail.mit.edu/aousterh/
 
 - name: Muhammad Asim Jamshed
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/no_image.jpg
   email: asim.jamshed@gmail.com
@@ -237,7 +251,7 @@
   homepage: https://www.cs.berkeley.edu/~ejj
 
 - name: Michael Chang
-  c_cate: grad
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/michael_chang.jpg
   homepage: http://michaelchang.me
@@ -403,7 +417,7 @@
 
 - name: Aditya Srivastava
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/aditya.jpg
 
