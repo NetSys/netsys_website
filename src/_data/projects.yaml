@@ -1,14 +1,18 @@
-- title: Z project - Design Principles for Heterogeneous and Evolving Data 
+- title: Zed - Leveraging Data Types to Process Heterogeneous and Evolving Data
   is_ongoing: true
   stage: ongoing
   stage_order: 2
+  edge_project: zed
   participants: "Contact author: Amy Ousterhout, Silvery Fu"
   desc: >
-    Processing heterogeneous and evolving data is challenging with today's data frameworks. 
-    In the Z project, we re-architect data processing from the ground up to handle data with 
-    heterogeneous and evolving schemas by design. We argue that the key to doing so is to design 
-    our data-processing systems — particularly our data models and query languages, to offer 
-    schema-flexibility and first-class schemas.
+    Processing heterogeneous and evolving data is challenging with today’s data frameworks. In the Zed project, we re-architect data processing from the ground up to handle data with heterogeneous and evolving schemas by design. We argue that the key to doing so is to make data types first-class members of our data-processing systems, particularly of our data models and query languages.
+  links:
+    - {
+        name: Source Code,
+        url: "https://github.com/aousterh/data_model",
+        type: code,
+        featured: false
+    }
 
 - title: dSpace
   is_ongoing: true
