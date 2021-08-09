@@ -21,13 +21,14 @@
   edge_project: dspace
   participants: "Silvery Fu, Sylvia Ratnasamy"
   desc: >
-    While there has been explosive growth in the diversity and availability of IoT devices, 
-    systems support for the same has lagged far behind. As a result, existing IoT applications tend 
-    to be tedious to implement and inflexible to operate. We propose dSpace, an open and modular 
-    programming framework that aims to simplify both the development and operation of IoT applications. 
-    dSpace provides two key building blocks - digivices that implement device control and actuation and 
-    digilakes that process IoT data to generate events and insights — together with novel abstractions for 
-    composing these building blocks into higher-level abstractions. 
+    dSpace is an open and modular programming framework that aims to simplify and accelerate the development of smart space applications. To achieve this, dSpace provides two key building blocks – digivices that implement device control and actuation and digilakes that process IoT data to generate events and insights — together with novel abstractions for composing these building blocks into higher-level abstractions. We apply dSpace to home automation systems and show how developers can easily and flexibly compose these basic abstractions to support a wide range of home automation scenarios.
+  links:
+    - {
+        name: Source Code,
+        url: "https://github.com/digi-project/dspace",
+        type: code,
+        featured: false
+    }
 
 
 - title: Vertex
@@ -105,6 +106,19 @@
     We propose CellBricks, a novel cellular architecture that lowers the barrier to entry for
     new operators by enabling users to consume access on-demand from any available cellular 
     operator — small or large, trusted or untrusted.
+  links:
+  - {
+      name: "Website",
+      url: "https://cellbricks.github.io/",
+      type: paper,
+      featured: false
+  }
+  - {
+      name: "Source Code",
+      url: "https://github.com/cellbricks",
+      type: code,
+      featured: false
+  }
 
 - title: Efficient Work Stealing
   is_ongoing: true
@@ -489,6 +503,19 @@
     greatly improves prediction accuracy. Since it is difficult to eliminate all possible sources of 
     system performance variability, we further discuss how ML models can be extended to cope with them
     by learning a distribution as opposed to point estimates.
+  links:
+  - {
+      name: "Paper",
+      url: "https://www.usenix.org/system/files/nsdi21-fu.pdf",
+      type: paper,
+      featured: false
+  }
+  - {
+      name: "Source Code",
+      url: "https://github.com/perfd/perfd",
+      type: code,
+      featured: false
+  }
 
 - title: Network Evolution for DNNs
   is_ongoing: false
