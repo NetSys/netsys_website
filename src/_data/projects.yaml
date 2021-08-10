@@ -29,6 +29,12 @@
         type: code,
         featured: false
     }
+    - {
+        name: Tutorial,
+        url: "https://github.com/NetSys/dspace-tutorial",
+        type: code,
+        featured: false
+    }
 
 
 - title: Vertex
@@ -160,24 +166,22 @@
         featured: false
     }
 
-- title: Automating GDPR
+- title: Privoxy
   is_ongoing: true
   stage: new
   stage_order: 2
-  participants: Michael Alan Chang, Wen Zhang, Eric Sheng, Aurojit Panda, Scott Shenker
+  participants: Michael Alan Chang, Wen Zhang, Eric Sheng, Aurojit Panda, Mooly Sagiv, Scott Shenker
   desc: >
-    Recent Data Privacy Acts like GDPR and CCPA necessitate well-defined data APIs between data 
-    security/privacy personnel and application developers. However, poor data governance in Kubernetes 
-    applications poses a major obstacle towards developing this API. Data tends to be disorganized, 
-    decentralized, and redundant, and is stored under different names over different databases, views, 
-    tables -- all of which are constantly being changed. Thus, tracking and controlling application-wide 
-    data flow is currently impossible. We have developed a network control plane for data 
-    that provides developer with a centralized interface to enforce policy around data. 
-    Moreover, we have developed the theoretical foundations to formally guarantee that incoming 
-    queries are compliant with the operator-specified policies.
+    Several recent laws (e.g., GDPR and CCPA) constrain how applications collect and utilize user data, and ensuring compliance to these constraints in an application is challenging. Privoxy is a system that enforces data access policies for web applications using a proxy that interposes on the connection between the application and the database.  To verify policy compliance, Privoxy leverages SMT solvers and, to achieve adequate performance, generalizes and caches the results of previous compliance decisions.  We demonstrate that Privoxy supports legacy web applications while adding only modest overheads.
   feature_excerpt: >
-    We developed a network control plane for data that provides developer with a centralized interface to enforce policy around data. 
-    We also built theoretical foundations to formally guarantee that incoming queries are compliant with the operator-specified policies.
+    Several recent laws (e.g., GDPR and CCPA) constrain how applications collect and utilize user data, and ensuring compliance to these constraints is challenging. Privoxy is a system that enforces data access policies for web applications using a proxy that interposes on the connection between the application and the database. 
+  links:
+    - {
+        name: Source Code,
+        url: "https://github.com/NetSys/privoxy",
+        type: code,
+        featured: false
+    }
 
 - title: RCS
   is_ongoing: true
@@ -230,6 +234,19 @@
     Distributed in-memory storage systems lose all state on failure, so recovery is expensive and data loss is always a risk.
     The Persimmon system leverages persistent memory (PM) to convert existing in-memory storage systems into persistent, 
     crash-consistent versions with low overhead and minimal code changes. 
+  links:
+  - {
+      name: "Paper",
+      url: "https://www.usenix.org/conference/osdi20/presentation/zhang-wen",
+      type: paper,
+      featured: false
+  }
+  - {
+      name: Source Code,
+      url: "https://github.com/persimmon-project/persimmon",
+      type: code,
+      featured: false
+  }
 
 - title: CFM
   url: "https://github.com/clusterfarmem"
