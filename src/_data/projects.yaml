@@ -219,6 +219,7 @@
   stage_order: 2
   edge_project: pancake 
   participants: "Lloyd Brown"
+  is_ongoing: true
   desc: >
     Pancake is the first system to protect key-value stores from access pattern leakage attacks with small constant
     factor bandwidth overhead. Pancake uses a new approach, that we call frequency smoothing, to transform plaintext
