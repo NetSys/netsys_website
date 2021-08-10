@@ -215,6 +215,31 @@
     meet performance requirements is challenging, even for experienced operators. In this paper we present 
     Autotune, an end-to-end tool that automatically minimizes resource utilization while maintaining good application performance.
 
+- title: Pancake 
+  stage_order: 2
+  edge_project: pancake 
+  participants: "Lloyd Brown"
+  desc: >
+    Pancake is the first system to protect key-value stores from access pattern leakage attacks with small constant
+    factor bandwidth overhead. Pancake uses a new approach, that we call frequency smoothing, to transform plaintext
+    accesses into uniformly distributed encrypted accesses to an encrypted data store. We show that frequency
+    smoothing prevents access pattern leakage attacks by passive persistent adversaries in a new formal security model.
+    Pancake is integrated into three key-value stores used in production clusters. Pancake achieves 229× better
+    throughput than non-recursive Path ORAM — within 3–6× of insecure baselines for these key-value stores.
+  links:
+  - {
+      name: "Paper",
+      url: "https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs",
+      type: paper,
+      featured: false
+  }
+  - {
+      name: Source Code,
+      url: "https://github.com/pancake-security/pancake",
+      type: code,
+      featured: false
+  }
+
 - title: Persimmon
   is_ongoing: true
   stage: finished
