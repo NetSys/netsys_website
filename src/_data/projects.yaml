@@ -170,6 +170,7 @@
   is_ongoing: true
   stage: new
   stage_order: 2
+  edge_project: privoxy
   participants: Michael Alan Chang, Wen Zhang, Eric Sheng, Aurojit Panda, Mooly Sagiv, Scott Shenker
   desc: >
     Several recent laws (e.g., GDPR and CCPA) constrain how applications collect and utilize user data, and ensuring compliance to these constraints in an application is challenging. Privoxy is a system that enforces data access policies for web applications using a proxy that interposes on the connection between the application and the database.  To verify policy compliance, Privoxy leverages SMT solvers and, to achieve adequate performance, generalizes and caches the results of previous compliance decisions.  We demonstrate that Privoxy supports legacy web applications while adding only modest overheads.
