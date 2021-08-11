@@ -18,3 +18,4 @@ pull:
 
 sync_ec:
 	rsync -avzP ./src/_data ${EDGECENTER_REPO}/src/
+	rsync -avzP ./src/_bibliography ${EDGECENTER_REPO}/src/
