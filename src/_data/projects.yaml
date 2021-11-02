@@ -2,6 +2,7 @@
   is_ongoing: true
   stage: ongoing
   stage_order: 2
+  edge_project: content-revocation
   participants: "Contact author: Narek Galstyan"
   desc: >
     Common wisdom holds that once personal content such as photographs have been shared on the Internet, they will stay there forever. In this work we explore how to allow users to reclaim some degree of their privacy by “revoking” previously shared content, hindering any subsequent viewing or sharing by others. We aim to provide a mechanism through which end-user browsers and large content aggregators can identify revoked content with minimal performance overheads and can avoid rendering/storing/distributing it. Our goal is not to build a system that can withstand determined efforts to subvert it, but rather to give well-intentioned users the ability to respect the privacy wishes of others.
@@ -10,6 +11,7 @@
   is_ongoing: true
   stage: ongoing
   stage_order: 2
+  edge_project: invisible-nets
   participants: "Contact author: Sarah McClure"
   desc: >
     Cloud tenant networking abstractions are largely low-level, virtual versions of the building blocks used in physical data centers. Constructing and managing these networks can be an unnecessarily complex burden on the tenant, especially as multi-cloud deployments are increasingly common. We propose that the goal for a new design should be to free cloud tenants entirely from having to build and operate virtual networks. Building on this philosophy, we propose new declarative and endpoint-centric cloud API which replaces the tenant networking layer of cloud deployments altogether, ensuring that cloud customers do not have to have the skillset of a seasoned network operator.
