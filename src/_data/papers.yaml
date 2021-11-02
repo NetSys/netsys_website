@@ -1,17 +1,25 @@
+- title: "dSpace: Composable Abstractions for Smart Spaces"
+  venue: "Silvery Fu, Sylvia Ratnasamy, SOSP '21"
+  desc: >
+
+- title: "Democratizing Cellular Access with CellBricks"
+  venue: "Zhihong Luo, Silvery Fu, Mark Theis, Shaddi Hasan, Sylvia Ratnasamy, Scott Shenker, SIGCOM '21"
+  desc: >
+
 - title: "Rethinking networking abstractions for cloud tenants"
-  venue: "McClure, Sarah and Ratnasamy, Sylvia and Bansal, Deepak and Padhye, Jitendra, HotOS'21"
+  venue: "Sarah McClure, Sylvia Ratnasamy, Deepak Bansal, and Jitendra Padhye, HotOS'21"
   desc: >
 
 - title: "On the Use of ML for Blackbox System Performance Prediction"
-  venue: "Fu, Silvery and Gupta, Saurabh and Mittal, Radhika and Ratnasamy, Sylvia NSDI'21"
+  venue: "Silvery Fu, Saurabh Gupta, Radhika Mittal, and Sylvia Ratnasamy, NSDI'21"
   desc: >
 
 - title: "Persistent State Machines for Recoverable In-memory Storage Systems with NVRam"
-  venue: "Zhang, Wen and Shenker, Scott and Zhang, Irene OSDI'20"
+  venue: "Wen Zhang, Scott Shenker, and Irene Zhang, OSDI'20"
   desc: >
 
 - title: "Kappa: A Programming Framework for Serverless Computing"
-  venue: "Zhang, Wen and Fang, Vivian and Panda, Aurojit and Shenker, Scott SoCC'20"
+  venue: "Wen Zhang, Vivian Fang, Aurojit Panda, and Scott Shenker, SoCC'20"
   desc: >
 
 - title: "On the Future of Congestion Control for the Public Internet"
