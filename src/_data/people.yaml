@@ -125,6 +125,7 @@
   c_before: grad
   pic_url: static/img/people/silvery.jpg
   email: silvery@eecs.berkeley.edu
+  homepage: https://people.eecs.berkeley.edu/~silvery
 
 - name: Emmanuel Amaro
   c_affil: ucb
