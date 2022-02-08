@@ -166,7 +166,7 @@
   stage: early
   stage_order: 1
   edge_project: workstealing
-  participants: "Contact author: Amy Ousterhout"
+  participants: "Contact author: Sarah McClure, Amy Ousterhout"
   desc: >
     Datacenter servers must balance load across many (sometimes dozens) of cores. 
     Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks 
