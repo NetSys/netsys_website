@@ -114,8 +114,7 @@
   homepage: https://people.eecs.berkeley.edu/~apanda/
 
 - name: Aisha Mushtaq
-  c_affil: ucb
-  c_cate: grad
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/aisha.jpg
 
@@ -128,8 +127,8 @@
   homepage: https://people.eecs.berkeley.edu/~silvery
 
 - name: Emmanuel Amaro
-  c_affil: ucb
-  c_cate: grad
+  c_affil: VMware
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/emmanuel.png
   email: amaro@berkeley.edu
@@ -192,6 +191,7 @@
   c_before: grad
   pic_url: static/img/people/sarah.jpg
   email: sarah_mcclure@berkeley.edu
+  homepage: https://smcclure20.github.io/
 
 - name: Narek Galstyan
   c_affil: ucb
@@ -309,8 +309,8 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Eric Sheng
-  c_cate: staff 
-  c_before: undergrad
+  c_cate: alumni
+  c_before: staff
   pic_url: static/img/people/no_image.jpg
 
 - name: Aleks Kamko
@@ -356,8 +356,8 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Vivian Fang
-  c_cate: grad
-  c_before: grad
+  c_cate: alumni
+  c_before: undergrad
   pic_url: static/img/people/vivian.jpg
   homepage: http://www.vivi.sh
 
@@ -411,7 +411,7 @@
 
 - name: Hantao Wang
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/will.png
   homepage: http://www.hantaowang.me/
@@ -428,6 +428,12 @@
   c_before: undergrad
   pic_url: static/img/people/theis.png
   homepage: https://mark.theis.site
+
+- name: Rithvik Chuppala
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
 
 - name: Amir Shahatit
   c_affil: ucb
@@ -451,13 +457,13 @@
 
 - name: Julian Kung
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Fang Shuo Deng
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
@@ -518,20 +524,20 @@
 
 - name: Gavin Kliger
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/gavin.jpg
   homepage: https://gkliger.github.io/
 
 - name: Ananya Krishnaswamy
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/ananya.png
 
 - name: Autumn Li
   c_affil: ucb
-  c_cate: undergrad
+  c_cate: alumni
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
