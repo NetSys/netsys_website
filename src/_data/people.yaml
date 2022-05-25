@@ -125,6 +125,7 @@
   c_before: grad
   pic_url: static/img/people/silvery.jpg
   email: silvery@eecs.berkeley.edu
+  homepage: https://people.eecs.berkeley.edu/~silvery
 
 - name: Emmanuel Amaro
   c_affil: ucb
@@ -176,7 +177,7 @@
   c_before: staff
   pic_url: static/img/people/amy.jpg
   email: aousterh@mit.edu
-  homepage: https://people.csail.mit.edu/aousterh/
+  homepage: https://amyousterhout.com/
 
 - name: Muhammad Asim Jamshed
   c_cate: alumni
