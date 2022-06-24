@@ -1,3 +1,7 @@
+- title: "Embargo: Data Access Policy Enforcement for Web Applications"
+  venue: "Wen Zhang, Eric Sheng, Michael Chang, Aurojit Panda, Mooly Sagiv, Scott Shenker, NSDI '22"
+  desc: >
+
 - title: "Efficient Scheduling Policies for Microsecond-Scale Tasks"
   venue: "Sarah McClure and Amy Ousterhout, Scott Shenker, Sylvia Ratnasamy, NSDI '22"
   desc: >
