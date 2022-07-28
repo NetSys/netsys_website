@@ -148,7 +148,6 @@
   c_before: grad
   pic_url: static/img/people/lloyd.png
   email: lloydbrown@berkeley.edu
-  homepage: https://www.lloydabrown.com/
 
 - name: Zhihong Luo
   c_affil: ucb
@@ -163,6 +162,14 @@
   c_before: grad
   pic_url: static/img/people/emily_marx.jpg
   email: emily_marx@berkeley.edu
+
+- name: Alex Krentsel
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/alex_krentsel.jpeg
+  email: akrentsel@google.com
+  homepage: http://www.krentsel.com/
 
 - name: Tenzin Ukyab
   c_affil: ucb
