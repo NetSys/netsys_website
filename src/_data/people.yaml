@@ -179,7 +179,7 @@
   email: ukyab@berkeley.edu
 
 - name: Amy Ousterhout
-  c_cate: staff
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/amy.jpg
   email: aousterh@mit.edu
@@ -283,8 +283,41 @@
   pic_url: static/img/people/no_image.jpg
 
 - name: Akshay Narayan
-  c_cate: alumni
+  c_cate: staff
   c_before: staff
+  pic_url: static/img/people/akshay.jpg
+  homepage: https://akshayn.xyz/
+
+- name: Hannaneh Barahouei Pasandi
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/hana.png
+  homepage: https://hanabhp.github.io/
+
+- name: Rishabh Iyer
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/rishabh.jpeg
+  homepage: https://dslab.epfl.ch/people/iyer
+
+- name: Xinyan He
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Kenneth Lien
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Alina Wang
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+
+- name: Abhi Ganesh
+  c_cate: undergrad
+  c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
 - name: Liangcheng Yu
@@ -451,8 +484,8 @@
 
 - name: Christopher Branner-Augmon
   c_affil: ucb
-  c_cate: staff 
-  c_before: undergrad
+  c_cate: alumni
+  c_before: staff
   pic_url: static/img/people/chris.jpg
 
 - name: Yuan Cheng (Anson) Tsai
