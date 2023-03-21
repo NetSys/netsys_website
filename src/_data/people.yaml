@@ -482,6 +482,12 @@
   pic_url: static/img/people/jamsheed.png
   homepage: https://jmistri.com
 
+- name: Arun Sundaresan
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/arun.jpeg
+
 - name: Amir Shahatit
   c_affil: ucb
   c_cate: alumni
