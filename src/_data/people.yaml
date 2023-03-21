@@ -475,6 +475,13 @@
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
+- name: Jamsheed Mistri
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/jamsheed.png
+  homepage: https://jmistri.com
+
 - name: Amir Shahatit
   c_affil: ucb
   c_cate: alumni
