@@ -488,6 +488,19 @@
   c_before: undergrad
   pic_url: static/img/people/arun.jpeg
 
+- name: Wilson Nguyen
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/wilson.jpg
+  homepage: https://wilsonn.me
+
+- name: Pratyush Das
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/no_image.jpg
+
 - name: Amir Shahatit
   c_affil: ucb
   c_cate: alumni
