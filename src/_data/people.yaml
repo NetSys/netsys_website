@@ -163,6 +163,13 @@
   pic_url: static/img/people/emily_marx.jpg
   email: emily_marx@berkeley.edu
 
+- name: Sam Son
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/sam_son.jpeg
+  email: sam.son@berkeley.edu
+
 - name: Alex Krentsel
   c_affil: ucb
   c_cate: grad
@@ -192,7 +199,7 @@
   email: asim.jamshed@gmail.com
   homepage: https://ajamshed.github.io/
 
-- name: Sarah McClure 
+- name: Sarah McClure
   c_affil: ucb
   c_cate: grad
   c_before: grad
@@ -207,15 +214,15 @@
   pic_url: static/img/people/narek.png
   email: narekg@berkeley.edu
 
-- name: Anwar Hithnawi 
-  c_cate: alumni 
+- name: Anwar Hithnawi
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/anwar.jpg
   email: hithnawi@eecs.berkeley.edu
   homepage: https://people.eecs.berkeley.edu/~hithnawi/
 
 - name: Lukas Burkhalter
-  c_cate: alumni 
+  c_cate: alumni
   c_before: staff
   pic_url: static/img/people/no_image.jpg
   email: lukas.burkhalter@inf.ethz.ch
@@ -223,7 +230,7 @@
 
 - name: Yotam Harchol
   c_cate: alumni
-  c_before: staff 
+  c_before: staff
   pic_url: static/img/people/yotam.jpg
   email: yotamhc@berkeley.edu
   homepage: http://www.yotamharchol.com/
@@ -252,7 +259,7 @@
   homepage: http://www.justinesherry.com/
 
 - name: Ethan J. Jackson (on leave)
-  c_cate: grad 
+  c_cate: grad
   c_before: grad
   pic_url: static/img/people/no_image.jpg
   email: ejj@eecs.berkeley.edu
@@ -407,7 +414,7 @@
   pic_url: static/img/people/jack.png
 
 - name: Brian Kim
-  c_cate: alumni 
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/no_image.jpg
 
