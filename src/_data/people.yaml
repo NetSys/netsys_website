@@ -163,6 +163,12 @@
   pic_url: static/img/people/emily_marx.jpg
   email: emily_marx@berkeley.edu
 
+- name: Ziming Mao
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/ziming.jpeg
+
 - name: Sam Son
   c_affil: ucb
   c_cate: grad
