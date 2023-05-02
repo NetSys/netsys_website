@@ -1,3 +1,27 @@
+- title: "LOCA: A Location-Oblivious Cellular Architecture"
+  venue: "Zhihong Luo, Silvery Fu, Natacha Crooks, Shaddi Hasan, Christian Maciocco, Sylvia Ratnasamy, Scott Shenker, NSDI '23"
+  desc: >
+
+- title: "Invisinets: Removing Networking from Cloud Networks"
+  venue: "Sarah McClure, Zeke Medley, Deepak Bansal, Karthick Jayaraman, Ashok Narayanan, Jitu Padhye, Sylvia Ratnasamy, Aneesh Shaikh, Rishabh Tewari, NSDI '23"
+  desc: >
+
+- title: "Zed: Leveraging Data Types to Process Eclectic Data"
+  venue: "Amy Ousterhout, Steve McCanne, Henri Dubois-Ferriere, Silvery Fu, Sylvia Ratnasamy, Noah Treuhaft, CIDR '23"
+  desc: >
+
+- title: "The Internet of Things in a Laptop: Rapid Prototyping for IoT Applications with Digibox"
+  venue: "Silvery Fu, Hong Zhang, Sylvia Ratnasamy, Ion Stoica, HotNets '22"
+  desc: >
+
+- title: "Global Content Revocation on the Internet: A Case Study in Technology Ecosystem Transformation"
+  venue: "Narek Galstyan, James McCauley, Hany Farid, Sylvia Ratnasamy, Scott Shenker, HotNets '22"
+  desc: >
+
+- title: "The Case for an Internet Primitive for Fault Localization"
+  venue: "Will Sussman, Emily Marx, Venkat Arun, Akshay Narayan, Mohammad Alizadeh, Hari Balakrishnan, Aurojit Panda, Scott Shenker, HotNets '22"
+  desc: >
+
 - title: "Blockaid: Data Access Policy Enforcement for Web Applications"
   venue: "Wen Zhang, Eric Sheng, Michael Chang, Aurojit Panda, Mooly Sagiv, Scott Shenker, OSDI '22"
   desc: >
