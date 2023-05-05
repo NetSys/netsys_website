@@ -514,6 +514,13 @@
   c_before: undergrad
   pic_url: static/img/people/no_image.jpg
 
+- name: Dylan Reimer
+  c_affil: ucb
+  c_cate: undergrad
+  c_before: undergrad
+  pic_url: static/img/people/dylan.jpg
+  homepage: https://dyr.sh
+
 - name: Amir Shahatit
   c_affil: ucb
   c_cate: alumni
