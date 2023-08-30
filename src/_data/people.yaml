@@ -134,9 +134,9 @@
   email: amaro@berkeley.edu
   homepage: https://people.eecs.berkeley.edu/~amaro
 
-- name: Ed Oakes (on leave)
+- name: Ed Oakes
   c_affil: ucb
-  c_cate: grad
+  c_cate: alumni
   c_before: grad
   pic_url: static/img/people/ed.jpg
   email: eoakes@berkeley.edu
@@ -175,6 +175,7 @@
   c_before: grad
   pic_url: static/img/people/sam_son.jpeg
   email: sam.son@berkeley.edu
+  homepage: https://sosson97.github.io/
 
 - name: Alex Krentsel
   c_affil: ucb
@@ -264,7 +265,7 @@
   email: sherry@cs.cmu.edu
   homepage: http://www.justinesherry.com/
 
-- name: Ethan J. Jackson (on leave)
+- name: Ethan J. Jackson
   c_cate: grad
   c_before: grad
   pic_url: static/img/people/no_image.jpg
@@ -300,6 +301,18 @@
   c_before: staff
   pic_url: static/img/people/akshay.jpg
   homepage: https://akshayn.xyz/
+
+- name: Albert Gran Alcoz
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/albertgran.jpeg
+  homepage: http://albertgran.com/
+
+- name: Dev Bali
+  c_cate: staff
+  c_before: staff
+  pic_url: static/img/people/no_image.jpeg
+  homepage: https://github.com/devbali
 
 - name: Hannaneh Barahouei Pasandi
   c_cate: staff
