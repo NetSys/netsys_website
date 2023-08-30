@@ -7,7 +7,7 @@
   desc: >
     Common wisdom holds that once personal content such as photographs have been shared on the Internet, they will stay there forever. In this work we explore how to allow users to reclaim some degree of their privacy by “revoking” previously shared content, hindering any subsequent viewing or sharing by others. We aim to provide a mechanism through which end-user browsers and large content aggregators can identify revoked content with minimal performance overheads and can avoid rendering/storing/distributing it. Our goal is not to build a system that can withstand determined efforts to subvert it, but rather to give well-intentioned users the ability to respect the privacy wishes of others.
 
-- title: Rethinking Tenant Networking Abstractions
+- title: Invisinets - Rethinking Tenant Networking Abstractions
   is_ongoing: true
   stage: ongoing
   stage_order: 2
@@ -15,6 +15,20 @@
   participants: "Contact author: Sarah McClure"
   desc: >
     Cloud tenant networking abstractions are largely low-level, virtual versions of the building blocks used in physical data centers. Constructing and managing these networks can be an unnecessarily complex burden on the tenant, especially as multi-cloud deployments are increasingly common. We propose that the goal for a new design should be to free cloud tenants entirely from having to build and operate virtual networks. Building on this philosophy, we propose new declarative and endpoint-centric cloud API which replaces the tenant networking layer of cloud deployments altogether, ensuring that cloud customers do not have to have the skillset of a seasoned network operator.
+  links:
+    - {
+        name: Source Code,
+        url: "https://github.com/smcclure20/invisinets",
+        type: code,
+        featured: false
+    }
+    - {
+        name: Paper,
+        url: "https://www.usenix.org/system/files/nsdi23-mcclure.pdf",
+        type: paper,
+        featured: false
+    }
+
 
 - title: Zed - Leveraging Data Types to Process Heterogeneous and Evolving Data
   is_ongoing: true
@@ -54,6 +68,36 @@
         featured: false
     }
 
+- title: Ultrasound VRs - Real-Time Sign Language Translation At the Edge
+  is_ongoing: true
+  stage: ongoing
+  edge_project: ultrasound-vr
+  participants: "Hana B. Pasandi, Hadi Amirpour, Sylvia Ratnasamy"
+  desc: >
+    Globally, around 466 million people (6.1% of the population) suffer from disabling hearing loss, urging research prioritization. Despite advancements like hearing aids, cochlear implants, and sign language recognition, limitations persist. Our solution involves an AI-powered app and VR headset for sign-to-text/voice conversion. For the deaf, their signs become voice; for others, speech turns into artificial sign language or text in VR. This aids education, employment, and social interaction, fostering inclusivity.
+
+- title: Archie - Computer-Aided Design of Network Architectures
+  is_ongoing: true
+  stage: ongoing
+  edge_project: archie
+  participants: "Rahul Bothra, Venkat Arun, Akshay Narayan, Ahmed Saeed"
+  desc: >
+    To manage and reason about the increasing complexity of modern network architectures, we propose Archie, a lightweight reasoning framework that enables encoding the nuances and constraints involved in deploying multiple systems—i.e., units of network functionality—in a network architecture—i.e., a collection of systems and the hardware resources they run on—in a computer-readable form. Archie serves as an “Architect-Developer Interface” between network architects, who wish to optimize objectives such as performance and cost for a given application workload, and system experts who can encode the guarantees, constraints, and costs of their systems. Given this interface, Archie allows architects to examine different configurations that optimize their objectives while checking that all their requirements are met. We explore the design space for this tool and showcase its capabilities through three case studies.
+
+- title: Reverse-Engineering Congestion Control Algorithms
+  is_ongoing: true
+  stage: ongoing
+  edge_project: recca
+  participants: "Margarida Ferreira, Akshay Narayan, Ranysha Ware, Ines Lynce, Ruben Martins, and Justine Sherry"
+  desc: >
+    With proprietary Congestion Control Algorithms (CCAs) becoming increasingly prevalent, it is becoming harder to analyze them to gain insights into their interactions with other network elements. We thus explore the use of techniques from program synthesis to reverse-engineer CCAs from observed traces of their behavior, and develop a synthesis pipeline, Abagnale that helps users automate the reverse-engineering task. By limiting the output with a Domain-Specific Language (DSL), using partial searches of the output space to inform future search, and accepting approximate answers, we find success in reverse-engineering implementations of common CCAs as well as those from a dataset of student-written CCAs from a graduate networking class.
+  links:
+    - {
+        name: Paper,
+        url: "https://akshayn.xyz/res/CCA_Synthesis_HotNets21.pdf",
+        type: paper,
+        featured: false
+    }
 
 - title: Vertex
   is_ongoing: true
@@ -530,7 +574,7 @@
     for serverless applications. Savanna requires applications to use a file API, but is otherwise transparent 
     to serverless applications.
 
-- title: DepSched
+- title: DepSched - Kubernetes Dependency Scheduling
   is_ongoing: false
   stage: finished
   stage_order: 4
@@ -558,7 +602,7 @@
         featured: false
     }
   
-- title: Predicting System Performance
+- title: Blackbox ML for Predicting System Performance
   is_ongoing: true
   stage: finished
   stage_order: 4
