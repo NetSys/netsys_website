@@ -305,7 +305,7 @@
 - name: Albert Gran Alcoz
   c_cate: staff
   c_before: staff
-  pic_url: static/img/people/albertgran.jpeg
+  pic_url: static/img/people/albertgran.jpg
   homepage: http://albertgran.com/
 
 - name: Dev Bali
