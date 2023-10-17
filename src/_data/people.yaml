@@ -272,6 +272,12 @@
   email: ejj@eecs.berkeley.edu
   homepage: https://www.cs.berkeley.edu/~ejj
 
+- name: Tess Despres
+  c_affil: ucb
+  c_cate: grad
+  c_before: grad
+  pic_url: static/img/people/tess.jpg
+
 - name: Michael Chang
   c_cate: alumni
   c_before: grad
@@ -311,7 +317,7 @@
 - name: Dev Bali
   c_cate: staff
   c_before: staff
-  pic_url: static/img/people/no_image.jpeg
+  pic_url: static/img/people/no_image.jpg
   homepage: https://github.com/devbali
 
 - name: Hannaneh Barahouei Pasandi
