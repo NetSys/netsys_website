@@ -168,6 +168,7 @@
   c_cate: grad
   c_before: grad
   pic_url: static/img/people/ziming.jpeg
+  homepage: https://maoziming.github.io/
 
 - name: Sam Son
   c_affil: ucb
